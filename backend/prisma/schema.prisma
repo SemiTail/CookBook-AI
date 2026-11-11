@@ -1,0 +1,187 @@
+generator client {
+  provider            = "prisma-client"
+  output              = "../generated/prisma"
+  moduleFormat        = "cjs"
+  importFileExtension = "js"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+enum UserRole {
+  USER
+  MODERATOR
+}
+
+enum Difficulty {
+  EASY
+  MEDIUM
+  HARD
+}
+
+model User {
+  id           String   @id @default(uuid())
+  name         String
+  email        String   @unique
+  passwordHash String
+  role         UserRole @default(USER)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  comments Comment[]
+  ratings Rating[]
+  profile       Profile?
+  recipes       Recipe[]
+  fridgeItems   FridgeItem[]
+  favorites     Favorite[]
+  shoppingItems ShoppingListItem[]
+  chatTurns     ChatTurn[]
+}
+
+model ChatTurn {
+  id        String   @id @default(uuid())
+  userId    String
+  prompt    String
+  reply     String
+  createdAt DateTime @default(now())
+  expiresAt DateTime
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, createdAt])
+  @@index([expiresAt])
+}
+
+model Profile {
+  id        String  @id @default(uuid())
+  userId    String  @unique
+  avatarUrl String?
+  bio       String?
+  coverUrl String?
+  showRecipes Boolean @default(false)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Recipe {
+  id                 String     @id @default(uuid())
+  title              String
+  emoji              String     @default("🍽️")
+  description        String?
+  imageUrl           String?
+  instructions       String
+  preparationMinutes Int
+  servings           Int        @default(1)
+  difficulty         Difficulty @default(EASY)
+
+  calories Float?
+  protein  Float?
+  fat      Float?
+  carbs    Float?
+
+  isShared Boolean @default(false)
+  comments Comment[]
+  ratings Rating[]
+  isPublished Boolean @default(false)
+  authorId    String?
+  author      User?   @relation(fields: [authorId], references: [id], onDelete: SetNull)
+
+  ingredients RecipeIngredient[]
+  favorites   Favorite[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([title])
+}
+
+model Ingredient {
+  id       String @id @default(uuid())
+  name     String @unique
+  emoji String?
+  category String
+
+  caloriesPer100g Float?
+  proteinPer100g  Float?
+  fatPer100g      Float?
+  carbsPer100g    Float?
+
+  recipes       RecipeIngredient[]
+  fridgeItems   FridgeItem[]
+  shoppingItems ShoppingListItem[]
+}
+
+model RecipeIngredient {
+  recipeId     String
+  ingredientId String
+  quantity     Float?
+  unit         String?
+  optional     Boolean @default(false)
+
+  recipe     Recipe     @relation(fields: [recipeId], references: [id], onDelete: Cascade)
+  ingredient Ingredient @relation(fields: [ingredientId], references: [id])
+
+  @@id([recipeId, ingredientId])
+  @@index([ingredientId])
+}
+
+model FridgeItem {
+  id           String    @id @default(uuid())
+  userId       String
+  ingredientId String
+  quantity     Float?
+  unit         String?
+  expiresAt    DateTime?
+
+  user       User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  ingredient Ingredient @relation(fields: [ingredientId], references: [id])
+
+  @@unique([userId, ingredientId])
+}
+
+model Favorite {
+  userId    String
+  recipeId  String
+  createdAt DateTime @default(now())
+
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  recipe Recipe @relation(fields: [recipeId], references: [id], onDelete: Cascade)
+
+  @@id([userId, recipeId])
+}
+
+model ShoppingListItem {
+  id           String  @id @default(uuid())
+  userId       String
+  ingredientId String
+  quantity     Float?
+  unit         String?
+  isPurchased  Boolean @default(false)
+
+  user       User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  ingredient Ingredient @relation(fields: [ingredientId], references: [id])
+
+  @@unique([userId, ingredientId])
+}
+
+model Category {
+ name String @id
+}
+model Comment {
+ id String @id @default(uuid())
+ text String
+ createdAt DateTime @default(now())
+ userId String
+ recipeId String
+ user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+ recipe Recipe @relation(fields: [recipeId], references: [id], onDelete: Cascade)
+ @@index([recipeId, createdAt])
+}
+model Rating {
+ userId String
+ recipeId String
+ value Int
+ user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+ recipe Recipe @relation(fields: [recipeId], references: [id], onDelete: Cascade)
+ @@id([userId, recipeId])
+}

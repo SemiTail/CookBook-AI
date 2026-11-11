@@ -1,0 +1,41 @@
+:root { color-scheme: light; }
+:root[data-theme="dark"] { color-scheme: dark; background: #111a16; color: #e4eee6; }
+.theme-toggle { width: 40px; height: 40px; padding: 0; flex-shrink: 0; font-size: 24px; line-height: 1; }
+.nutrition-editor { margin: 8px 0 26px; }
+.nutrition-fields { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+:focus-visible { outline: 2px solid #76ae70; outline-offset: 3px; }
+[data-theme="dark"] .header { background: #18251e; border-color: #34473b; }
+[data-theme="dark"] .brand, [data-theme="dark"] .intro h1 { color: #e4eee6; }
+[data-theme="dark"] .brand-logo { background: #2b4431; color: #c3e2b8; }
+[data-theme="dark"] .brand em, [data-theme="dark"] .eyebrow,
+[data-theme="dark"] .back, [data-theme="dark"] .auth-switch a,
+[data-theme="dark"] .header nav a:hover, [data-theme="dark"] .recipe-meta strong { color: #a2d58e; }
+[data-theme="dark"] .panel, [data-theme="dark"] .recipe-card, [data-theme="dark"] .empty { background: #1b2921; border-color: #34473b; box-shadow: none; }
+[data-theme="dark"] .intro-card, [data-theme="dark"] .detail-hero { background: #253e2b; }
+[data-theme="dark"] .recipe-art { background: linear-gradient(135deg, #2b4230, #3b3d28); }
+[data-theme="dark"] .muted, [data-theme="dark"] .welcome p, [data-theme="dark"] .intro > p,
+[data-theme="dark"] .recipe-content p, [data-theme="dark"] .recipe-meta,
+[data-theme="dark"] .detail-hero p, [data-theme="dark"] .steps p,
+[data-theme="dark"] .empty, [data-theme="dark"] .auth-switch, [data-theme="dark"] footer { color: #b1c3b5; }
+[data-theme="dark"] footer, [data-theme="dark"] .ingredients-list li,
+[data-theme="dark"] .editor-ingredient { border-color: #34473b; }
+[data-theme="dark"] .auth-form input, [data-theme="dark"] .ingredient-form select,
+[data-theme="dark"] .recipe-form input, [data-theme="dark"] .recipe-form select,
+[data-theme="dark"] .recipe-form textarea { background: #111e17; color: #e4eee6; border-color: #4b6253; }
+[data-theme="dark"] input::placeholder, [data-theme="dark"] textarea::placeholder { color: #91a897; opacity: 1; }
+[data-theme="dark"] .pill, [data-theme="dark"] .count { background: #2b4431; color: #c3e2b8; border-color: #4b6253; }
+[data-theme="dark"] .pill button { color: #c3e2b8; }
+[data-theme="dark"] .button { background: #a2d58e; color: #14231a; border-color: #a2d58e; }
+[data-theme="dark"] .button:hover { background: #b9e5a9; }
+[data-theme="dark"] .button-outline { background: transparent; color: #d1e6cc; border-color: #658267; }
+[data-theme="dark"] .button-outline:hover { background: #2b4431; }
+[data-theme="dark"] .button-danger { background: #a6372b; color: #fff; border-color: #d97b70; }
+[data-theme="dark"] .button-danger:hover { background: #bc4235; }
+[data-theme="dark"] .emoji-picker button { background: #22372a; border-color: #4b6253; }
+[data-theme="dark"] .emoji-picker button[aria-pressed="true"] { background: #3e603e; border-color: #a2d58e; }
+[data-theme="dark"] .error { background: #422521; color: #ffd0c9; border-color: #ab6158; }
+@media (max-width: 800px) { .nutrition-fields { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 550px) {
+  .header { flex-wrap: wrap; gap: 14px; }
+  .header nav { margin-left: auto; gap: 10px; }
+}

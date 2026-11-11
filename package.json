@@ -1,0 +1,11 @@
+{
+  "name": "cookbook-ai",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npm --prefix backend run build && npm --prefix frontend run build",
+    "start": "npm run build && node scripts/start.mjs",
+    "test": "npm --prefix backend test && npm --prefix frontend test",
+    "test:coverage": "npm --prefix backend run test:coverage"
+  }
+}

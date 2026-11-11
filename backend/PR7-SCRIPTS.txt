@@ -1,0 +1,8 @@
+Run these in C:\Users\Monya\CookBook-AI\backend after npm install:
+
+npm.cmd pkg set 'scripts.build=tsc -p tsconfig.build.json'
+npm.cmd pkg set 'scripts.start=node dist/src/main.js'
+npm.cmd pkg set 'scripts.start:dev=tsc-watch -p tsconfig.build.json --onSuccess "node dist/src/main.js"'
+
+npm.cmd run build
+npm.cmd run start

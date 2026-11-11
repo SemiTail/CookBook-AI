@@ -1,0 +1,1118 @@
+{
+  "date": "2026-11-11",
+  "environment": "local isolated SQLite copy; headless Edge; Gemini stub (no live AI calls)",
+  "result": "PASS",
+  "scenarios": [
+    "moderator role CLI",
+    "moderator publication and withdrawal",
+    "recipe photo display and removal",
+    "automatic nutrition calculation and persistence",
+    "password confirmation mismatch",
+    "invalid API response",
+    "auth form reset on route change",
+    "expired session on recipe page",
+    "malformed stored session",
+    "create ingredient and persist category",
+    "filter fridge by category",
+    "sort products and display tags",
+    "protected redirect",
+    "register",
+    "profile email",
+    "add ingredients",
+    "recommendations",
+    "persist after reload",
+    "recipe details",
+    "mobile 390px",
+    "delete",
+    "logout",
+    "login",
+    "network error",
+    "create private recipe",
+    "recipe emoji and instructions persist",
+    "edit private recipe",
+    "card emoji from database",
+    "cancel and confirm recipe deletion",
+    "mobile recipe editor",
+    "dark/light theme persistence",
+    "nutrition create/edit/clear/zero persistence",
+    "bulk add and selected removal",
+    "clear fridge and cancel",
+    "chat send and saved history",
+    "chat minimize and close",
+    "chat desktop columns and mobile drawer",
+    "clear chat history"
+  ],
+  "browserErrors": [],
+  "requests": [
+    {
+      "path": "/api/v1/auth/register",
+      "method": "POST",
+      "status": 201
+    },
+    {
+      "path": "/api/v1/users/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/fridge",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recommendations",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/mine",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/users/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/fridge",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recommendations",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/mine",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients/categories",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "POST",
+      "status": 201
+    },
+    {
+      "path": "/api/v1/fridge",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recommendations",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/users/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recommendations",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/fridge",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/mine",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/users/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recommendations",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/fridge",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/mine",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/fridge",
+      "method": "POST",
+      "status": 201
+    },
+    {
+      "path": "/api/v1/fridge",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recommendations",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/fridge",
+      "method": "POST",
+      "status": 201
+    },
+    {
+      "path": "/api/v1/fridge",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recommendations",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/fridge",
+      "method": "POST",
+      "status": 201
+    },
+    {
+      "path": "/api/v1/fridge",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recommendations",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/fridge/bulk",
+      "method": "POST",
+      "status": 201
+    },
+    {
+      "path": "/api/v1/fridge",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recommendations",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/fridge/selected",
+      "method": "DELETE",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/fridge",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recommendations",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/assistant/history",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/assistant/messages",
+      "method": "POST",
+      "status": 201
+    },
+    {
+      "path": "/api/v1/assistant/history",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/users/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recommendations",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/fridge",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/mine",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/users/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recommendations",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/fridge",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/mine",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/assistant/history",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/assistant/history",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/assistant/history",
+      "method": "DELETE",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/users/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/fridge",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recommendations",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/mine",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/users/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/fridge",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recommendations",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/mine",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/demo-omelet",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/demo-omelet",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/users/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/fridge",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recommendations",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/mine",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/users/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/fridge",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recommendations",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/mine",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes",
+      "method": "POST",
+      "status": 201
+    },
+    {
+      "path": "/api/v1/recipes/b78bff50-0f2b-467c-b898-d0b7d4d9663f",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/b78bff50-0f2b-467c-b898-d0b7d4d9663f",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/b78bff50-0f2b-467c-b898-d0b7d4d9663f",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/b78bff50-0f2b-467c-b898-d0b7d4d9663f",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/b78bff50-0f2b-467c-b898-d0b7d4d9663f",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/b78bff50-0f2b-467c-b898-d0b7d4d9663f",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/b78bff50-0f2b-467c-b898-d0b7d4d9663f",
+      "method": "PUT",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/b78bff50-0f2b-467c-b898-d0b7d4d9663f",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/b78bff50-0f2b-467c-b898-d0b7d4d9663f",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/b78bff50-0f2b-467c-b898-d0b7d4d9663f",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/b78bff50-0f2b-467c-b898-d0b7d4d9663f",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/users/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/fridge",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recommendations",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/mine",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/users/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/fridge",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recommendations",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/mine",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/b78bff50-0f2b-467c-b898-d0b7d4d9663f",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/b78bff50-0f2b-467c-b898-d0b7d4d9663f",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/b78bff50-0f2b-467c-b898-d0b7d4d9663f",
+      "method": "DELETE",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/users/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/fridge",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recommendations",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/mine",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/users/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/fridge",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recommendations",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/mine",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/fridge/3045d0ff-0ff0-417b-bb4d-31caa0189a7f",
+      "method": "DELETE",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/fridge",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recommendations",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/fridge",
+      "method": "DELETE",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/fridge",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recommendations",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/users/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/fridge",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recommendations",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/mine",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/users/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/fridge",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recommendations",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/mine",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/auth/login",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/users/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/fridge",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recommendations",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/mine",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/users/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/fridge",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recommendations",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/mine",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/auth/login",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/auth/login",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/auth/login",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/users/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/fridge",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recommendations",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/mine",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/users/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/fridge",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recommendations",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/mine",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/auth/login",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/users/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/fridge",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recommendations",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/mine",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/users/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/fridge",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recommendations",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/mine",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes",
+      "method": "POST",
+      "status": 201
+    },
+    {
+      "path": "/api/v1/recipes/1d9027b9-6c28-460e-bddc-5caaaa16d923",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/1d9027b9-6c28-460e-bddc-5caaaa16d923",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/1d9027b9-6c28-460e-bddc-5caaaa16d923",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/1d9027b9-6c28-460e-bddc-5caaaa16d923",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/1d9027b9-6c28-460e-bddc-5caaaa16d923",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/ingredients",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/1d9027b9-6c28-460e-bddc-5caaaa16d923",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/1d9027b9-6c28-460e-bddc-5caaaa16d923",
+      "method": "PUT",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/1d9027b9-6c28-460e-bddc-5caaaa16d923",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/1d9027b9-6c28-460e-bddc-5caaaa16d923",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "path": "/api/v1/recipes/expired-session",
+      "method": "GET",
+      "status": 401
+    },
+    {
+      "path": "/api/v1/recipes/expired-session",
+      "method": "GET",
+      "status": 401
+    }
+  ]
+}

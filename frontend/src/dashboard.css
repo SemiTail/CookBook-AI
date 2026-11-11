@@ -1,0 +1,75 @@
+.dashboard-heading { display:flex; align-items:center; justify-content:space-between; gap:24px; }
+.dashboard-heading .welcome { padding-bottom:12px; }
+.assistant-toggle { flex-shrink:0; }
+.dashboard-layout, .dashboard-content { min-width:0; }
+.dashboard-content .my-recipes { margin-top:36px; }
+.text-button { border:0; background:none; color:#3d7345; padding:5px 0; font-size:13px; font-weight:700; text-decoration:underline; text-underline-offset:3px; }
+.text-button:disabled { opacity:.45; cursor:not-allowed; }
+.danger-text { color:#a6372b; }
+.multi-picker-toggle { margin-top:14px; }
+.product-picker { padding:16px; margin-top:16px; border:1px solid #d4e6d0; border-radius:14px; background:#f7faf5; }
+.search-label { display:block; font-weight:700; font-size:13px; }
+.search-label input, .chat-compose textarea { display:block; width:100%; padding:12px; margin-top:6px; border:1px solid #cbd8cb; border-radius:10px; background:#fff; color:inherit; font:inherit; }
+.picker-tools { display:flex; flex-wrap:wrap; gap:12px; align-items:center; margin:10px 0; }
+.product-options { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; max-height:260px; overflow:auto; margin-bottom:14px; }
+.product-options label { display:flex; gap:8px; align-items:center; padding:9px; background:#fff; border:1px solid #e0e8dc; border-radius:9px; font-size:13px; cursor:pointer; }
+.product-options small { display:block; color:#718074; font-size:11px; }
+.fridge-selection { display:flex; flex-wrap:wrap; align-items:center; gap:12px; font-size:13px; margin-top:20px; }
+.fridge-selection label, .pill label { display:inline-flex; align-items:center; gap:7px; cursor:pointer; }
+.pill { display:inline-flex; align-items:center; }
+.pill-selected { outline:2px solid #5e9c54; outline-offset:1px; }
+.fridge-panel input[type="checkbox"] { accent-color:#397b44; width:16px; height:16px; flex-shrink:0; }
+.fridge-confirm, .chat-confirm { padding:15px; margin-top:16px; background:#fff0ee; border:1px solid #ffc7c1; border-radius:12px; }
+.fridge-confirm p, .chat-confirm p { font-size:14px; }
+.assistant-panel { display:flex; flex-direction:column; gap:12px; padding:20px; position:sticky; top:20px; height:min(780px,calc(100dvh - 40px)); min-height:440px; overflow:hidden; }
+.chat-header { display:flex; align-items:flex-start; justify-content:space-between; gap:8px; flex-shrink:0; }
+.chat-header h2 { font-size:19px; margin:5px 0 0; }
+.chat-controls { display:flex; gap:4px; }
+.icon-button { border:1px solid #cbd8cb; color:inherit; background:transparent; border-radius:8px; width:30px; height:30px; font-size:20px; line-height:1; }
+.chat-context { font-size:12px; line-height:1.5; color:#647568; margin:0; }
+.chat-history { flex:1; min-height:80px; overflow:auto; overscroll-behavior:contain; padding-right:6px; }
+.chat-empty { padding:18px 0; font-size:14px; line-height:1.6; }
+.chat-empty .button { white-space:normal; }
+.chat-message { padding:12px; border-radius:12px; margin:0 0 12px; font-size:13px; line-height:1.65; overflow-wrap:anywhere; }
+.chat-user { background:#e6f2e0; margin-left:22px; }
+.chat-model { background:#f1f4ef; margin-right:6px; }
+.chat-speaker { display:block; font-size:11px; font-weight:800; margin-bottom:5px; }
+.chat-message p { white-space:pre-wrap; margin:0 0 8px; }
+.chat-message p:last-child { margin-bottom:0; }
+.chat-compose { flex-shrink:0; }
+.chat-compose textarea { resize:vertical; min-height:72px; max-height:130px; font-size:13px; }
+.chat-compose-actions { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-top:10px; }
+.chat-disclosure { font-size:10px; line-height:1.5; color:#718074; margin:0; }
+.assistant-panel .error { margin:0; font-size:12px; }
+.chat-minimized { position:fixed; right:24px; bottom:24px; z-index:40; box-shadow:0 8px 30px #15291e33; }
+@media(min-width:1100px) {
+  .container:has(.is-chat-open) { max-width:1440px; }
+  .dashboard-layout.is-chat-open { display:grid; grid-template-columns:minmax(0,1fr) 370px; gap:24px; align-items:start; }
+  .assistant-panel { height:min(780px,var(--chat-height,calc(100dvh - 310px))); min-height:360px; }
+  .is-chat-open .cards { grid-template-columns:repeat(2,minmax(0,1fr)); }
+}
+@media(max-width:1099px) {
+  .assistant-panel { position:fixed; right:16px; bottom:16px; top:auto; width:min(420px,calc(100vw - 32px)); height:min(760px,calc(100dvh - 32px)); min-height:0; z-index:50; box-shadow:0 10px 60px #0006; }
+}
+@media(max-width:550px) {
+  .dashboard-heading { align-items:flex-start; flex-direction:column; gap:4px; margin-bottom:20px; }
+  .product-options { grid-template-columns:1fr; }
+  .assistant-panel { padding:16px; }
+  .chat-minimized { right:16px; bottom:16px; max-width:calc(100vw - 32px); white-space:normal; }
+}
+[data-theme="dark"] .text-button { color:#a2d58e; }
+[data-theme="dark"] .danger-text { color:#ffb2a7; }
+[data-theme="dark"] .product-picker, [data-theme="dark"] .chat-model { background:#142219; border-color:#4b6253; }
+[data-theme="dark"] .product-options label, [data-theme="dark"] .chat-user { background:#2b4431; border-color:#4b6253; }
+[data-theme="dark"] .search-label input, [data-theme="dark"] .chat-compose textarea { background:#111e17; color:#e4eee6; border-color:#4b6253; }
+[data-theme="dark"] .product-options small, [data-theme="dark"] .chat-context, [data-theme="dark"] .chat-disclosure { color:#b1c3b5; }
+[data-theme="dark"] .icon-button { border-color:#658267; }
+[data-theme="dark"] .fridge-confirm, [data-theme="dark"] .chat-confirm { background:#422521; border-color:#ab6158; }
+.ingredient-controls { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; margin:16px 0; }
+.ingredient-controls label { display:flex; flex-direction:column; gap:6px; font-size:14px; min-width:0; }
+.ingredient-controls input,.ingredient-controls select { width:100%; min-width:0; padding:10px; border:1px solid #cbd8c6; border-radius:10px; background:#fff; color:#243523; font:inherit; }
+.ingredient-creator { margin:12px 0; }
+.category-tag { display:inline-block; margin-left:6px; padding:2px 7px; border-radius:8px; background:#e1eadb; color:#405837; font-size:11px; }
+[data-theme="dark"] .ingredient-controls input,[data-theme="dark"] .ingredient-controls select { background:#111e17; color:#e4eee6; border-color:#4b6253; }
+[data-theme="dark"] .category-tag { background:#324c38; color:#d6e8d1; }
+@media(max-width:550px) { .ingredient-controls { grid-template-columns:1fr; } }
