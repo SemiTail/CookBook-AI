@@ -9,7 +9,7 @@
       let saved;
       try { saved = localStorage.getItem('cookbook-theme'); } catch {}
       document.documentElement.dataset.theme = saved === 'dark' || saved === 'light'
-        ? saved : window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        ? saved : 'dark';
     })();
   </script>
   <title>CookBook AI — рецепти з того, що є вдома</title>

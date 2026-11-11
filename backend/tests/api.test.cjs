@@ -273,10 +273,14 @@ test('HTTP integration against an isolated migrated SQLite database', { timeout:
     const own = (await request('/recipes',{method:'POST',token:session.accessToken,body:{...recipeData,isShared:false}})).data;
     const path='/recipes/'+own.id;
     assert.equal((await request(path+'/discussion',{token:second.accessToken})).status,404);
+    assert.equal((await request(path+'/favorite',{method:'PUT',token:second.accessToken})).status,404);
     assert.equal((await request(path+'/comments',{method:'POST',token:second.accessToken,body:{text:'Hidden'}})).status,404);
     assert.equal((await request(path+'/rating',{method:'PUT',token:second.accessToken,body:{value:5}})).status,404);
     await request(path,{method:'PUT',token:session.accessToken,body:{...recipeData,isShared:true}});
     assert.ok((await request('/recipes/community')).data.some(r=>r.id===own.id));
+    assert.equal((await request(path+'/favorite',{method:'PUT',token:second.accessToken})).data.saved,true);
+    assert.equal((await request(path+'/favorite',{token:session.accessToken})).data.saved,false);
+    assert.equal((await request(path+'/favorite',{method:'DELETE',token:second.accessToken})).data.saved,false);
     const comment=(await request(path+'/comments',{method:'POST',token:second.accessToken,body:{text:'Смачно!'}})).data;
     assert.equal((await request(path+'/comments/'+comment.id,{method:'DELETE',token:session.accessToken})).status,404);
     for(const value of [1,5]) assert.equal((await request(path+'/rating',{method:'PUT',token:second.accessToken,body:{value}})).status,200);

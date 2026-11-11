@@ -54,6 +54,9 @@ async function main() {
   page.on('pageerror', error => errors.push(error.message));
   page.on('response', response => { if (response.url().includes('/api/')) requests.push({ path: new URL(response.url()).pathname, method: response.request().method(), status: response.status() }); });
 
+  await page.addInitScript(() => { localStorage.setItem('cookbook-theme','dark'); });
+  await page.goto(url+'/login');
+  await page.screenshot({path:join(output,'redesign-login.png'),fullPage:true});
   const email = 'community-'+Date.now()+'@example.com';
   await page.goto(url+'/register');
   await page.getByLabel('Ім’я',{exact:true}).fill('Тестовий кухар');
@@ -92,6 +95,10 @@ async function main() {
   assert.equal(await page.locator('.markdown table').count(),1);
   await page.getByText('✓ Усі обов’язкові продукти є у холодильнику',{exact:true}).waitFor();
   const recipeUrl=page.url();
+  await page.getByRole('button',{name:'♡ Зберегти',exact:true}).click();
+  await page.getByRole('button',{name:'♥ Збережено',exact:true}).waitFor();
+  await page.reload();
+  await page.getByRole('button',{name:'♥ Збережено',exact:true}).waitFor();
   await page.getByRole('button',{name:'Оцінити на 5',exact:true}).click();
   await page.getByText('★ 5.0 · 1 оцінок',{exact:true}).waitFor();
   await page.getByLabel('Ваш коментар',{exact:true}).fill('Дуже смачно!');
@@ -110,6 +117,13 @@ async function main() {
   await page.getByRole('link',{name:'Головна',exact:true}).click();
   await page.getByRole('tab',{name:'Браузер рецептів',exact:true}).click();
   await page.getByRole('heading',{name:'Спільний салат',exact:true}).waitFor();
+  await page.getByRole('searchbox').fill('Немає такого рецепта');
+  assert.equal(await page.locator('.recipe-card').count(),0);
+  await page.getByRole('searchbox').fill('салат');
+  await page.getByRole('heading',{name:'Спільний салат',exact:true}).waitFor();
+  await page.getByRole('button',{name:'Перемкнути вигляд каталогу',exact:true}).click();
+  assert.equal(await page.locator('.catalog-list').count(),1);
+  await page.getByRole('button',{name:'Перемкнути вигляд каталогу',exact:true}).click();
   await page.screenshot({path:join(output,'community-desktop.png'),fullPage:true});
   await page.setViewportSize({width:390,height:844});
   await page.screenshot({path:join(output,'community-mobile.png'),fullPage:true});
