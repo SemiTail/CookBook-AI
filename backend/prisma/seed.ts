@@ -23,7 +23,8 @@ if (!databaseUrl || !databaseUrl.startsWith("file:")) {
 const adapter = new PrismaBetterSqlite3({ url: databaseUrl });
 const prisma = new PrismaClient({ adapter });
 
-type CatalogIngredient = { name: string; category: string; emoji: string };
+type IngredientGeography = {name:string;category:string;categoryTags:string[];culinaryRegions:string[];culinaryCountries:string[]};
+type CatalogIngredient = { name: string; category: string; emoji: string;categoryTags:string[];culinaryRegions:string[];culinaryCountries:string[] };
 
 /**
  * Reads the catalog from backend/prisma/cookbook_ingredients.json.
@@ -31,6 +32,8 @@ type CatalogIngredient = { name: string; category: string; emoji: string };
  */
 function loadCatalog(): CatalogIngredient[] {
   const filePath = resolve(process.cwd(), "prisma", "cookbook_ingredients.json");
+  const geographyRows=JSON.parse(readFileSync(resolve(process.cwd(),"prisma","ingredient-geography.json"),"utf8")) as IngredientGeography[];
+  const geography=new Map(geographyRows.map(row=>[row.name,row]));
   let parsed: unknown;
   try {
     parsed = JSON.parse(readFileSync(filePath, "utf8"));
@@ -54,7 +57,9 @@ function loadCatalog(): CatalogIngredient[] {
     const name = record.name.trim();
     if (names.has(name)) throw new Error(`Duplicate catalog ingredient: ${name}`);
     names.add(name);
-    return { name, category: record.category.trim(), emoji: record.emoji.trim() };
+    const metadata=geography.get(name);
+    const category=metadata?.category??record.category.trim();
+    return { name, category, emoji: record.emoji.trim(),categoryTags:metadata?.categoryTags??[category],culinaryRegions:metadata?.culinaryRegions??['Універсальні'],culinaryCountries:metadata?.culinaryCountries??[] };
   });
 }
 
@@ -225,7 +230,7 @@ async function main() {
 
   // Import general catalog without wiping nutritional values stored in the database.
   for (const item of catalog) {
-    const data = { category: item.category, emoji: item.emoji };
+    const data = { category: item.category, emoji: item.emoji,categoryTags:item.categoryTags,culinaryRegions:item.culinaryRegions,culinaryCountries:item.culinaryCountries };
     await prisma.ingredient.upsert({
       where: { name: item.name },
       update: data,

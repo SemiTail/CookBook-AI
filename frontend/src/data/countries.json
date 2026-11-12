@@ -1,0 +1,1752 @@
+[
+  {
+    "code": "AW",
+    "name": "Аруба",
+    "flag": "🇦🇼",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "code": "AF",
+    "name": "Афганістан",
+    "flag": "🇦🇫",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "code": "AO",
+    "name": "Ангола",
+    "flag": "🇦🇴",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "code": "AI",
+    "name": "Ангілья",
+    "flag": "🇦🇮",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "code": "AX",
+    "name": "Аландські Острови",
+    "flag": "🇦🇽",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "code": "AL",
+    "name": "Албанія",
+    "flag": "🇦🇱",
+    "region": "Europe",
+    "subregion": "Southeast Europe"
+  },
+  {
+    "code": "AD",
+    "name": "Андорра",
+    "flag": "🇦🇩",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "code": "AE",
+    "name": "Обʼєднані Арабські Емірати",
+    "flag": "🇦🇪",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "code": "AR",
+    "name": "Аргентина",
+    "flag": "🇦🇷",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "code": "AM",
+    "name": "Вірменія",
+    "flag": "🇦🇲",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "code": "AS",
+    "name": "Американське Самоа",
+    "flag": "🇦🇸",
+    "region": "Oceania",
+    "subregion": "Polynesia"
+  },
+  {
+    "code": "AQ",
+    "name": "Антарктика",
+    "flag": "🇦🇶",
+    "region": "Antarctic",
+    "subregion": ""
+  },
+  {
+    "code": "TF",
+    "name": "Французькі Південні Території",
+    "flag": "🇹🇫",
+    "region": "Antarctic",
+    "subregion": ""
+  },
+  {
+    "code": "AG",
+    "name": "Антигуа і Барбуда",
+    "flag": "🇦🇬",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "code": "AU",
+    "name": "Австралія",
+    "flag": "🇦🇺",
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand"
+  },
+  {
+    "code": "AT",
+    "name": "Австрія",
+    "flag": "🇦🇹",
+    "region": "Europe",
+    "subregion": "Central Europe"
+  },
+  {
+    "code": "AZ",
+    "name": "Азербайджан",
+    "flag": "🇦🇿",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "code": "BI",
+    "name": "Бурунді",
+    "flag": "🇧🇮",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "code": "BE",
+    "name": "Бельгія",
+    "flag": "🇧🇪",
+    "region": "Europe",
+    "subregion": "Western Europe"
+  },
+  {
+    "code": "BJ",
+    "name": "Бенін",
+    "flag": "🇧🇯",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "code": "BF",
+    "name": "Буркіна-Фасо",
+    "flag": "🇧🇫",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "code": "BD",
+    "name": "Бангладеш",
+    "flag": "🇧🇩",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "code": "BG",
+    "name": "Болгарія",
+    "flag": "🇧🇬",
+    "region": "Europe",
+    "subregion": "Southeast Europe"
+  },
+  {
+    "code": "BH",
+    "name": "Бахрейн",
+    "flag": "🇧🇭",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "code": "BS",
+    "name": "Багамські Острови",
+    "flag": "🇧🇸",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "code": "BA",
+    "name": "Боснія і Герцеговина",
+    "flag": "🇧🇦",
+    "region": "Europe",
+    "subregion": "Southeast Europe"
+  },
+  {
+    "code": "BL",
+    "name": "Сен-Бартелемі",
+    "flag": "🇧🇱",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "code": "SH",
+    "name": "Острів Святої Єлени",
+    "flag": "🇸🇭",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "code": "BY",
+    "name": "Білорусь",
+    "flag": "🇧🇾",
+    "region": "Europe",
+    "subregion": "Eastern Europe"
+  },
+  {
+    "code": "BZ",
+    "name": "Беліз",
+    "flag": "🇧🇿",
+    "region": "Americas",
+    "subregion": "Central America"
+  },
+  {
+    "code": "BM",
+    "name": "Бермудські Острови",
+    "flag": "🇧🇲",
+    "region": "Americas",
+    "subregion": "North America"
+  },
+  {
+    "code": "BO",
+    "name": "Болівія",
+    "flag": "🇧🇴",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "code": "BQ",
+    "name": "Карибські Нідерланди",
+    "flag": "",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "code": "BR",
+    "name": "Бразилія",
+    "flag": "🇧🇷",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "code": "BB",
+    "name": "Барбадос",
+    "flag": "🇧🇧",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "code": "BN",
+    "name": "Бруней",
+    "flag": "🇧🇳",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "code": "BT",
+    "name": "Бутан",
+    "flag": "🇧🇹",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "code": "BV",
+    "name": "Острів Буве",
+    "flag": "🇧🇻",
+    "region": "Antarctic",
+    "subregion": ""
+  },
+  {
+    "code": "BW",
+    "name": "Ботсвана",
+    "flag": "🇧🇼",
+    "region": "Africa",
+    "subregion": "Southern Africa"
+  },
+  {
+    "code": "CF",
+    "name": "Центральноафриканська Республіка",
+    "flag": "🇨🇫",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "code": "CA",
+    "name": "Канада",
+    "flag": "🇨🇦",
+    "region": "Americas",
+    "subregion": "North America"
+  },
+  {
+    "code": "CC",
+    "name": "Кокосові (Кілінг) Острови",
+    "flag": "🇨🇨",
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand"
+  },
+  {
+    "code": "CH",
+    "name": "Швейцарія",
+    "flag": "🇨🇭",
+    "region": "Europe",
+    "subregion": "Western Europe"
+  },
+  {
+    "code": "CL",
+    "name": "Чилі",
+    "flag": "🇨🇱",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "code": "CN",
+    "name": "Китай",
+    "flag": "🇨🇳",
+    "region": "Asia",
+    "subregion": "Eastern Asia"
+  },
+  {
+    "code": "CI",
+    "name": "Кот-дʼІвуар",
+    "flag": "🇨🇮",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "code": "CM",
+    "name": "Камерун",
+    "flag": "🇨🇲",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "code": "CD",
+    "name": "Конго – Кіншаса",
+    "flag": "🇨🇩",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "code": "CG",
+    "name": "Конго – Браззавіль",
+    "flag": "🇨🇬",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "code": "CK",
+    "name": "Острови Кука",
+    "flag": "🇨🇰",
+    "region": "Oceania",
+    "subregion": "Polynesia"
+  },
+  {
+    "code": "CO",
+    "name": "Колумбія",
+    "flag": "🇨🇴",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "code": "KM",
+    "name": "Комори",
+    "flag": "🇰🇲",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "code": "CV",
+    "name": "Кабо-Верде",
+    "flag": "🇨🇻",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "code": "CR",
+    "name": "Коста-Рика",
+    "flag": "🇨🇷",
+    "region": "Americas",
+    "subregion": "Central America"
+  },
+  {
+    "code": "CU",
+    "name": "Куба",
+    "flag": "🇨🇺",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "code": "CW",
+    "name": "Кюрасао",
+    "flag": "🇨🇼",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "code": "CX",
+    "name": "Острів Різдва",
+    "flag": "🇨🇽",
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand"
+  },
+  {
+    "code": "KY",
+    "name": "Кайманові Острови",
+    "flag": "🇰🇾",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "code": "CY",
+    "name": "Кіпр",
+    "flag": "🇨🇾",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "code": "CZ",
+    "name": "Чехія",
+    "flag": "🇨🇿",
+    "region": "Europe",
+    "subregion": "Central Europe"
+  },
+  {
+    "code": "DE",
+    "name": "Німеччина",
+    "flag": "🇩🇪",
+    "region": "Europe",
+    "subregion": "Western Europe"
+  },
+  {
+    "code": "DJ",
+    "name": "Джибуті",
+    "flag": "🇩🇯",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "code": "DM",
+    "name": "Домініка",
+    "flag": "🇩🇲",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "code": "DK",
+    "name": "Данія",
+    "flag": "🇩🇰",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "code": "DO",
+    "name": "Домініканська Республіка",
+    "flag": "🇩🇴",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "code": "DZ",
+    "name": "Алжир",
+    "flag": "🇩🇿",
+    "region": "Africa",
+    "subregion": "Northern Africa"
+  },
+  {
+    "code": "EC",
+    "name": "Еквадор",
+    "flag": "🇪🇨",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "code": "EG",
+    "name": "Єгипет",
+    "flag": "🇪🇬",
+    "region": "Africa",
+    "subregion": "Northern Africa"
+  },
+  {
+    "code": "ER",
+    "name": "Еритрея",
+    "flag": "🇪🇷",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "code": "EH",
+    "name": "Західна Сахара",
+    "flag": "🇪🇭",
+    "region": "Africa",
+    "subregion": "Northern Africa"
+  },
+  {
+    "code": "ES",
+    "name": "Іспанія",
+    "flag": "🇪🇸",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "code": "EE",
+    "name": "Естонія",
+    "flag": "🇪🇪",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "code": "ET",
+    "name": "Ефіопія",
+    "flag": "🇪🇹",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "code": "FI",
+    "name": "Фінляндія",
+    "flag": "🇫🇮",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "code": "FJ",
+    "name": "Фіджі",
+    "flag": "🇫🇯",
+    "region": "Oceania",
+    "subregion": "Melanesia"
+  },
+  {
+    "code": "FK",
+    "name": "Фолклендські Острови",
+    "flag": "🇫🇰",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "code": "FR",
+    "name": "Франція",
+    "flag": "🇫🇷",
+    "region": "Europe",
+    "subregion": "Western Europe"
+  },
+  {
+    "code": "FO",
+    "name": "Фарерські Острови",
+    "flag": "🇫🇴",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "code": "FM",
+    "name": "Мікронезія",
+    "flag": "🇫🇲",
+    "region": "Oceania",
+    "subregion": "Micronesia"
+  },
+  {
+    "code": "GA",
+    "name": "Габон",
+    "flag": "🇬🇦",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "code": "GB",
+    "name": "Велика Британія",
+    "flag": "🇬🇧",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "code": "GE",
+    "name": "Грузія",
+    "flag": "🇬🇪",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "code": "GG",
+    "name": "Гернсі",
+    "flag": "🇬🇬",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "code": "GH",
+    "name": "Гана",
+    "flag": "🇬🇭",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "code": "GI",
+    "name": "Гібралтар",
+    "flag": "🇬🇮",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "code": "GN",
+    "name": "Гвінея",
+    "flag": "🇬🇳",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "code": "GP",
+    "name": "Гваделупа",
+    "flag": "🇬🇵",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "code": "GM",
+    "name": "Гамбія",
+    "flag": "🇬🇲",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "code": "GW",
+    "name": "Гвінея-Бісау",
+    "flag": "🇬🇼",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "code": "GQ",
+    "name": "Екваторіальна Гвінея",
+    "flag": "🇬🇶",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "code": "GR",
+    "name": "Греція",
+    "flag": "🇬🇷",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "code": "GD",
+    "name": "Гренада",
+    "flag": "🇬🇩",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "code": "GL",
+    "name": "Гренландія",
+    "flag": "🇬🇱",
+    "region": "Americas",
+    "subregion": "North America"
+  },
+  {
+    "code": "GT",
+    "name": "Гватемала",
+    "flag": "🇬🇹",
+    "region": "Americas",
+    "subregion": "Central America"
+  },
+  {
+    "code": "GF",
+    "name": "Французька Гвіана",
+    "flag": "🇬🇫",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "code": "GU",
+    "name": "Гуам",
+    "flag": "🇬🇺",
+    "region": "Oceania",
+    "subregion": "Micronesia"
+  },
+  {
+    "code": "GY",
+    "name": "Гаяна",
+    "flag": "🇬🇾",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "code": "HK",
+    "name": "Гонконг, ОАР Китаю",
+    "flag": "🇭🇰",
+    "region": "Asia",
+    "subregion": "Eastern Asia"
+  },
+  {
+    "code": "HM",
+    "name": "Острови Герд і Макдоналд",
+    "flag": "🇭🇲",
+    "region": "Antarctic",
+    "subregion": ""
+  },
+  {
+    "code": "HN",
+    "name": "Гондурас",
+    "flag": "🇭🇳",
+    "region": "Americas",
+    "subregion": "Central America"
+  },
+  {
+    "code": "HR",
+    "name": "Хорватія",
+    "flag": "🇭🇷",
+    "region": "Europe",
+    "subregion": "Southeast Europe"
+  },
+  {
+    "code": "HT",
+    "name": "Гаїті",
+    "flag": "🇭🇹",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "code": "HU",
+    "name": "Угорщина",
+    "flag": "🇭🇺",
+    "region": "Europe",
+    "subregion": "Central Europe"
+  },
+  {
+    "code": "ID",
+    "name": "Індонезія",
+    "flag": "🇮🇩",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "code": "IM",
+    "name": "Острів Мен",
+    "flag": "🇮🇲",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "code": "IN",
+    "name": "Індія",
+    "flag": "🇮🇳",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "code": "IO",
+    "name": "Британська територія в Індійському океані",
+    "flag": "🇮🇴",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "code": "IE",
+    "name": "Ірландія",
+    "flag": "🇮🇪",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "code": "IR",
+    "name": "Іран",
+    "flag": "🇮🇷",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "code": "IQ",
+    "name": "Ірак",
+    "flag": "🇮🇶",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "code": "IS",
+    "name": "Ісландія",
+    "flag": "🇮🇸",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "code": "IL",
+    "name": "Ізраїль",
+    "flag": "🇮🇱",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "code": "IT",
+    "name": "Італія",
+    "flag": "🇮🇹",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "code": "JM",
+    "name": "Ямайка",
+    "flag": "🇯🇲",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "code": "JE",
+    "name": "Джерсі",
+    "flag": "🇯🇪",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "code": "JO",
+    "name": "Йорданія",
+    "flag": "🇯🇴",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "code": "JP",
+    "name": "Японія",
+    "flag": "🇯🇵",
+    "region": "Asia",
+    "subregion": "Eastern Asia"
+  },
+  {
+    "code": "KZ",
+    "name": "Казахстан",
+    "flag": "🇰🇿",
+    "region": "Asia",
+    "subregion": "Central Asia"
+  },
+  {
+    "code": "KE",
+    "name": "Кенія",
+    "flag": "🇰🇪",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "code": "KG",
+    "name": "Киргизстан",
+    "flag": "🇰🇬",
+    "region": "Asia",
+    "subregion": "Central Asia"
+  },
+  {
+    "code": "KH",
+    "name": "Камбоджа",
+    "flag": "🇰🇭",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "code": "KI",
+    "name": "Кірибаті",
+    "flag": "🇰🇮",
+    "region": "Oceania",
+    "subregion": "Micronesia"
+  },
+  {
+    "code": "KN",
+    "name": "Сент-Кітс і Невіс",
+    "flag": "🇰🇳",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "code": "KR",
+    "name": "Південна Корея",
+    "flag": "🇰🇷",
+    "region": "Asia",
+    "subregion": "Eastern Asia"
+  },
+  {
+    "code": "XK",
+    "name": "Косово",
+    "flag": "🇽🇰",
+    "region": "Europe",
+    "subregion": "Southeast Europe"
+  },
+  {
+    "code": "KW",
+    "name": "Кувейт",
+    "flag": "🇰🇼",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "code": "LA",
+    "name": "Лаос",
+    "flag": "🇱🇦",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "code": "LB",
+    "name": "Ліван",
+    "flag": "🇱🇧",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "code": "LR",
+    "name": "Ліберія",
+    "flag": "🇱🇷",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "code": "LY",
+    "name": "Лівія",
+    "flag": "🇱🇾",
+    "region": "Africa",
+    "subregion": "Northern Africa"
+  },
+  {
+    "code": "LC",
+    "name": "Сент-Люсія",
+    "flag": "🇱🇨",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "code": "LI",
+    "name": "Ліхтенштейн",
+    "flag": "🇱🇮",
+    "region": "Europe",
+    "subregion": "Western Europe"
+  },
+  {
+    "code": "LK",
+    "name": "Шрі-Ланка",
+    "flag": "🇱🇰",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "code": "LS",
+    "name": "Лесото",
+    "flag": "🇱🇸",
+    "region": "Africa",
+    "subregion": "Southern Africa"
+  },
+  {
+    "code": "LT",
+    "name": "Литва",
+    "flag": "🇱🇹",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "code": "LU",
+    "name": "Люксембург",
+    "flag": "🇱🇺",
+    "region": "Europe",
+    "subregion": "Western Europe"
+  },
+  {
+    "code": "LV",
+    "name": "Латвія",
+    "flag": "🇱🇻",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "code": "MO",
+    "name": "Макао, ОАР Китаю",
+    "flag": "🇲🇴",
+    "region": "Asia",
+    "subregion": "Eastern Asia"
+  },
+  {
+    "code": "MF",
+    "name": "Сен-Мартен",
+    "flag": "🇲🇫",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "code": "MA",
+    "name": "Марокко",
+    "flag": "🇲🇦",
+    "region": "Africa",
+    "subregion": "Northern Africa"
+  },
+  {
+    "code": "MC",
+    "name": "Монако",
+    "flag": "🇲🇨",
+    "region": "Europe",
+    "subregion": "Western Europe"
+  },
+  {
+    "code": "MD",
+    "name": "Молдова",
+    "flag": "🇲🇩",
+    "region": "Europe",
+    "subregion": "Eastern Europe"
+  },
+  {
+    "code": "MG",
+    "name": "Мадагаскар",
+    "flag": "🇲🇬",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "code": "MV",
+    "name": "Мальдіви",
+    "flag": "🇲🇻",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "code": "MX",
+    "name": "Мексика",
+    "flag": "🇲🇽",
+    "region": "Americas",
+    "subregion": "North America"
+  },
+  {
+    "code": "MH",
+    "name": "Маршаллові Острови",
+    "flag": "🇲🇭",
+    "region": "Oceania",
+    "subregion": "Micronesia"
+  },
+  {
+    "code": "MK",
+    "name": "Північна Македонія",
+    "flag": "🇲🇰",
+    "region": "Europe",
+    "subregion": "Southeast Europe"
+  },
+  {
+    "code": "ML",
+    "name": "Малі",
+    "flag": "🇲🇱",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "code": "MT",
+    "name": "Мальта",
+    "flag": "🇲🇹",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "code": "MM",
+    "name": "Мʼянма (Бірма)",
+    "flag": "🇲🇲",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "code": "ME",
+    "name": "Чорногорія",
+    "flag": "🇲🇪",
+    "region": "Europe",
+    "subregion": "Southeast Europe"
+  },
+  {
+    "code": "MN",
+    "name": "Монголія",
+    "flag": "🇲🇳",
+    "region": "Asia",
+    "subregion": "Eastern Asia"
+  },
+  {
+    "code": "MP",
+    "name": "Північні Маріанські Острови",
+    "flag": "🇲🇵",
+    "region": "Oceania",
+    "subregion": "Micronesia"
+  },
+  {
+    "code": "MZ",
+    "name": "Мозамбік",
+    "flag": "🇲🇿",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "code": "MR",
+    "name": "Мавританія",
+    "flag": "🇲🇷",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "code": "MS",
+    "name": "Монтсеррат",
+    "flag": "🇲🇸",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "code": "MQ",
+    "name": "Мартиніка",
+    "flag": "🇲🇶",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "code": "MU",
+    "name": "Маврикій",
+    "flag": "🇲🇺",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "code": "MW",
+    "name": "Малаві",
+    "flag": "🇲🇼",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "code": "MY",
+    "name": "Малайзія",
+    "flag": "🇲🇾",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "code": "YT",
+    "name": "Майотта",
+    "flag": "🇾🇹",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "code": "NA",
+    "name": "Намібія",
+    "flag": "🇳🇦",
+    "region": "Africa",
+    "subregion": "Southern Africa"
+  },
+  {
+    "code": "NC",
+    "name": "Нова Каледонія",
+    "flag": "🇳🇨",
+    "region": "Oceania",
+    "subregion": "Melanesia"
+  },
+  {
+    "code": "NE",
+    "name": "Нігер",
+    "flag": "🇳🇪",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "code": "NF",
+    "name": "Острів Норфолк",
+    "flag": "🇳🇫",
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand"
+  },
+  {
+    "code": "NG",
+    "name": "Нігерія",
+    "flag": "🇳🇬",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "code": "NI",
+    "name": "Нікарагуа",
+    "flag": "🇳🇮",
+    "region": "Americas",
+    "subregion": "Central America"
+  },
+  {
+    "code": "NU",
+    "name": "Ніуе",
+    "flag": "🇳🇺",
+    "region": "Oceania",
+    "subregion": "Polynesia"
+  },
+  {
+    "code": "NL",
+    "name": "Нідерланди",
+    "flag": "🇳🇱",
+    "region": "Europe",
+    "subregion": "Western Europe"
+  },
+  {
+    "code": "NO",
+    "name": "Норвегія",
+    "flag": "🇳🇴",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "code": "NP",
+    "name": "Непал",
+    "flag": "🇳🇵",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "code": "NR",
+    "name": "Науру",
+    "flag": "🇳🇷",
+    "region": "Oceania",
+    "subregion": "Micronesia"
+  },
+  {
+    "code": "NZ",
+    "name": "Нова Зеландія",
+    "flag": "🇳🇿",
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand"
+  },
+  {
+    "code": "OM",
+    "name": "Оман",
+    "flag": "🇴🇲",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "code": "PK",
+    "name": "Пакистан",
+    "flag": "🇵🇰",
+    "region": "Asia",
+    "subregion": "Southern Asia"
+  },
+  {
+    "code": "PA",
+    "name": "Панама",
+    "flag": "🇵🇦",
+    "region": "Americas",
+    "subregion": "Central America"
+  },
+  {
+    "code": "PN",
+    "name": "Острови Піткерн",
+    "flag": "🇵🇳",
+    "region": "Oceania",
+    "subregion": "Polynesia"
+  },
+  {
+    "code": "PE",
+    "name": "Перу",
+    "flag": "🇵🇪",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "code": "PH",
+    "name": "Філіппіни",
+    "flag": "🇵🇭",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "code": "PW",
+    "name": "Палау",
+    "flag": "🇵🇼",
+    "region": "Oceania",
+    "subregion": "Micronesia"
+  },
+  {
+    "code": "PG",
+    "name": "Папуа-Нова Гвінея",
+    "flag": "🇵🇬",
+    "region": "Oceania",
+    "subregion": "Melanesia"
+  },
+  {
+    "code": "PL",
+    "name": "Польща",
+    "flag": "🇵🇱",
+    "region": "Europe",
+    "subregion": "Central Europe"
+  },
+  {
+    "code": "PR",
+    "name": "Пуерто-Рико",
+    "flag": "🇵🇷",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "code": "KP",
+    "name": "Північна Корея",
+    "flag": "🇰🇵",
+    "region": "Asia",
+    "subregion": "Eastern Asia"
+  },
+  {
+    "code": "PT",
+    "name": "Португалія",
+    "flag": "🇵🇹",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "code": "PY",
+    "name": "Парагвай",
+    "flag": "🇵🇾",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "code": "PS",
+    "name": "Палестинські території",
+    "flag": "🇵🇸",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "code": "PF",
+    "name": "Французька Полінезія",
+    "flag": "🇵🇫",
+    "region": "Oceania",
+    "subregion": "Polynesia"
+  },
+  {
+    "code": "QA",
+    "name": "Катар",
+    "flag": "🇶🇦",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "code": "RE",
+    "name": "Реюньйон",
+    "flag": "🇷🇪",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "code": "RO",
+    "name": "Румунія",
+    "flag": "🇷🇴",
+    "region": "Europe",
+    "subregion": "Southeast Europe"
+  },
+  {
+    "code": "RU",
+    "name": "Росія",
+    "flag": "🇷🇺",
+    "region": "Europe",
+    "subregion": "Eastern Europe"
+  },
+  {
+    "code": "RW",
+    "name": "Руанда",
+    "flag": "🇷🇼",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "code": "SA",
+    "name": "Саудівська Аравія",
+    "flag": "🇸🇦",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "code": "SD",
+    "name": "Судан",
+    "flag": "🇸🇩",
+    "region": "Africa",
+    "subregion": "Northern Africa"
+  },
+  {
+    "code": "SN",
+    "name": "Сенегал",
+    "flag": "🇸🇳",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "code": "SG",
+    "name": "Сінгапур",
+    "flag": "🇸🇬",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "code": "GS",
+    "name": "Південна Джорджія та Південні Сандвічеві Острови",
+    "flag": "🇬🇸",
+    "region": "Antarctic",
+    "subregion": ""
+  },
+  {
+    "code": "SJ",
+    "name": "Шпіцберген та Ян-Маєн",
+    "flag": "🇸🇯",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "code": "SB",
+    "name": "Соломонові Острови",
+    "flag": "🇸🇧",
+    "region": "Oceania",
+    "subregion": "Melanesia"
+  },
+  {
+    "code": "SL",
+    "name": "Сьєрра-Леоне",
+    "flag": "🇸🇱",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "code": "SV",
+    "name": "Сальвадор",
+    "flag": "🇸🇻",
+    "region": "Americas",
+    "subregion": "Central America"
+  },
+  {
+    "code": "SM",
+    "name": "Сан-Марино",
+    "flag": "🇸🇲",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "code": "SO",
+    "name": "Сомалі",
+    "flag": "🇸🇴",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "code": "PM",
+    "name": "Сен-Пʼєр і Мікелон",
+    "flag": "🇵🇲",
+    "region": "Americas",
+    "subregion": "North America"
+  },
+  {
+    "code": "RS",
+    "name": "Сербія",
+    "flag": "🇷🇸",
+    "region": "Europe",
+    "subregion": "Southeast Europe"
+  },
+  {
+    "code": "SS",
+    "name": "Південний Судан",
+    "flag": "🇸🇸",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "code": "ST",
+    "name": "Сан-Томе і Принсіпі",
+    "flag": "🇸🇹",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "code": "SR",
+    "name": "Суринам",
+    "flag": "🇸🇷",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "code": "SK",
+    "name": "Словаччина",
+    "flag": "🇸🇰",
+    "region": "Europe",
+    "subregion": "Central Europe"
+  },
+  {
+    "code": "SI",
+    "name": "Словенія",
+    "flag": "🇸🇮",
+    "region": "Europe",
+    "subregion": "Central Europe"
+  },
+  {
+    "code": "SE",
+    "name": "Швеція",
+    "flag": "🇸🇪",
+    "region": "Europe",
+    "subregion": "Northern Europe"
+  },
+  {
+    "code": "SZ",
+    "name": "Есватіні",
+    "flag": "🇸🇿",
+    "region": "Africa",
+    "subregion": "Southern Africa"
+  },
+  {
+    "code": "SX",
+    "name": "Сінт-Мартен",
+    "flag": "🇸🇽",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "code": "SC",
+    "name": "Сейшельські Острови",
+    "flag": "🇸🇨",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "code": "SY",
+    "name": "Сирія",
+    "flag": "🇸🇾",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "code": "TC",
+    "name": "Острови Теркс і Кайкос",
+    "flag": "🇹🇨",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "code": "TD",
+    "name": "Чад",
+    "flag": "🇹🇩",
+    "region": "Africa",
+    "subregion": "Middle Africa"
+  },
+  {
+    "code": "TG",
+    "name": "Того",
+    "flag": "🇹🇬",
+    "region": "Africa",
+    "subregion": "Western Africa"
+  },
+  {
+    "code": "TH",
+    "name": "Таїланд",
+    "flag": "🇹🇭",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "code": "TJ",
+    "name": "Таджикистан",
+    "flag": "🇹🇯",
+    "region": "Asia",
+    "subregion": "Central Asia"
+  },
+  {
+    "code": "TK",
+    "name": "Токелау",
+    "flag": "🇹🇰",
+    "region": "Oceania",
+    "subregion": "Polynesia"
+  },
+  {
+    "code": "TM",
+    "name": "Туркменістан",
+    "flag": "🇹🇲",
+    "region": "Asia",
+    "subregion": "Central Asia"
+  },
+  {
+    "code": "TL",
+    "name": "Тимор-Лешті",
+    "flag": "🇹🇱",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "code": "TO",
+    "name": "Тонга",
+    "flag": "🇹🇴",
+    "region": "Oceania",
+    "subregion": "Polynesia"
+  },
+  {
+    "code": "TT",
+    "name": "Тринідад і Тобаго",
+    "flag": "🇹🇹",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "code": "TN",
+    "name": "Туніс",
+    "flag": "🇹🇳",
+    "region": "Africa",
+    "subregion": "Northern Africa"
+  },
+  {
+    "code": "TR",
+    "name": "Туреччина",
+    "flag": "🇹🇷",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "code": "TV",
+    "name": "Тувалу",
+    "flag": "🇹🇻",
+    "region": "Oceania",
+    "subregion": "Polynesia"
+  },
+  {
+    "code": "TW",
+    "name": "Тайвань",
+    "flag": "🇹🇼",
+    "region": "Asia",
+    "subregion": "Eastern Asia"
+  },
+  {
+    "code": "TZ",
+    "name": "Танзанія",
+    "flag": "🇹🇿",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "code": "UG",
+    "name": "Уганда",
+    "flag": "🇺🇬",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "code": "UA",
+    "name": "Україна",
+    "flag": "🇺🇦",
+    "region": "Europe",
+    "subregion": "Eastern Europe"
+  },
+  {
+    "code": "UM",
+    "name": "Віддалені острови США",
+    "flag": "🇺🇲",
+    "region": "Americas",
+    "subregion": "North America"
+  },
+  {
+    "code": "UY",
+    "name": "Уругвай",
+    "flag": "🇺🇾",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "code": "US",
+    "name": "Сполучені Штати",
+    "flag": "🇺🇸",
+    "region": "Americas",
+    "subregion": "North America"
+  },
+  {
+    "code": "UZ",
+    "name": "Узбекистан",
+    "flag": "🇺🇿",
+    "region": "Asia",
+    "subregion": "Central Asia"
+  },
+  {
+    "code": "VA",
+    "name": "Ватикан",
+    "flag": "🇻🇦",
+    "region": "Europe",
+    "subregion": "Southern Europe"
+  },
+  {
+    "code": "VC",
+    "name": "Сент-Вінсент і Гренадіни",
+    "flag": "🇻🇨",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "code": "VE",
+    "name": "Венесуела",
+    "flag": "🇻🇪",
+    "region": "Americas",
+    "subregion": "South America"
+  },
+  {
+    "code": "VG",
+    "name": "Британські Віргінські острови",
+    "flag": "🇻🇬",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "code": "VI",
+    "name": "Віргінські Острови (США)",
+    "flag": "🇻🇮",
+    "region": "Americas",
+    "subregion": "Caribbean"
+  },
+  {
+    "code": "VN",
+    "name": "Вʼєтнам",
+    "flag": "🇻🇳",
+    "region": "Asia",
+    "subregion": "South-Eastern Asia"
+  },
+  {
+    "code": "VU",
+    "name": "Вануату",
+    "flag": "🇻🇺",
+    "region": "Oceania",
+    "subregion": "Melanesia"
+  },
+  {
+    "code": "WF",
+    "name": "Уолліс і Футуна",
+    "flag": "🇼🇫",
+    "region": "Oceania",
+    "subregion": "Polynesia"
+  },
+  {
+    "code": "WS",
+    "name": "Самоа",
+    "flag": "🇼🇸",
+    "region": "Oceania",
+    "subregion": "Polynesia"
+  },
+  {
+    "code": "YE",
+    "name": "Ємен",
+    "flag": "🇾🇪",
+    "region": "Asia",
+    "subregion": "Western Asia"
+  },
+  {
+    "code": "ZA",
+    "name": "Південно-Африканська Республіка",
+    "flag": "🇿🇦",
+    "region": "Africa",
+    "subregion": "Southern Africa"
+  },
+  {
+    "code": "ZM",
+    "name": "Замбія",
+    "flag": "🇿🇲",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  },
+  {
+    "code": "ZW",
+    "name": "Зімбабве",
+    "flag": "🇿🇼",
+    "region": "Africa",
+    "subregion": "Eastern Africa"
+  }
+]

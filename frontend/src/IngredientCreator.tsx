@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { api } from "./api";
+import { api, getSession } from "./api";
 import type { Ingredient } from "./types";
 
 export function IngredientCreator({ onCreated }: { onCreated: (item: Ingredient) => void | Promise<void> }) {
@@ -26,6 +26,7 @@ export function IngredientCreator({ onCreated }: { onCreated: (item: Ingredient)
     } catch (e) { setError(e instanceof Error ? e.message : "Не вдалося створити інгредієнт"); }
     finally { setPending(false); }
   }
+  if(getSession()?.user.role!=="MODERATOR")return null;
   return <div className="ingredient-creator">
     <button type="button" className="text-button" disabled={pending} aria-expanded={open} onClick={() => { setOpen(!open); setError(""); }}>{open ? "Закрити створення інгредієнта" : "+ Новий інгредієнт"}</button>
     {open && <div className="product-picker">

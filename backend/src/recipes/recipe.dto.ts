@@ -11,6 +11,9 @@ export class RecipeIngredientDto {
 }
 
 export class RecipeDto {
+  @ValidateIf((_,value)=>value!==undefined) @IsBoolean() nutritionAuto?:boolean;
+  @ValidateIf((_,value)=>value!==undefined) @IsUUID() authorId?: string;
+  @ValidateIf((_, value) => value !== undefined) @IsIn(["ANY","BREAKFAST","LUNCH","DINNER","SNACK","DESSERT"]) mealType?: string;
   @Transform(trim) @IsString() @MinLength(2) @MaxLength(160) title!: string;
   @Transform(trim) @IsString() @MaxLength(2000) description!: string;
   @Transform(trim) @IsString() @MinLength(3) @MaxLength(20000) instructions!: string;
@@ -18,7 +21,7 @@ export class RecipeDto {
   @Matches(/^\p{Extended_Pictographic}(?:\uFE0F|\p{Emoji_Modifier})?(?:\u200D\p{Extended_Pictographic}(?:\uFE0F|\p{Emoji_Modifier})?)*$/u, { message: "Оберіть один емодзі для рецепта" })
   emoji!: string;
   @IsOptional() @Transform(trim) @IsString() @MaxLength(2048)
-  @Matches(/^https?:\/\/[^\s]+$/i, { message: "Фото має бути посиланням http:// або https://" })
+  @Matches(/^(?:https?:\/\/[^\s]+|\/api\/v1\/photos\/[0-9a-f-]{36})$/i, { message: "Вкажіть http/https-посилання або завантажте фото" })
   imageUrl?: string | null;
   @ValidateIf((_, value) => value !== undefined) @IsBoolean() isShared?: boolean;
   @ValidateIf((_, value) => value !== undefined) @IsBoolean() isPublished?: boolean;

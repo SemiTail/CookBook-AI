@@ -1,3 +1,4 @@
+import {GuestSupport} from '../GuestSupport';
 import { useState, type FormEvent } from "react";
 import { Link } from "react-router-dom";
 import { api, isSession } from "../api";
@@ -42,5 +43,6 @@ export function AuthPage({ kind, onLogin }: { kind: "login" | "register"; onLogi
       <button className="button button-block" disabled={loading}>{loading ? "Зачекайте…" : isRegister ? "Зареєструватися" : "Увійти"}</button>
       <p className="auth-switch">{isRegister ? "Уже є акаунт?" : "Ще немає акаунта?"} <Link to={isRegister ? "/login" : "/register"}>{isRegister ? "Увійти" : "Зареєструватися"}</Link></p>
     </form>
+    <GuestSupport/>
   </section>;
 }

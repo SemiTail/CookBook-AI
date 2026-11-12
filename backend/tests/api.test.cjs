@@ -56,17 +56,43 @@ test('HTTP integration against an isolated migrated SQLite database', { timeout:
     storedDb.close(); assert.match(stored.passwordHash, /^\$argon2/);
   });
   await t.test('duplicate email returns 409', async () => assert.equal((await request('/auth/register', { method: 'POST', body: credentials })).status, 409));
+  const catalogSession=(await request('/auth/register',{method:'POST',body:{...credentials,email:'catalog@example.com'}})).data;
+  const catalogDb=new Database(dbPath);catalogDb.prepare("UPDATE User SET role='MODERATOR' WHERE id=?").run(catalogSession.user.id);catalogDb.close();
   await t.test('ingredient creation requires login, validates category and rejects normalized duplicates', async () => {
     const body = { name: '  Садова   чорниця  ', category: 'Ягоди' };
     assert.equal((await request('/ingredients', { method: 'POST', body })).status, 401);
     assert.ok((await request('/ingredients/categories')).data.includes('Спеції'));
     for (const patch of [{ name: ' ' }, { category: 'invalid' }, { extra: true }]) {
-      assert.equal((await request('/ingredients', { method: 'POST', token: session.accessToken, body: { ...body, ...patch } })).status, 400);
+      assert.equal((await request('/ingredients', { method: 'POST', token: catalogSession.accessToken, body: { ...body, ...patch } })).status, 400);
     }
-    const result = await request('/ingredients', { method: 'POST', token: session.accessToken, body });
+    const result = await request('/ingredients', { method: 'POST', token: catalogSession.accessToken, body });
     assert.equal(result.status, 201); assert.equal(result.data.name, 'Садова чорниця'); assert.equal(result.data.category, 'Ягоди');
+    assert.deepEqual(result.data.culinaryCountries, []);
     assert.ok((await request('/ingredients')).data.some(item => item.id === result.data.id));
-    assert.equal((await request('/ingredients', { method: 'POST', token: session.accessToken, body: { ...body, name: 'САДОВА ЧОРНИЦЯ' } })).status, 409);
+    assert.equal((await request('/ingredients', { method: 'POST', token: catalogSession.accessToken, body: { ...body, name: 'САДОВА ЧОРНИЦЯ' } })).status, 409);
+  });
+  await t.test('food categories exclude geography and moderator cannot recreate regional categories', async()=>{
+    const names=(await request('/ingredients/categories')).data;
+    assert.ok(!names.includes('Азійські продукти'));
+    for(const name of ['Азійські продукти','Європейські продукти','Японські продукти','Африка']){
+      const response=await request('/ingredients/categories',{method:'POST',token:catalogSession.accessToken,body:{name}});
+      assert.equal(response.status,400);assert.match(response.data.message,/регіональних/);
+    }
+  });
+  await t.test('moderator edits catalog and renames categories without breaking links; automatic recipe uses DB ranges',async()=>{
+    const created=await request('/ingredients',{method:'POST',token:catalogSession.accessToken,body:{name:'Продукт для авторозрахунку',category:'Спеції'}});
+    assert.equal(created.status,201);const iid=created.data.id;
+    const body={name:'Оновлений продукт для авторозрахунку',category:'Спеції',emoji:'🌿',nutritionMode:'range',kcalMin:100,kcalMax:200,proteinMin:10,proteinMax:20,fatMin:0,fatMax:10,carbsMin:20,carbsMax:40,gramsPerUnit:50,densityGramsPerMl:1.2};
+    assert.equal((await request('/ingredients/'+iid,{method:'PATCH',token:session.accessToken,body})).status,403);
+    assert.equal((await request('/ingredients/'+iid,{method:'PATCH',token:catalogSession.accessToken,body:{...body,kcalMin:300}})).status,400);
+    const updated=await request('/ingredients/'+iid,{method:'PATCH',token:catalogSession.accessToken,body});assert.equal(updated.status,200);assert.equal(updated.data.nutritionRange.kcal.min,100);
+    const recipe=await request('/recipes',{method:'POST',token:session.accessToken,body:{title:'Автоматичний рецепт',description:'Тест',instructions:'Змішати продукти',emoji:'🥗',preparationMinutes:10,servings:2,difficulty:'EASY',nutritionAuto:true,calories:999,ingredients:[{ingredientId:iid,quantity:250,unit:'г',optional:false}]}});
+    assert.equal(recipe.status,201);assert.equal(recipe.data.calories,187.5);assert.equal(recipe.data.protein,18.75);
+    const rename=await request('/ingredients/categories/'+encodeURIComponent('Спеції'),{method:'PATCH',token:catalogSession.accessToken,body:{name:'Прянощі тестові'}});assert.equal(rename.status,200);
+    assert.ok(!(await request('/ingredients/categories')).data.includes('Спеції'));
+    const after=(await request('/ingredients')).data.find(x=>x.id===iid);assert.equal(after.category,'Прянощі тестові');assert.deepEqual(after.categoryTags,['Прянощі тестові']);
+    assert.equal((await request('/recipes/'+recipe.data.id,{token:session.accessToken})).data.ingredients[0].ingredientId,iid);
+    assert.equal((await request('/ingredients/categories/'+encodeURIComponent('Прянощі тестові'),{method:'PATCH',token:catalogSession.accessToken,body:{name:'Спеції'}})).status,200);
   });
   await t.test('blank name, short password and unexpected fields return 400', async () => {
     for (const patch of [{ name: '   ' }, { password: 'tiny' }, { role: 'MODERATOR' }, { email: 'invalid' }]) {
@@ -135,7 +161,7 @@ test('HTTP integration against an isolated migrated SQLite database', { timeout:
     assert.ok(!(await request('/recommendations', { token: second.accessToken })).data.some(r => r.id === recipeId));
   });
   await t.test('recipe validation rejects forged ownership, duplicates, missing ingredients and non-emoji', async () => {
-    for (const patch of [{ calories: -1 }, { protein: 'lots' }, { fat: 1.234 }, { carbs: 10001 }, { calories: 100001 }, { authorId: second.user.id }, { isPublished: null }, { imageUrl: "javascript:alert(1)" }, { title: '   ' }, { instructions: ' ' }, { emoji: 'text' }, { ingredients: [] }, { ingredients: [...recipeData.ingredients, ...recipeData.ingredients] }, { ingredients: [{ ingredientId: randomUUID(), optional: false }] }, { ingredients: [{ ingredientId, quantity: -1, optional: false }] }]) {
+    for (const patch of [{ calories: -1 }, { protein: 'lots' }, { fat: 1.234 }, { carbs: 10001 }, { calories: 100001 }, { isPublished: null }, { imageUrl: "javascript:alert(1)" }, { title: '   ' }, { instructions: ' ' }, { emoji: 'text' }, { ingredients: [] }, { ingredients: [...recipeData.ingredients, ...recipeData.ingredients] }, { ingredients: [{ ingredientId: randomUUID(), optional: false }] }, { ingredients: [{ ingredientId, quantity: -1, optional: false }] }]) {
       assert.equal((await request('/recipes', { method: 'POST', token: session.accessToken, body: { ...recipeData, ...patch } })).status, 400, JSON.stringify(patch));
     }
   });
@@ -224,12 +250,12 @@ test('HTTP integration against an isolated migrated SQLite database', { timeout:
     const login = await request('/auth/login', { method: 'POST', body: { email: 'moderator@example.com', password: credentials.password } });
     assert.equal(login.data.user.role, 'MODERATOR');
     moderator.accessToken = login.data.accessToken;
-    assert.equal((await request('/recipes', { method: 'POST', token: moderator.accessToken, body: { ...published, imageUrl: null } })).status, 400);
+    assert.equal((await request('/recipes', { method: 'POST', token: moderator.accessToken, body: { ...published, imageUrl: null } })).status, 201);
     const created = await request('/recipes', { method: 'POST', token: moderator.accessToken, body: published });
     assert.equal(created.status, 201);
     const path = `/recipes/${created.data.id}`;
     assert.equal((await request(path, { token: second.accessToken })).data.imageUrl, published.imageUrl);
-    assert.equal((await request(path, { method: 'PUT', token: moderator.accessToken, body: { ...recipeData, imageUrl: null } })).status, 400);
+    assert.equal((await request(path, { method: 'PUT', token: moderator.accessToken, body: { ...recipeData, imageUrl: null } })).status, 200);
     assert.ok((await request('/recipes')).data.some(r => r.id === created.data.id));
     assert.equal((await request(path, { method: 'PUT', token: second.accessToken, body: recipeData })).status, 404);
     assert.equal((await request(path, { method: 'DELETE', token: second.accessToken })).status, 404);
@@ -264,11 +290,11 @@ test('HTTP integration against an isolated migrated SQLite database', { timeout:
   });
 
   await t.test('community privacy, profiles, categories, emoji, ratings and comment ownership', async () => {
-    const category = await request('/ingredients/categories', {method:'POST',token:session.accessToken,body:{name:'Соуси тест'}});
+    const category = await request('/ingredients/categories', {method:'POST',token:catalogSession.accessToken,body:{name:'Соуси тест'}});
     assert.equal(category.status,201);
     assert.ok((await request('/ingredients/categories')).data.includes('Соуси тест'));
-    assert.equal((await request('/ingredients/categories',{method:'POST',token:session.accessToken,body:{name:'соуси тест'}})).status,409);
-    const ingredient = await request('/ingredients',{method:'POST',token:session.accessToken,body:{name:'Песто тест',category:'Соуси тест',emoji:'🌿'}});
+    assert.equal((await request('/ingredients/categories',{method:'POST',token:catalogSession.accessToken,body:{name:'соуси тест'}})).status,409);
+    const ingredient = await request('/ingredients',{method:'POST',token:catalogSession.accessToken,body:{name:'Песто тест',category:'Соуси тест',emoji:'🌿'}});
     assert.equal(ingredient.data.emoji,'🌿');
     const own = (await request('/recipes',{method:'POST',token:session.accessToken,body:{...recipeData,isShared:false}})).data;
     const path='/recipes/'+own.id;
@@ -292,9 +318,190 @@ test('HTTP integration against an isolated migrated SQLite database', { timeout:
     assert.equal((await request('/users/me/profile',{method:'PUT',token:session.accessToken,body:profile})).status,200);
     const publicProfile=(await request('/users/'+session.user.id+'/profile',{token:second.accessToken})).data;
     assert.equal(publicProfile.email,undefined); assert.ok(publicProfile.recipes.some(r=>r.id===own.id));
+    const ratedProfileRecipe=publicProfile.recipes.find(r=>r.id===own.id);assert.equal(ratedProfileRecipe.averageRating,5);assert.equal(ratedProfileRecipe.ratingCount,1);assert.equal(ratedProfileRecipe.ratings,undefined);
     await request(path,{method:'PUT',token:session.accessToken,body:{...recipeData,isShared:false}});
     assert.ok(!(await request('/users/'+session.user.id+'/profile',{token:second.accessToken})).data.recipes.some(r=>r.id===own.id));
     assert.equal((await request(path+'/discussion',{token:second.accessToken})).status,404);
+  });
+
+  await t.test('saved and following feeds preserve privacy, meal type and publication time', async()=>{
+    const r=(await request('/recipes',{method:'POST',token:session.accessToken,body:{...recipeData,mealType:'BREAKFAST',isShared:true}})).data;
+    const path='/recipes/'+r.id;
+    assert.equal(r.mealType,'BREAKFAST');assert.ok(r.publishedAt);
+    assert.equal((await request('/library/follow/'+session.user.id,{method:'PUT',token:second.accessToken})).status,200);
+    await request('/library/follow/'+session.user.id,{method:'PUT',token:second.accessToken});
+    assert.equal((await request('/library/following',{token:second.accessToken})).data.users.length,1);
+    assert.ok((await request('/library/following',{token:second.accessToken})).data.recipes.some(x=>x.id===r.id));
+    await request(path+'/favorite',{method:'PUT',token:second.accessToken});
+    assert.ok((await request('/library/saved',{token:second.accessToken})).data.some(x=>x.id===r.id));
+    assert.ok(!(await request('/library/saved',{token:session.accessToken})).data.some(x=>x.id===r.id));
+    await request(path+'/rating',{method:'PUT',token:second.accessToken,body:{value:4}});
+    assert.equal((await request('/library/ratings',{token:second.accessToken})).data.find(x=>x.id===r.id).average,4);
+    await request(path,{method:'PUT',token:session.accessToken,body:{...recipeData,isShared:true,mealType:'DINNER'}});
+    assert.equal((await request(path,{token:session.accessToken})).data.publishedAt,r.publishedAt);
+    assert.equal((await request(path,{method:'PUT',token:session.accessToken,body:{...recipeData,mealType:'INVALID'}})).status,400);
+    await request(path,{method:'PUT',token:session.accessToken,body:{...recipeData,isShared:false}});
+    assert.ok(!(await request('/library/saved',{token:second.accessToken})).data.some(x=>x.id===r.id));
+    assert.ok(!(await request('/library/following',{token:second.accessToken})).data.recipes.some(x=>x.id===r.id));
+    await request('/library/follow/'+session.user.id,{method:'DELETE',token:second.accessToken});
+    assert.equal((await request('/library/following',{token:second.accessToken})).data.users.length,0);
+    assert.equal((await request('/library/follow/'+session.user.id,{method:'PUT',token:session.accessToken})).status,400);
+  });
+
+  await t.test('moderators manage others recipes and unused ingredients; author and dependencies preserved',async()=>{
+    const moderator=(await request('/auth/register',{method:'POST',body:{...credentials,email:'manage@example.com'}})).data;
+    const adminDb=new Database(dbPath);
+    adminDb.prepare("UPDATE User SET role='MODERATOR' WHERE id=?").run(moderator.user.id);
+    const own=(await request('/recipes',{method:'POST',token:session.accessToken,body:recipeData})).data;
+    const path='/recipes/'+own.id;
+    assert.equal((await request('/recipes/moderation',{token:session.accessToken})).status,403);
+    assert.ok((await request('/recipes/moderation',{token:moderator.accessToken})).data.some(x=>x.id===own.id));
+    const detail=(await request(path,{token:moderator.accessToken})).data;
+    assert.equal(detail.author.id,session.user.id);assert.equal(detail.author.email,undefined);assert.equal(detail.author.passwordHash,undefined);
+    assert.equal((await request(path,{method:'PUT',token:moderator.accessToken,body:{...recipeData,title:'Модератор відредагував'}})).status,200);
+    assert.equal((await request(path,{token:session.accessToken})).data.authorId,session.user.id);
+    assert.equal((await request(path,{method:'DELETE',token:second.accessToken})).status,404);
+    const ingredient=(await request('/ingredients',{method:'POST',token:catalogSession.accessToken,body:{name:'Видалення тест',category:'Овочі'}})).data;
+    assert.equal((await request('/ingredients/'+ingredient.id,{method:'DELETE',token:session.accessToken})).status,403);
+
+    assert.equal((await request('/ingredients/'+ingredient.id,{method:'DELETE',token:moderator.accessToken})).status,200);
+    assert.equal((await request('/ingredients/'+ingredient.id,{method:'DELETE',token:moderator.accessToken})).status,404);
+    const published=(await request('/recipes',{method:'POST',token:moderator.accessToken,body:{...recipeData,isPublished:true,imageUrl:'https://example.com/food.jpg'}})).data;
+    adminDb.prepare("UPDATE User SET role='USER' WHERE id=?").run(moderator.user.id);
+    assert.equal((await request(path,{method:'DELETE',token:moderator.accessToken})).status,404);
+    adminDb.prepare("UPDATE User SET role='MODERATOR' WHERE id=?").run(second.user.id);
+    assert.equal((await request('/recipes/'+published.id,{method:'PUT',token:second.accessToken,body:{...recipeData,isPublished:true,imageUrl:'https://example.com/food.jpg'}})).status,200);
+    assert.equal((await request('/recipes/'+published.id,{method:'DELETE',token:second.accessToken})).status,200);
+    assert.equal((await request(path,{method:'DELETE',token:second.accessToken})).status,200);
+    adminDb.close();
+  });
+
+  await t.test('moderator-only catalog, force delete dependencies, and immutable original authorship',async()=>{
+    assert.equal((await request('/ingredients',{method:'POST',token:session.accessToken,body:{name:'Forbidden item',category:'Овочі'}})).status,403);
+    assert.equal((await request('/ingredients/categories',{method:'POST',token:session.accessToken,body:{name:'Forbidden category'}})).status,403);
+    const item=(await request('/ingredients',{method:'POST',token:catalogSession.accessToken,body:{name:'Used deletion fixture',category:'Овочі'}})).data;
+    const body={...recipeData,isShared:true,ingredients:[{ingredientId:item.id,quantity:50,unit:'г',optional:false}]};
+    const recipe=(await request('/recipes',{method:'POST',token:session.accessToken,body})).data;
+    const path='/recipes/'+recipe.id;
+    assert.equal((await request(path,{method:'PUT',token:session.accessToken,body:{...body,authorId:catalogSession.user.id}})).status,403);
+    assert.equal((await request(path,{method:'PUT',token:catalogSession.accessToken,body:{...body,authorId:second.user.id}})).status,200);
+    assert.equal((await request(path,{method:'PUT',token:catalogSession.accessToken,body:{...body,authorId:catalogSession.user.id}})).status,200);
+    const info=(await request(path,{token:catalogSession.accessToken})).data;
+    assert.equal(info.authorId,catalogSession.user.id);assert.equal(info.originalAuthorship.user.id,session.user.id);
+    assert.equal((await request(path,{token:session.accessToken})).data.originalAuthorship,undefined);
+    assert.equal((await request('/recipes/authors',{token:session.accessToken})).status,403);
+    assert.equal((await request('/recipes/authors',{token:catalogSession.accessToken})).status,200);
+    await request('/fridge',{method:'POST',token:session.accessToken,body:{ingredientId:item.id}});
+    const fixtures=new Database(dbPath);fixtures.prepare('INSERT INTO ShoppingListItem (id,userId,ingredientId) VALUES (?,?,?)').run(randomUUID(),session.user.id,item.id);fixtures.close();
+    const deleted=await request('/ingredients/'+item.id,{method:'DELETE',token:catalogSession.accessToken});
+    assert.equal(deleted.status,200);assert.equal(deleted.data.affectedRecipes,1);assert.equal(deleted.data.affectedFridges,1);assert.equal(deleted.data.affectedShoppingItems,1);
+    const remaining=(await request(path,{token:catalogSession.accessToken})).data;
+    assert.equal(remaining.ingredients.length,0);assert.equal(remaining.calories,null);
+    assert.ok(!(await request('/fridge',{token:session.accessToken})).data.some(x=>x.ingredientId===item.id));
+  });
+
+  await t.test('photo upload validates images and 2.5 MB then persists in recipe',async()=>{
+    const png=await require('sharp')({create:{width:32,height:32,channels:3,background:{r:30,g:150,b:70}}}).png().toBuffer();
+    async function upload(data,token=session.accessToken) {
+      const form=new FormData();form.append('photo',new Blob([data],{type:'image/png'}),'dish.png');
+      return fetch(base+'/photos',{method:'POST',headers:token?{Authorization:'Bearer '+token}:{},body:form});
+    }
+    assert.equal((await upload(png,null)).status,401);
+    assert.equal((await upload(Buffer.from('<script>fake image</script>'))).status,400);
+    assert.equal((await upload(Buffer.alloc(2500001))).status,413);
+    assert.equal((await upload(Buffer.concat([png,Buffer.alloc(2500000-png.length)]))).status,201);
+    const response=await upload(png);assert.equal(response.status,201);
+    const photo=await response.json();
+    const fetched=await fetch(new URL(photo.imageUrl,base));assert.equal(fetched.status,200);assert.equal(fetched.headers.get('content-type'),'image/webp');
+    assert.ok((await fetched.arrayBuffer()).byteLength>0);
+    const recipe=(await request('/recipes',{method:'POST',token:session.accessToken,body:{...recipeData,imageUrl:photo.imageUrl}})).data;
+    assert.equal(recipe.imageUrl,photo.imageUrl);
+    assert.equal((await request('/recipes/'+recipe.id,{token:session.accessToken})).data.imageUrl,photo.imageUrl);
+    assert.equal((await request('/recipes/'+recipe.id,{method:'PUT',token:session.accessToken,body:{...recipeData,imageUrl:null}})).status,200);
+  });
+
+  await t.test('personal library history, statistics and bulk removal enforce ownership and recipe privacy',async()=>{
+    const visitor=(await request('/auth/register',{method:'POST',body:{...credentials,email:'library-visitor@example.com'}})).data;
+    const own=(await request('/recipes',{method:'POST',token:session.accessToken,body:{...recipeData,title:'Private history target'}})).data;
+    const shared=(await request('/recipes',{method:'POST',token:session.accessToken,body:{...recipeData,title:'Shared library target',isShared:true}})).data;
+    assert.equal((await request('/library/history')).status,401);
+    const search={query:'  Суп   з овочами  ',source:'official',recipeIds:[own.id,shared.id]};
+    const logged=await request('/library/history',{method:'POST',token:visitor.accessToken,body:search});assert.equal(logged.status,201);assert.equal(logged.data.query,'Суп з овочами');
+    const repeated=await request('/library/history',{method:'POST',token:visitor.accessToken,body:search});assert.equal(repeated.data.id,logged.data.id);
+    const ownerHistory=(await request('/library/history',{method:'POST',token:session.accessToken,body:{query:'My private dish',source:'mine',recipeIds:[own.id]}})).data;
+    const history=(await request('/library/history',{token:visitor.accessToken})).data;
+    assert.equal(history.items.length,1);assert.deepEqual(history.items[0].recipes.map(x=>x.id),[shared.id]);assert.equal(history.items[0].recipes[0].author.email,undefined);
+    assert.ok(!(await request('/library/history',{token:session.accessToken})).data.items.some(x=>x.id===logged.data.id));
+    assert.equal((await request('/library/history?cursor='+ownerHistory.id,{token:visitor.accessToken})).status,404);
+    assert.equal((await request('/library/history',{method:'DELETE',token:session.accessToken,body:{ids:[logged.data.id]}})).data.count,0);
+    assert.equal((await request('/library/history',{method:'POST',token:visitor.accessToken,body:{...search,userId:session.user.id}})).status,400);
+    assert.equal((await request('/library/history',{method:'POST',token:visitor.accessToken,body:{...search,source:'invalid'}})).status,400);
+    for(const ids of [[],[shared.id,shared.id],Array.from({length:501},(_,i)=>String(i))])assert.equal((await request('/library/saved',{method:'DELETE',token:visitor.accessToken,body:{ids}})).status,400);
+    for(const token of [session.accessToken,visitor.accessToken])await request('/recipes/'+shared.id+'/favorite',{method:'PUT',token});
+    await request('/library/follow/'+session.user.id,{method:'PUT',token:visitor.accessToken});
+    await request('/library/follow/'+visitor.user.id,{method:'PUT',token:session.accessToken});
+    assert.equal((await request('/library/following',{method:'DELETE',token:session.accessToken,body:{ids:[session.user.id]}})).data.count,0);
+    assert.equal((await request('/library/follow/'+session.user.id,{token:visitor.accessToken})).data.following,true);
+    const stats=(await request('/library/stats?userId='+session.user.id,{token:visitor.accessToken})).data;
+    assert.equal(stats.recipes,0);assert.equal(stats.saved,1);assert.equal(stats.following,1);assert.equal(stats.history,1);assert.equal(stats.averageRating,null);
+    await request('/recipes/'+shared.id,{method:'PUT',token:session.accessToken,body:{...recipeData,title:'Shared library target',isShared:false}});
+    const hidden=(await request('/library/saved-items',{token:visitor.accessToken})).data.find(x=>x.id===shared.id);assert.ok(hidden);assert.equal(hidden.recipe,null);
+    assert.equal((await request('/library/history',{token:visitor.accessToken})).data.items[0].recipes.length,0);
+    assert.equal((await request('/library/saved',{method:'DELETE',token:visitor.accessToken,body:{ids:[shared.id]}})).data.count,1);
+    assert.equal((await request('/recipes/'+shared.id+'/favorite',{token:session.accessToken})).data.saved,true);
+    assert.equal((await request('/library/following',{method:'DELETE',token:visitor.accessToken,body:{ids:[session.user.id]}})).data.count,1);
+    assert.equal((await request('/library/follow/'+visitor.user.id,{token:session.accessToken})).data.following,true);
+    const pages=new Database(dbPath);const insert=pages.prepare('INSERT INTO SearchHistory(id,userId,query,source,createdAt) VALUES (?,?,?,?,?)');
+    for(let i=0;i<101;i++)insert.run(randomUUID(),visitor.user.id,'Page '+i,'official',new Date(Date.now()-i*1000).toISOString());pages.close();
+    const first=(await request('/library/history',{token:visitor.accessToken})).data;assert.equal(first.items.length,100);assert.ok(first.nextCursor);
+    const last=(await request('/library/history?cursor='+first.nextCursor,{token:visitor.accessToken})).data;assert.equal(last.items.length,2);assert.equal(last.nextCursor,null);
+    const ids=[...first.items,...last.items].map(x=>x.id);assert.equal(new Set(ids).size,102);
+    assert.equal((await request('/library/history',{method:'DELETE',token:visitor.accessToken,body:{ids}})).data.count,102);
+    assert.ok((await request('/library/history',{token:session.accessToken})).data.items.some(x=>x.id===ownerHistory.id));
+    assert.equal((await request('/recipes/'+own.id,{token:session.accessToken})).status,200);
+    assert.equal((await request('/recipes/'+shared.id,{token:session.accessToken})).status,200);
+  });
+
+  await t.test('thread replies, unique handles, mention notifications and statistics respect privacy and comment ownership',async()=>{
+   async function user(label,handle){const u=(await request('/auth/register',{method:'POST',body:{...credentials,email:label+'@example.com',name:label}})).data;const updated=await request('/users/me/profile',{method:'PUT',token:u.accessToken,body:{name:label,handle,bio:'',avatarUrl:null,coverUrl:null,showRecipes:true}});assert.equal(updated.status,200);return {...u,handle:updated.data.handle};}
+   const owner=await user('ThreadOwner','thread_owner'),writer=await user('ThreadWriter','thread_writer'),target=await user('ThreadTarget','thread_target');
+   const profile={name:'ThreadTarget',bio:'',avatarUrl:null,coverUrl:null,showRecipes:true};
+   assert.equal((await request('/users/me/profile',{method:'PUT',token:target.accessToken,body:{...profile,handle:'THREAD_OWNER'}})).status,409);
+   for(const handle of ['bad handle','a',null])assert.equal((await request('/users/me/profile',{method:'PUT',token:target.accessToken,body:{...profile,handle}})).status,400);
+   const recipe=(await request('/recipes',{method:'POST',token:owner.accessToken,body:{...recipeData,title:'Threaded recipe',isShared:true}})).data;
+   const other=(await request('/recipes',{method:'POST',token:owner.accessToken,body:{...recipeData,title:'Private thread recipe'}})).data;
+   const path='/recipes/'+recipe.id;
+   const suggestions=await request('/users/mention-targets?recipeId='+recipe.id+'&q=thread_target',{token:writer.accessToken});assert.equal(suggestions.status,200);assert.equal(suggestions.data[0].id,target.user.id);assert.equal(suggestions.data[0].email,undefined);
+   const root=(await request(path+'/comments',{method:'POST',token:writer.accessToken,body:{text:'Привіт, @THREAD_OWNER та @thread_target! @thread_target @thread_writer'}})).data;
+   assert.ok(root.id);assert.equal(root.mentions.length,2);
+   const ownerNotice=(await request('/library/mentions',{token:owner.accessToken})).data;assert.equal(ownerNotice.unread,1);assert.equal(ownerNotice.items[0].comment.id,root.id);
+   const targetNotice=(await request('/library/mentions',{token:target.accessToken})).data;assert.equal(targetNotice.unread,1);
+   assert.equal((await request('/library/mentions/'+targetNotice.items[0].id+'/read',{method:'PUT',token:owner.accessToken})).status,404);
+   assert.equal((await request('/library/mentions/'+targetNotice.items[0].id+'/read',{method:'PUT',token:target.accessToken})).status,200);
+   const reply=(await request(path+'/comments',{method:'POST',token:owner.accessToken,body:{text:'Дякую за коментар',parentId:root.id}})).data;assert.equal(reply.parentId,root.id);
+   const replied=(await request('/library/mentions',{token:writer.accessToken})).data;assert.equal(replied.unread,1);assert.equal(replied.items[0].kind,'reply');
+   assert.equal((await request('/recipes/'+other.id+'/comments',{method:'POST',token:owner.accessToken,body:{text:'Wrong parent',parentId:root.id}})).status,404);
+   assert.equal((await request(path+'/comments',{method:'POST',token:writer.accessToken,body:{text:Array.from({length:11},(_,i)=>'@unknown_'+i).join(' ')}})).status,400);
+   await request('/users/me/profile',{method:'PUT',token:target.accessToken,body:{...profile,handle:'thread_target_new'}});
+   const thread=(await request(path+'/discussion',{token:target.accessToken})).data;const originalMention=thread.comments.find(c=>c.id===root.id).mentions.find(m=>m.recipient.id===target.user.id);assert.equal(originalMention.handle,'thread_target');assert.equal(originalMention.recipient.handle,'thread_target_new');
+   await request(path+'/rating',{method:'PUT',token:target.accessToken,body:{value:5}});
+   const rated=(await request('/library/rated-recipes',{token:owner.accessToken})).data;assert.equal(rated.length,1);assert.equal(rated[0].averageRating,5);assert.equal(rated[0].ratingCount,1);
+   assert.deepEqual((await request('/library/rated-recipes',{token:writer.accessToken})).data,[]);
+   const mine=(await request('/library/comments/mine',{token:writer.accessToken})).data;assert.equal(mine[0].comments[0].id,root.id);
+   const community=(await request('/library/comments/community',{token:owner.accessToken})).data;assert.equal(community[0].comments[0].user.id,writer.user.id);
+   const stats=(await request('/library/stats',{token:owner.accessToken})).data;assert.equal(stats.myComments,1);assert.equal(stats.communityComments,1);
+   const hiddenCandidates=(await request('/users/mention-targets?recipeId='+other.id+'&q=thread_target',{token:owner.accessToken})).data;assert.equal(hiddenCandidates.length,0);
+   await request('/recipes/'+other.id+'/comments',{method:'POST',token:owner.accessToken,body:{text:'Приватно @thread_target_new'}});
+   assert.equal((await request('/library/mentions',{token:target.accessToken})).data.items.length,1);
+   assert.equal((await request(path+'/comments/'+root.id,{method:'DELETE',token:target.accessToken})).status,404);
+   assert.equal((await request(path+'/comments/'+root.id,{method:'DELETE',token:writer.accessToken})).status,200);
+   const after=(await request(path+'/discussion',{token:owner.accessToken})).data;assert.equal(after.comments.find(c=>c.id===root.id).text,'');assert.ok(after.comments.find(c=>c.id===root.id).deletedAt);assert.equal(after.comments.find(c=>c.id===reply.id).parentId,root.id);
+   assert.equal((await request('/library/mentions',{token:target.accessToken})).data.items.length,0);
+   assert.equal((await request(path+'/comments',{method:'POST',token:owner.accessToken,body:{text:'Reply to removed',parentId:root.id}})).status,404);
+   await request(path,{method:'PUT',token:owner.accessToken,body:{...recipeData,title:'Threaded recipe',isShared:false}});
+   assert.equal((await request('/library/mentions',{token:writer.accessToken})).data.items.length,0);
+   assert.deepEqual((await request('/library/comments/mine',{token:writer.accessToken})).data,[]);
+   assert.equal((await request('/library/mentions')).status,401);
   });
 
 });

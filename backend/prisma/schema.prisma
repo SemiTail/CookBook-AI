@@ -23,20 +23,36 @@ enum Difficulty {
 model User {
   id           String   @id @default(uuid())
   name         String
+  handle       String @unique @default(cuid())
   email        String   @unique
+  deletedAt DateTime?
+  deletionReason String?
+  authVersion Int @default(0)
+  profileHiddenAt DateTime?
   passwordHash String
   role         UserRole @default(USER)
   createdAt    DateTime @default(now())
   updatedAt    DateTime @updatedAt
 
+  ownedGrants BlogGrant[] @relation("GrantOwner")
+  adminGrants BlogGrant[] @relation("GrantAdmin")
+  notices AccountNotice[]
+  reposts RecipeRepost[]
+  searchHistory SearchHistory[]
+  mentions CommentMention[]
   comments Comment[]
   ratings Rating[]
   profile       Profile?
+  originalRecipes RecipeAuthorship[]
   recipes       Recipe[]
   fridgeItems   FridgeItem[]
   favorites     Favorite[]
+  recipeCollections RecipeCollection[]
+  recipeNotes RecipeNote[]
   shoppingItems ShoppingListItem[]
   chatTurns     ChatTurn[]
+  following Follow[] @relation("Follower")
+  followers Follow[] @relation("Following")
 }
 
 model ChatTurn {
@@ -65,6 +81,7 @@ model Profile {
 
 model Recipe {
   id                 String     @id @default(uuid())
+  hiddenAt DateTime?
   title              String
   emoji              String     @default("🍽️")
   description        String?
@@ -79,15 +96,21 @@ model Recipe {
   fat      Float?
   carbs    Float?
 
+  nutritionAuto Boolean @default(false)
+  mealType String @default("ANY")
+  publishedAt DateTime?
   isShared Boolean @default(false)
+  reposts RecipeRepost[]
   comments Comment[]
   ratings Rating[]
   isPublished Boolean @default(false)
   authorId    String?
   author      User?   @relation(fields: [authorId], references: [id], onDelete: SetNull)
 
+  originalAuthorship RecipeAuthorship?
   ingredients RecipeIngredient[]
   favorites   Favorite[]
+  privateNotes RecipeNote[]
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
@@ -100,11 +123,23 @@ model Ingredient {
   name     String @unique
   emoji String?
   category String
+  gramsPerUnit Float?
+  densityGramsPerMl Float?
 
   caloriesPer100g Float?
   proteinPer100g  Float?
   fatPer100g      Float?
   carbsPer100g    Float?
+  nutritionStatus String @default("unverified")
+  nutritionSource String?
+  nutritionSourceUrl String?
+  nutritionSourceFood String?
+  nutritionNote String?
+  nutritionUpdatedAt DateTime?
+  categoryTags Json @default("[]")
+  culinaryRegions Json @default("[]")
+  culinaryCountries Json @default("[]")
+  nutritionRange Json?
 
   recipes       RecipeIngredient[]
   fridgeItems   FridgeItem[]
@@ -146,8 +181,43 @@ model Favorite {
 
   user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
   recipe Recipe @relation(fields: [recipeId], references: [id], onDelete: Cascade)
+  collectionItems CollectionItem[]
 
   @@id([userId, recipeId])
+}
+
+model RecipeCollection {
+  id String @id @default(uuid())
+  userId String
+  name String
+  nameKey String
+  createdAt DateTime @default(now())
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  items CollectionItem[]
+  @@unique([userId, nameKey])
+  @@unique([id, userId])
+}
+
+model RecipeNote {
+  userId String
+  recipeId String
+  text String
+  revision Int @default(1)
+  updatedAt DateTime @updatedAt
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  recipe Recipe @relation(fields: [recipeId], references: [id], onDelete: Cascade)
+  @@id([userId, recipeId])
+}
+
+model CollectionItem {
+  collectionId String
+  userId String
+  recipeId String
+  addedAt DateTime @default(now())
+  collection RecipeCollection @relation(fields: [collectionId, userId], references: [id, userId], onDelete: Cascade)
+  favorite Favorite @relation(fields: [userId, recipeId], references: [userId, recipeId], onDelete: Cascade)
+  @@id([collectionId, recipeId])
+  @@index([userId, recipeId])
 }
 
 model ShoppingListItem {
@@ -168,6 +238,13 @@ model Category {
  name String @id
 }
 model Comment {
+ hiddenAt DateTime?
+ pinnedAt DateTime?
+ parentId String?
+ deletedAt DateTime?
+ parent Comment? @relation("CommentThread",fields:[parentId],references:[id],onDelete:SetNull)
+ replies Comment[] @relation("CommentThread")
+ mentions CommentMention[]
  id String @id @default(uuid())
  text String
  createdAt DateTime @default(now())
@@ -176,6 +253,7 @@ model Comment {
  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
  recipe Recipe @relation(fields: [recipeId], references: [id], onDelete: Cascade)
  @@index([recipeId, createdAt])
+ @@index([parentId])
 }
 model Rating {
  userId String
@@ -184,4 +262,168 @@ model Rating {
  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
  recipe Recipe @relation(fields: [recipeId], references: [id], onDelete: Cascade)
  @@id([userId, recipeId])
+}
+
+model Follow {
+ followerId String
+ followingId String
+ createdAt DateTime @default(now())
+ follower User @relation("Follower", fields: [followerId], references: [id], onDelete: Cascade)
+ following User @relation("Following", fields: [followingId], references: [id], onDelete: Cascade)
+ @@id([followerId, followingId])
+ @@index([followingId])
+}
+
+model RecipeAuthorship {
+ recipeId String @id
+ userId String?
+ recipe Recipe @relation(fields: [recipeId], references: [id], onDelete: Cascade)
+ user User? @relation(fields: [userId], references: [id], onDelete: SetNull)
+}
+
+model RecipePhoto {
+ id String @id @default(uuid())
+ data Bytes
+ createdAt DateTime @default(now())
+}
+
+model SearchHistory {
+ id String @id @default(uuid())
+ userId String
+ query String
+ source String @default("official")
+ profileUserId String?
+ recipeIds Json @default("[]")
+ createdAt DateTime @default(now())
+ user User @relation(fields:[userId],references:[id],onDelete:Cascade)
+ @@index([userId,createdAt,id])
+}
+
+model CommentMention {
+ id String @id @default(uuid())
+ commentId String
+ recipientId String
+ handle String
+ kind String @default("mention")
+ createdAt DateTime @default(now())
+ readAt DateTime?
+ comment Comment @relation(fields:[commentId],references:[id],onDelete:Cascade)
+ recipient User @relation(fields:[recipientId],references:[id],onDelete:Cascade)
+ @@unique([commentId,recipientId])
+ @@index([recipientId,createdAt])
+}
+
+model BlogGrant {
+ id String @id @default(uuid())
+ ownerId String
+ adminId String
+ editRecipes Boolean @default(false)
+ hideRecipes Boolean @default(false)
+ manageComments Boolean @default(false)
+ editProfile Boolean @default(false)
+ instructions String @default("")
+ createdAt DateTime @default(now())
+ updatedAt DateTime @updatedAt
+ owner User @relation("GrantOwner",fields:[ownerId],references:[id],onDelete:Cascade)
+ admin User @relation("GrantAdmin",fields:[adminId],references:[id],onDelete:Cascade)
+ @@unique([ownerId,adminId])
+ @@index([adminId])
+}
+model AccountNotice {
+ id String @id @default(uuid())
+ recipientId String
+ title String
+ text String
+ ownerId String?
+ createdAt DateTime @default(now())
+ readAt DateTime?
+ recipient User @relation(fields:[recipientId],references:[id],onDelete:Cascade)
+ @@index([recipientId,createdAt])
+}
+model AuditEvent {
+ actorRole String @default("USER")
+ id String @id @default(uuid())
+ ownerId String?
+ actorId String
+ actorName String
+ action String
+ targetId String?
+ targetTitle String
+ details Json
+ createdAt DateTime @default(now())
+ @@index([ownerId,createdAt])
+ @@index([actorId,createdAt])
+}
+
+model Report {
+ id String @id @default(uuid())
+ reporterId String
+ targetUserId String
+ targetType String
+ targetId String
+ commentId String?
+ recipeId String?
+ snapshot Json
+ reasons Json
+ customReason String @default("")
+ status String @default("OPEN")
+ decision String?
+ resolutionNote String?
+ resolvedById String?
+ resolvedAt DateTime?
+ createdAt DateTime @default(now())
+ updatedAt DateTime @updatedAt
+ @@index([status,createdAt])
+ @@index([reporterId,createdAt])
+}
+model SupportThread {
+ id String @id @default(uuid())
+ tokenHash String @unique
+ contact String
+ contactType String
+ guestName String
+ ipHash String
+ status String @default("OPEN")
+ lastSeenAt DateTime @default(now())
+ lastGuestAt DateTime @default(now())
+ lastModeratorAt DateTime?
+ createdAt DateTime @default(now())
+ updatedAt DateTime @updatedAt
+ messages SupportMessage[]
+ @@index([status,updatedAt])
+ @@index([ipHash,createdAt])
+}
+model SupportMessage {
+ profileUserId String?
+ id String @id @default(uuid())
+ threadId String
+ text String
+ authorId String?
+ authorName String
+ isModerator Boolean @default(false)
+ deliveryStatus String @default("IN_CHAT")
+ createdAt DateTime @default(now())
+ thread SupportThread @relation(fields:[threadId],references:[id],onDelete:Cascade)
+ @@index([threadId,createdAt])
+ @@index([deliveryStatus,createdAt])
+}
+
+model PreviousHandle {
+ id String @id @default(uuid())
+ userId String
+ handle String
+ name String
+ createdAt DateTime @default(now())
+ @@index([handle])
+ @@index([userId])
+}
+
+model RecipeRepost {
+ userId String
+ recipeId String
+ createdAt DateTime @default(now())
+ user User @relation(fields:[userId],references:[id],onDelete:Cascade)
+ recipe Recipe @relation(fields:[recipeId],references:[id],onDelete:Cascade)
+ @@id([userId,recipeId])
+ @@index([recipeId])
 }

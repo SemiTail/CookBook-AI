@@ -1,3 +1,4 @@
+import {publicRecipeFilter} from '../users/management.service';
 import { ConflictException, Injectable, OnModuleDestroy, OnModuleInit } from "@nestjs/common";
 import { PrismaService } from "../prisma/prisma.service";
 import { GeminiService, type GeminiMessage } from "./gemini.service";
@@ -36,7 +37,7 @@ export class AssistantService implements OnModuleInit, OnModuleDestroy {
       await this.purge();
       const [fridge, recipes, recent] = await Promise.all([
         this.prisma.fridgeItem.findMany({ where: { userId }, include: { ingredient: { select: { name: true } } }, orderBy: { ingredient: { name: "asc" } } }),
-        this.prisma.recipe.findMany({ where: { OR: [{ isPublished: true }, { isShared: true }, { authorId: userId }] }, orderBy: { updatedAt: "desc" }, take: 40, select: { title: true, emoji: true, description: true, preparationMinutes: true, ingredients: { select: { optional: true, ingredient: { select: { name: true } } } } } }),
+        this.prisma.recipe.findMany({ where: { OR: [{authorId:userId},{...publicRecipeFilter,OR:[{ isPublished: true }, { isShared: true }]}] }, orderBy: { updatedAt: "desc" }, take: 40, select: { title: true, emoji: true, description: true, preparationMinutes: true, ingredients: { select: { optional: true, ingredient: { select: { name: true } } } } } }),
         this.prisma.chatTurn.findMany({ where: { userId, expiresAt: { gt: new Date() } }, orderBy: [{ createdAt: "desc" }, { id: "desc" }], take: 12 }),
       ]);
       const system = `Ти кулінарний помічник CookBook AI. Відповідай українською, коротко та зрозуміло.

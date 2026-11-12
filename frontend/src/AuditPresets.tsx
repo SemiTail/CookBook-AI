@@ -1,0 +1,8 @@
+import {useState} from 'react';
+import {getSession} from './api';
+export function AuditPresets<T>({scope,value,onApply}:{scope:string;value:T;onApply:(value:T)=>void}){
+ const key='cookbook-audit-presets:'+getSession()?.user.id+':'+scope;
+ const [items,setItems]=useState<{name:string;value:T}[]>(()=>{try{const d=JSON.parse(localStorage.getItem(key)??'[]');return Array.isArray(d)?d:[];}catch{return [];}}),[name,setName]=useState(''),[error,setError]=useState('');
+ function save(next:typeof items){try{localStorage.setItem(key,JSON.stringify(next));setItems(next);setError('');}catch{setError('Не вдалося зберегти набір фільтрів.');}}
+ return <details className='audit-presets'><summary>Мої набори фільтрів</summary><p className='muted'>Зберігаються на цьому пристрої окремо для кожної області журналу.</p><div className='recipe-actions'><label>Назва набору<input maxLength={80} value={name} onChange={e=>setName(e.target.value)} placeholder='Наприклад: зміни рецептів за тиждень'/></label><button type='button' className='button button-outline' disabled={!name.trim()||items.length>=20} onClick={()=>{save([...items.filter(x=>x.name!==name.trim()),{name:name.trim(),value}]);setName('');}}>Зберегти поточні фільтри</button></div>{items.map((item,i)=><div className='recipe-actions' key={i}><button type='button' className='button button-outline' onClick={()=>onApply(item.value)}>{item.name}</button><button type='button' className='text-button' aria-label={'Видалити набір '+item.name} onClick={()=>save(items.filter((_,n)=>n!==i))}>Видалити</button></div>)}{error&&<p role='alert'>{error}</p>}</details>;
+}

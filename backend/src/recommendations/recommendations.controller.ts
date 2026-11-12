@@ -1,3 +1,4 @@
+import {publicRecipeFilter} from '../users/management.service';
 import { Controller, Get, Req, UseGuards } from "@nestjs/common";
 import { JwtAuthGuard, type AuthenticatedRequest } from "../auth/jwt-auth.guard";
 import { PrismaService } from "../prisma/prisma.service";
@@ -15,7 +16,7 @@ export class RecommendationsController {
     });
     const ownedIds = new Set(owned.map(item => item.ingredientId));
     const recipes = await this.prisma.recipe.findMany({
-      where: { OR: [{ isPublished: true }, { isShared: true }, { authorId: request.user.id }] },
+      where: { OR: [{ authorId: request.user.id },{...publicRecipeFilter,OR:[{ isPublished: true }, { isShared: true }]}] },
       include: { ingredients: { include: { ingredient: true } } },
     });
     // Required ingredients only; optional spices do not affect availability percentage.

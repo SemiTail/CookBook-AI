@@ -1,0 +1,8032 @@
+[
+  {
+    "country": "DZ",
+    "input": "фініки Деглет Нур",
+    "ingredient": "Фініки Деглет Нур"
+  },
+  {
+    "country": "DZ",
+    "input": "манна крупа",
+    "ingredient": "Манна крупа"
+  },
+  {
+    "country": "DZ",
+    "input": "кускус",
+    "ingredient": "Кускус"
+  },
+  {
+    "country": "DZ",
+    "input": "оливкова олія",
+    "ingredient": "Олія оливкова"
+  },
+  {
+    "country": "DZ",
+    "input": "інжир",
+    "ingredient": "Інжир"
+  },
+  {
+    "country": "DZ",
+    "input": "м'ята",
+    "ingredient": "М'ята"
+  },
+  {
+    "country": "DZ",
+    "input": "суміш спецій рас-ель-ханут",
+    "ingredient": "Суміш спецій рас-ель-ханут"
+  },
+  {
+    "country": "DZ",
+    "input": "баранина",
+    "ingredient": "Баранина"
+  },
+  {
+    "country": "AO",
+    "input": "маніокове борошно",
+    "ingredient": "Маніокове борошно"
+  },
+  {
+    "country": "AO",
+    "input": "пальмова олія",
+    "ingredient": "Пальмова олія"
+  },
+  {
+    "country": "AO",
+    "input": "арахіс",
+    "ingredient": "Арахіс"
+  },
+  {
+    "country": "AO",
+    "input": "бамія",
+    "ingredient": "Окра"
+  },
+  {
+    "country": "AO",
+    "input": "листя маніоку",
+    "ingredient": "Листя маніоку"
+  },
+  {
+    "country": "AO",
+    "input": "перець пірі-пірі",
+    "ingredient": "Перець пірі-пірі"
+  },
+  {
+    "country": "AO",
+    "input": "сушена риба",
+    "ingredient": "Сушена риба"
+  },
+  {
+    "country": "BJ",
+    "input": "ямс",
+    "ingredient": "Ямс"
+  },
+  {
+    "country": "BJ",
+    "input": "фоніо",
+    "ingredient": "Фоніо"
+  },
+  {
+    "country": "BJ",
+    "input": "маніок",
+    "ingredient": "Маніок"
+  },
+  {
+    "country": "BJ",
+    "input": "пальмова олія",
+    "ingredient": "Пальмова олія"
+  },
+  {
+    "country": "BJ",
+    "input": "арахіс",
+    "ingredient": "Арахіс"
+  },
+  {
+    "country": "BJ",
+    "input": "ферментована кукурудза",
+    "ingredient": "Ферментована кукурудза"
+  },
+  {
+    "country": "BJ",
+    "input": "гібіскусовий напій",
+    "ingredient": "Гібіскусовий напій"
+  },
+  {
+    "country": "BW",
+    "input": "сорго",
+    "ingredient": "Сорго"
+  },
+  {
+    "country": "BW",
+    "input": "яловичина",
+    "ingredient": "Яловичина"
+  },
+  {
+    "country": "BW",
+    "input": "плоди марули",
+    "ingredient": "Плоди марули"
+  },
+  {
+    "country": "BW",
+    "input": "калахарський кавун",
+    "ingredient": "Калахарський кавун"
+  },
+  {
+    "country": "BW",
+    "input": "дикі листові овочі",
+    "ingredient": "Дикі листові овочі"
+  },
+  {
+    "country": "BW",
+    "input": "кисле молоко маділа",
+    "ingredient": "Кисле молоко маділа"
+  },
+  {
+    "country": "BW",
+    "input": "пиво з сорго",
+    "ingredient": "Пиво з сорго"
+  },
+  {
+    "country": "BF",
+    "input": "фоніо",
+    "ingredient": "Фоніо"
+  },
+  {
+    "country": "BF",
+    "input": "просо",
+    "ingredient": "Просо"
+  },
+  {
+    "country": "BF",
+    "input": "сорго",
+    "ingredient": "Сорго"
+  },
+  {
+    "country": "BF",
+    "input": "харчова олія ши",
+    "ingredient": "Харчова олія ши"
+  },
+  {
+    "country": "BF",
+    "input": "арахіс",
+    "ingredient": "Арахіс"
+  },
+  {
+    "country": "BF",
+    "input": "гібіскус",
+    "ingredient": "Гібіскус"
+  },
+  {
+    "country": "BF",
+    "input": "приправа сумбала",
+    "ingredient": "Приправа сумбала"
+  },
+  {
+    "country": "BI",
+    "input": "квасоля",
+    "ingredient": "Квасоля"
+  },
+  {
+    "country": "BI",
+    "input": "плантан",
+    "ingredient": "Плантан"
+  },
+  {
+    "country": "BI",
+    "input": "сорго",
+    "ingredient": "Сорго"
+  },
+  {
+    "country": "BI",
+    "input": "маніок",
+    "ingredient": "Маніок"
+  },
+  {
+    "country": "BI",
+    "input": "батат",
+    "ingredient": "Батат"
+  },
+  {
+    "country": "BI",
+    "input": "озерна риба",
+    "ingredient": "Озерна риба"
+  },
+  {
+    "country": "BI",
+    "input": "банановий напій уруарва",
+    "ingredient": "Банановий напій уруарва"
+  },
+  {
+    "country": "CV",
+    "input": "кукурудзяна крупа",
+    "ingredient": "Кукурудзяна крупа"
+  },
+  {
+    "country": "CV",
+    "input": "квасоля",
+    "ingredient": "Квасоля"
+  },
+  {
+    "country": "CV",
+    "input": "тунець",
+    "ingredient": "Тунець"
+  },
+  {
+    "country": "CV",
+    "input": "козячий сир",
+    "ingredient": "Козячий сир"
+  },
+  {
+    "country": "CV",
+    "input": "батат",
+    "ingredient": "Батат"
+  },
+  {
+    "country": "CV",
+    "input": "маніок",
+    "ingredient": "Маніок"
+  },
+  {
+    "country": "CV",
+    "input": "цукровотростинний напій грог",
+    "ingredient": "Цукровотростинний напій грог"
+  },
+  {
+    "country": "CM",
+    "input": "гірке листя ндоле",
+    "ingredient": "Гірке листя ндоле"
+  },
+  {
+    "country": "CM",
+    "input": "арахіс",
+    "ingredient": "Арахіс"
+  },
+  {
+    "country": "CM",
+    "input": "плантан",
+    "ingredient": "Плантан"
+  },
+  {
+    "country": "CM",
+    "input": "таро",
+    "ingredient": "Таро"
+  },
+  {
+    "country": "CM",
+    "input": "копчена риба",
+    "ingredient": "Копчена риба"
+  },
+  {
+    "country": "CM",
+    "input": "пальмова олія",
+    "ingredient": "Пальмова олія"
+  },
+  {
+    "country": "CM",
+    "input": "перець Пенжа",
+    "ingredient": "Перець Пенжа"
+  },
+  {
+    "country": "CF",
+    "input": "маніок",
+    "ingredient": "Маніок"
+  },
+  {
+    "country": "CF",
+    "input": "листя гнетуму",
+    "ingredient": "Листя гнетуму"
+  },
+  {
+    "country": "CF",
+    "input": "арахіс",
+    "ingredient": "Арахіс"
+  },
+  {
+    "country": "CF",
+    "input": "просо",
+    "ingredient": "Просо"
+  },
+  {
+    "country": "CF",
+    "input": "пальмова олія",
+    "ingredient": "Пальмова олія"
+  },
+  {
+    "country": "CF",
+    "input": "річкова риба",
+    "ingredient": "Річкова риба"
+  },
+  {
+    "country": "CF",
+    "input": "лісові гриби",
+    "ingredient": "Лісові гриби"
+  },
+  {
+    "country": "TD",
+    "input": "просо",
+    "ingredient": "Просо"
+  },
+  {
+    "country": "TD",
+    "input": "сорго",
+    "ingredient": "Сорго"
+  },
+  {
+    "country": "TD",
+    "input": "фініки",
+    "ingredient": "Фініки"
+  },
+  {
+    "country": "TD",
+    "input": "бамія",
+    "ingredient": "Окра"
+  },
+  {
+    "country": "TD",
+    "input": "кунжут",
+    "ingredient": "Насіння кунжуту"
+  },
+  {
+    "country": "TD",
+    "input": "арахіс",
+    "ingredient": "Арахіс"
+  },
+  {
+    "country": "TD",
+    "input": "сушена риба",
+    "ingredient": "Сушена риба"
+  },
+  {
+    "country": "KM",
+    "input": "ваніль",
+    "ingredient": "Ваніль"
+  },
+  {
+    "country": "KM",
+    "input": "гвоздика",
+    "ingredient": "Гвоздика"
+  },
+  {
+    "country": "KM",
+    "input": "кокос",
+    "ingredient": "Кокос"
+  },
+  {
+    "country": "KM",
+    "input": "хлібне дерево",
+    "ingredient": "Хлібний плід"
+  },
+  {
+    "country": "KM",
+    "input": "банани",
+    "ingredient": "Банан"
+  },
+  {
+    "country": "KM",
+    "input": "тунець",
+    "ingredient": "Тунець"
+  },
+  {
+    "country": "KM",
+    "input": "кориця",
+    "ingredient": "Кориця"
+  },
+  {
+    "country": "KM",
+    "input": "таро",
+    "ingredient": "Таро"
+  },
+  {
+    "country": "CG",
+    "input": "маніок",
+    "ingredient": "Маніок"
+  },
+  {
+    "country": "CG",
+    "input": "листя маніоку сака-сака",
+    "ingredient": "Листя маніоку сака-сака"
+  },
+  {
+    "country": "CG",
+    "input": "копчена риба",
+    "ingredient": "Копчена риба"
+  },
+  {
+    "country": "CG",
+    "input": "пальмова олія",
+    "ingredient": "Пальмова олія"
+  },
+  {
+    "country": "CG",
+    "input": "арахіс",
+    "ingredient": "Арахіс"
+  },
+  {
+    "country": "CG",
+    "input": "плантан",
+    "ingredient": "Плантан"
+  },
+  {
+    "country": "CG",
+    "input": "бамія",
+    "ingredient": "Окра"
+  },
+  {
+    "country": "CD",
+    "input": "маніокове борошно",
+    "ingredient": "Маніокове борошно"
+  },
+  {
+    "country": "CD",
+    "input": "листя маніоку понду",
+    "ingredient": "Листя маніоку понду"
+  },
+  {
+    "country": "CD",
+    "input": "пальмова олія",
+    "ingredient": "Пальмова олія"
+  },
+  {
+    "country": "CD",
+    "input": "плантан",
+    "ingredient": "Плантан"
+  },
+  {
+    "country": "CD",
+    "input": "арахіс",
+    "ingredient": "Арахіс"
+  },
+  {
+    "country": "CD",
+    "input": "річкова риба",
+    "ingredient": "Річкова риба"
+  },
+  {
+    "country": "CD",
+    "input": "їстівні гусениці",
+    "ingredient": "Їстівні гусениці"
+  },
+  {
+    "country": "CI",
+    "input": "ферментована маніокова крупа аттієке",
+    "ingredient": "Ферментована маніокова крупа аттієке"
+  },
+  {
+    "country": "CI",
+    "input": "какао",
+    "ingredient": "Какао-порошок"
+  },
+  {
+    "country": "CI",
+    "input": "кеш'ю",
+    "ingredient": "Кеш'ю"
+  },
+  {
+    "country": "CI",
+    "input": "плантан",
+    "ingredient": "Плантан"
+  },
+  {
+    "country": "CI",
+    "input": "пальмова олія",
+    "ingredient": "Пальмова олія"
+  },
+  {
+    "country": "CI",
+    "input": "гострий перець",
+    "ingredient": "Перець гострий"
+  },
+  {
+    "country": "CI",
+    "input": "бамія",
+    "ingredient": "Окра"
+  },
+  {
+    "country": "DJ",
+    "input": "верблюже молоко",
+    "ingredient": "Верблюже молоко"
+  },
+  {
+    "country": "DJ",
+    "input": "фініки",
+    "ingredient": "Фініки"
+  },
+  {
+    "country": "DJ",
+    "input": "сорго",
+    "ingredient": "Сорго"
+  },
+  {
+    "country": "DJ",
+    "input": "кардамон",
+    "ingredient": "Кардамон"
+  },
+  {
+    "country": "DJ",
+    "input": "козлятина",
+    "ingredient": "Козлятина"
+  },
+  {
+    "country": "DJ",
+    "input": "пряний чай",
+    "ingredient": "Пряний чай"
+  },
+  {
+    "country": "DJ",
+    "input": "бербере",
+    "ingredient": "Бербере"
+  },
+  {
+    "country": "EG",
+    "input": "боби фава",
+    "ingredient": "Боби фава"
+  },
+  {
+    "country": "EG",
+    "input": "молохія",
+    "ingredient": "Молохія"
+  },
+  {
+    "country": "EG",
+    "input": "фініки",
+    "ingredient": "Фініки"
+  },
+  {
+    "country": "EG",
+    "input": "каркаде",
+    "ingredient": "Каркаде"
+  },
+  {
+    "country": "EG",
+    "input": "приправа дукка",
+    "ingredient": "Приправа дукка"
+  },
+  {
+    "country": "EG",
+    "input": "сир доміаті",
+    "ingredient": "Сир доміаті"
+  },
+  {
+    "country": "EG",
+    "input": "чорний кмин",
+    "ingredient": "Кмин чорний"
+  },
+  {
+    "country": "GQ",
+    "input": "плантан",
+    "ingredient": "Плантан"
+  },
+  {
+    "country": "GQ",
+    "input": "маніок",
+    "ingredient": "Маніок"
+  },
+  {
+    "country": "GQ",
+    "input": "какао",
+    "ingredient": "Какао-порошок"
+  },
+  {
+    "country": "GQ",
+    "input": "маланга",
+    "ingredient": "Маланга"
+  },
+  {
+    "country": "GQ",
+    "input": "копчена риба",
+    "ingredient": "Копчена риба"
+  },
+  {
+    "country": "GQ",
+    "input": "кокос",
+    "ingredient": "Кокос"
+  },
+  {
+    "country": "GQ",
+    "input": "арахіс",
+    "ingredient": "Арахіс"
+  },
+  {
+    "country": "ER",
+    "input": "теф",
+    "ingredient": "Теф"
+  },
+  {
+    "country": "ER",
+    "input": "бербере",
+    "ingredient": "Бербере"
+  },
+  {
+    "country": "ER",
+    "input": "топлене масло тесмі",
+    "ingredient": "Топлене масло тесмі"
+  },
+  {
+    "country": "ER",
+    "input": "сорго",
+    "ingredient": "Сорго"
+  },
+  {
+    "country": "ER",
+    "input": "сочевиця",
+    "ingredient": "Сочевиця"
+  },
+  {
+    "country": "ER",
+    "input": "кава",
+    "ingredient": "Кава мелена"
+  },
+  {
+    "country": "ER",
+    "input": "пажитник",
+    "ingredient": "Пажитник"
+  },
+  {
+    "country": "SZ",
+    "input": "сорго",
+    "ingredient": "Сорго"
+  },
+  {
+    "country": "SZ",
+    "input": "кукурудзяне борошно",
+    "ingredient": "Борошно кукурудзяне"
+  },
+  {
+    "country": "SZ",
+    "input": "гарбузове листя",
+    "ingredient": "Гарбузове листя"
+  },
+  {
+    "country": "SZ",
+    "input": "арахіс",
+    "ingredient": "Арахіс"
+  },
+  {
+    "country": "SZ",
+    "input": "в'ялене м'ясо",
+    "ingredient": "В'ялене м'ясо"
+  },
+  {
+    "country": "SZ",
+    "input": "кисле молоко емасі",
+    "ingredient": "Кисле молоко емасі"
+  },
+  {
+    "country": "SZ",
+    "input": "марула",
+    "ingredient": "Плоди марули"
+  },
+  {
+    "country": "ET",
+    "input": "теф",
+    "ingredient": "Теф"
+  },
+  {
+    "country": "ET",
+    "input": "кава",
+    "ingredient": "Кава мелена"
+  },
+  {
+    "country": "ET",
+    "input": "бербере",
+    "ingredient": "Бербере"
+  },
+  {
+    "country": "ET",
+    "input": "пряне масло нітр-кіббе",
+    "ingredient": "Пряне масло нітр-кіббе"
+  },
+  {
+    "country": "ET",
+    "input": "нутове борошно широ",
+    "ingredient": "Нутове борошно широ"
+  },
+  {
+    "country": "ET",
+    "input": "пажитник",
+    "ingredient": "Пажитник"
+  },
+  {
+    "country": "ET",
+    "input": "медовий напій тедж",
+    "ingredient": "Медовий напій тедж"
+  },
+  {
+    "country": "GA",
+    "input": "плоди африканської груші сафу",
+    "ingredient": "Плоди африканської груші сафу"
+  },
+  {
+    "country": "GA",
+    "input": "маніок",
+    "ingredient": "Маніок"
+  },
+  {
+    "country": "GA",
+    "input": "пальмова олія ньємбве",
+    "ingredient": "Пальмова олія ньємбве"
+  },
+  {
+    "country": "GA",
+    "input": "копчена риба",
+    "ingredient": "Копчена риба"
+  },
+  {
+    "country": "GA",
+    "input": "африканське манго",
+    "ingredient": "Африканське манго"
+  },
+  {
+    "country": "GA",
+    "input": "плантан",
+    "ingredient": "Плантан"
+  },
+  {
+    "country": "GA",
+    "input": "арахіс",
+    "ingredient": "Арахіс"
+  },
+  {
+    "country": "GM",
+    "input": "арахіс",
+    "ingredient": "Арахіс"
+  },
+  {
+    "country": "GM",
+    "input": "просо",
+    "ingredient": "Просо"
+  },
+  {
+    "country": "GM",
+    "input": "сушена риба",
+    "ingredient": "Сушена риба"
+  },
+  {
+    "country": "GM",
+    "input": "гібіскус",
+    "ingredient": "Гібіскус"
+  },
+  {
+    "country": "GM",
+    "input": "баобаб",
+    "ingredient": "Баобаб"
+  },
+  {
+    "country": "GM",
+    "input": "листова зелень",
+    "ingredient": "Листова зелень"
+  },
+  {
+    "country": "GM",
+    "input": "пальмова олія",
+    "ingredient": "Пальмова олія"
+  },
+  {
+    "country": "GH",
+    "input": "какао",
+    "ingredient": "Какао-порошок"
+  },
+  {
+    "country": "GH",
+    "input": "пальмова олія",
+    "ingredient": "Пальмова олія"
+  },
+  {
+    "country": "GH",
+    "input": "ферментована кукурудзяна маса кенкей",
+    "ingredient": "Ферментована кукурудзяна маса кенкей"
+  },
+  {
+    "country": "GH",
+    "input": "маніок",
+    "ingredient": "Маніок"
+  },
+  {
+    "country": "GH",
+    "input": "арахіс",
+    "ingredient": "Арахіс"
+  },
+  {
+    "country": "GH",
+    "input": "африканський баклажан",
+    "ingredient": "Африканський баклажан"
+  },
+  {
+    "country": "GH",
+    "input": "соус шіто",
+    "ingredient": "Соус шіто"
+  },
+  {
+    "country": "GN",
+    "input": "фоніо",
+    "ingredient": "Фоніо"
+  },
+  {
+    "country": "GN",
+    "input": "пальмова олія",
+    "ingredient": "Пальмова олія"
+  },
+  {
+    "country": "GN",
+    "input": "маніок",
+    "ingredient": "Маніок"
+  },
+  {
+    "country": "GN",
+    "input": "арахіс",
+    "ingredient": "Арахіс"
+  },
+  {
+    "country": "GN",
+    "input": "копчена риба",
+    "ingredient": "Копчена риба"
+  },
+  {
+    "country": "GN",
+    "input": "бамія",
+    "ingredient": "Окра"
+  },
+  {
+    "country": "GN",
+    "input": "гібіскус",
+    "ingredient": "Гібіскус"
+  },
+  {
+    "country": "GW",
+    "input": "кеш'ю",
+    "ingredient": "Кеш'ю"
+  },
+  {
+    "country": "GW",
+    "input": "яблуко кеш'ю",
+    "ingredient": "Яблуко кеш'ю"
+  },
+  {
+    "country": "GW",
+    "input": "пальмова олія",
+    "ingredient": "Пальмова олія"
+  },
+  {
+    "country": "GW",
+    "input": "рис",
+    "ingredient": "Рис"
+  },
+  {
+    "country": "GW",
+    "input": "морська риба",
+    "ingredient": "Морська риба"
+  },
+  {
+    "country": "GW",
+    "input": "устриці",
+    "ingredient": "Устриці"
+  },
+  {
+    "country": "GW",
+    "input": "маніок",
+    "ingredient": "Маніок"
+  },
+  {
+    "country": "KE",
+    "input": "кава",
+    "ingredient": "Кава мелена"
+  },
+  {
+    "country": "KE",
+    "input": "чай",
+    "ingredient": "Чай чорний"
+  },
+  {
+    "country": "KE",
+    "input": "кукурудзяне борошно",
+    "ingredient": "Борошно кукурудзяне"
+  },
+  {
+    "country": "KE",
+    "input": "зелень сукума-вікі",
+    "ingredient": "Зелень сукума-вікі"
+  },
+  {
+    "country": "KE",
+    "input": "козлятина",
+    "ingredient": "Козлятина"
+  },
+  {
+    "country": "KE",
+    "input": "кокосове молоко",
+    "ingredient": "Молоко кокосове"
+  },
+  {
+    "country": "KE",
+    "input": "кисломолочний напій мурсік",
+    "ingredient": "Кисломолочний напій мурсік"
+  },
+  {
+    "country": "LS",
+    "input": "кукурудзяне борошно",
+    "ingredient": "Борошно кукурудзяне"
+  },
+  {
+    "country": "LS",
+    "input": "сорго",
+    "ingredient": "Сорго"
+  },
+  {
+    "country": "LS",
+    "input": "зелень морохо",
+    "ingredient": "Зелень морохо"
+  },
+  {
+    "country": "LS",
+    "input": "квасоля",
+    "ingredient": "Квасоля"
+  },
+  {
+    "country": "LS",
+    "input": "пиво джоала",
+    "ingredient": "Пиво джоала"
+  },
+  {
+    "country": "LS",
+    "input": "гарбуз",
+    "ingredient": "Гарбуз"
+  },
+  {
+    "country": "LS",
+    "input": "сушена яловичина",
+    "ingredient": "Сушена яловичина"
+  },
+  {
+    "country": "LR",
+    "input": "рис",
+    "ingredient": "Рис"
+  },
+  {
+    "country": "LR",
+    "input": "пальмова олія",
+    "ingredient": "Пальмова олія"
+  },
+  {
+    "country": "LR",
+    "input": "листя маніоку",
+    "ingredient": "Листя маніоку"
+  },
+  {
+    "country": "LR",
+    "input": "сушена риба",
+    "ingredient": "Сушена риба"
+  },
+  {
+    "country": "LR",
+    "input": "гострий перець",
+    "ingredient": "Перець гострий"
+  },
+  {
+    "country": "LR",
+    "input": "плантан",
+    "ingredient": "Плантан"
+  },
+  {
+    "country": "LR",
+    "input": "бамія",
+    "ingredient": "Окра"
+  },
+  {
+    "country": "LY",
+    "input": "фініки",
+    "ingredient": "Фініки"
+  },
+  {
+    "country": "LY",
+    "input": "оливкова олія",
+    "ingredient": "Олія оливкова"
+  },
+  {
+    "country": "LY",
+    "input": "ячмінь",
+    "ingredient": "Ячмінь"
+  },
+  {
+    "country": "LY",
+    "input": "кускус",
+    "ingredient": "Кускус"
+  },
+  {
+    "country": "LY",
+    "input": "баранина",
+    "ingredient": "Баранина"
+  },
+  {
+    "country": "LY",
+    "input": "хариса",
+    "ingredient": "Хариса"
+  },
+  {
+    "country": "LY",
+    "input": "чорний чай",
+    "ingredient": "Чай чорний"
+  },
+  {
+    "country": "MG",
+    "input": "ваніль",
+    "ingredient": "Ваніль"
+  },
+  {
+    "country": "MG",
+    "input": "рожевий перець",
+    "ingredient": "Рожевий перець"
+  },
+  {
+    "country": "MG",
+    "input": "гвоздика",
+    "ingredient": "Гвоздика"
+  },
+  {
+    "country": "MG",
+    "input": "рис",
+    "ingredient": "Рис"
+  },
+  {
+    "country": "MG",
+    "input": "м'ясо зебу",
+    "ingredient": "М'ясо зебу"
+  },
+  {
+    "country": "MG",
+    "input": "лічі",
+    "ingredient": "Лічі"
+  },
+  {
+    "country": "MG",
+    "input": "подрібнене листя маніоку равітото",
+    "ingredient": "Подрібнене листя маніоку равітото"
+  },
+  {
+    "country": "MW",
+    "input": "риба чамбо",
+    "ingredient": "Риба чамбо"
+  },
+  {
+    "country": "MW",
+    "input": "кукурудзяне борошно",
+    "ingredient": "Борошно кукурудзяне"
+  },
+  {
+    "country": "MW",
+    "input": "гарбузове листя",
+    "ingredient": "Гарбузове листя"
+  },
+  {
+    "country": "MW",
+    "input": "арахіс",
+    "ingredient": "Арахіс"
+  },
+  {
+    "country": "MW",
+    "input": "батат",
+    "ingredient": "Батат"
+  },
+  {
+    "country": "MW",
+    "input": "маніок",
+    "ingredient": "Маніок"
+  },
+  {
+    "country": "MW",
+    "input": "чай",
+    "ingredient": "Чай чорний"
+  },
+  {
+    "country": "ML",
+    "input": "фоніо",
+    "ingredient": "Фоніо"
+  },
+  {
+    "country": "ML",
+    "input": "просо",
+    "ingredient": "Просо"
+  },
+  {
+    "country": "ML",
+    "input": "рис",
+    "ingredient": "Рис"
+  },
+  {
+    "country": "ML",
+    "input": "харчова олія ши",
+    "ingredient": "Харчова олія ши"
+  },
+  {
+    "country": "ML",
+    "input": "сушений гібіскус",
+    "ingredient": "Сушений гібіскус"
+  },
+  {
+    "country": "ML",
+    "input": "сушена риба",
+    "ingredient": "Сушена риба"
+  },
+  {
+    "country": "ML",
+    "input": "арахіс",
+    "ingredient": "Арахіс"
+  },
+  {
+    "country": "MR",
+    "input": "верблюже молоко",
+    "ingredient": "Верблюже молоко"
+  },
+  {
+    "country": "MR",
+    "input": "фініки",
+    "ingredient": "Фініки"
+  },
+  {
+    "country": "MR",
+    "input": "просо",
+    "ingredient": "Просо"
+  },
+  {
+    "country": "MR",
+    "input": "атлантична риба",
+    "ingredient": "Атлантична риба"
+  },
+  {
+    "country": "MR",
+    "input": "баранина",
+    "ingredient": "Баранина"
+  },
+  {
+    "country": "MR",
+    "input": "зелений чай",
+    "ingredient": "Чай зелений"
+  },
+  {
+    "country": "MR",
+    "input": "кускус",
+    "ingredient": "Кускус"
+  },
+  {
+    "country": "MU",
+    "input": "тамаринд",
+    "ingredient": "Тамаринд"
+  },
+  {
+    "country": "MU",
+    "input": "цукрова тростина",
+    "ingredient": "Цукрова тростина"
+  },
+  {
+    "country": "MU",
+    "input": "гостра паста мазавару",
+    "ingredient": "Гостра паста мазавару"
+  },
+  {
+    "country": "MU",
+    "input": "сочевиця",
+    "ingredient": "Сочевиця"
+  },
+  {
+    "country": "MU",
+    "input": "серцевина пальми",
+    "ingredient": "Серцевина пальми"
+  },
+  {
+    "country": "MU",
+    "input": "ананас",
+    "ingredient": "Ананас"
+  },
+  {
+    "country": "MU",
+    "input": "коржі дхол-пурі",
+    "ingredient": "Коржі дхол-пурі"
+  },
+  {
+    "country": "MA",
+    "input": "арганова олія",
+    "ingredient": "Арганова олія"
+  },
+  {
+    "country": "MA",
+    "input": "шафран Таліуїна",
+    "ingredient": "Шафран Таліуїна"
+  },
+  {
+    "country": "MA",
+    "input": "консервовані лимони",
+    "ingredient": "Консервовані лимони"
+  },
+  {
+    "country": "MA",
+    "input": "оливки",
+    "ingredient": "Оливки"
+  },
+  {
+    "country": "MA",
+    "input": "фініки",
+    "ingredient": "Фініки"
+  },
+  {
+    "country": "MA",
+    "input": "вода апельсинових квітів",
+    "ingredient": "Вода апельсинових квітів"
+  },
+  {
+    "country": "MA",
+    "input": "рас-ель-ханут",
+    "ingredient": "Суміш спецій рас-ель-ханут"
+  },
+  {
+    "country": "MA",
+    "input": "м'ятний чай",
+    "ingredient": "М'ятний чай"
+  },
+  {
+    "country": "MZ",
+    "input": "перець пірі-пірі",
+    "ingredient": "Перець пірі-пірі"
+  },
+  {
+    "country": "MZ",
+    "input": "листя маніоку",
+    "ingredient": "Листя маніоку"
+  },
+  {
+    "country": "MZ",
+    "input": "кокосове молоко",
+    "ingredient": "Молоко кокосове"
+  },
+  {
+    "country": "MZ",
+    "input": "креветки",
+    "ingredient": "Креветки"
+  },
+  {
+    "country": "MZ",
+    "input": "кеш'ю",
+    "ingredient": "Кеш'ю"
+  },
+  {
+    "country": "MZ",
+    "input": "арахіс",
+    "ingredient": "Арахіс"
+  },
+  {
+    "country": "MZ",
+    "input": "маніок",
+    "ingredient": "Маніок"
+  },
+  {
+    "country": "NA",
+    "input": "м'ясо антилопи орикс",
+    "ingredient": "М'ясо антилопи орикс"
+  },
+  {
+    "country": "NA",
+    "input": "білтонг",
+    "ingredient": "Білтонг"
+  },
+  {
+    "country": "NA",
+    "input": "сорго",
+    "ingredient": "Сорго"
+  },
+  {
+    "country": "NA",
+    "input": "перлове просо махангу",
+    "ingredient": "Перлове просо махангу"
+  },
+  {
+    "country": "NA",
+    "input": "марула",
+    "ingredient": "Плоди марули"
+  },
+  {
+    "country": "NA",
+    "input": "гусениці мопане",
+    "ingredient": "Гусениці мопане"
+  },
+  {
+    "country": "NA",
+    "input": "дика зелень",
+    "ingredient": "Дика зелень"
+  },
+  {
+    "country": "NE",
+    "input": "просо",
+    "ingredient": "Просо"
+  },
+  {
+    "country": "NE",
+    "input": "сорго",
+    "ingredient": "Сорго"
+  },
+  {
+    "country": "NE",
+    "input": "коров'ячий горох",
+    "ingredient": "Коров'ячий горох"
+  },
+  {
+    "country": "NE",
+    "input": "фініки",
+    "ingredient": "Фініки"
+  },
+  {
+    "country": "NE",
+    "input": "сумбала",
+    "ingredient": "Сумбала"
+  },
+  {
+    "country": "NE",
+    "input": "арахіс",
+    "ingredient": "Арахіс"
+  },
+  {
+    "country": "NE",
+    "input": "кунжут",
+    "ingredient": "Насіння кунжуту"
+  },
+  {
+    "country": "NG",
+    "input": "насіння егусі",
+    "ingredient": "Насіння егусі"
+  },
+  {
+    "country": "NG",
+    "input": "ямс",
+    "ingredient": "Ямс"
+  },
+  {
+    "country": "NG",
+    "input": "маніокова крупа гарі",
+    "ingredient": "Маніокова крупа гарі"
+  },
+  {
+    "country": "NG",
+    "input": "пальмова олія",
+    "ingredient": "Пальмова олія"
+  },
+  {
+    "country": "NG",
+    "input": "сушені креветки",
+    "ingredient": "Сушені креветки"
+  },
+  {
+    "country": "NG",
+    "input": "приправа іру",
+    "ingredient": "Приправа іру"
+  },
+  {
+    "country": "NG",
+    "input": "гібіскусовий напій зобо",
+    "ingredient": "Гібіскусовий напій зобо"
+  },
+  {
+    "country": "RW",
+    "input": "квасоля",
+    "ingredient": "Квасоля"
+  },
+  {
+    "country": "RW",
+    "input": "плантан",
+    "ingredient": "Плантан"
+  },
+  {
+    "country": "RW",
+    "input": "листя маніоку",
+    "ingredient": "Листя маніоку"
+  },
+  {
+    "country": "RW",
+    "input": "сорго",
+    "ingredient": "Сорго"
+  },
+  {
+    "country": "RW",
+    "input": "батат",
+    "ingredient": "Батат"
+  },
+  {
+    "country": "RW",
+    "input": "молоко",
+    "ingredient": "Молоко"
+  },
+  {
+    "country": "RW",
+    "input": "маракуя",
+    "ingredient": "Маракуя"
+  },
+  {
+    "country": "ST",
+    "input": "какао",
+    "ingredient": "Какао-порошок"
+  },
+  {
+    "country": "ST",
+    "input": "кава",
+    "ingredient": "Кава мелена"
+  },
+  {
+    "country": "ST",
+    "input": "пірі-пірі",
+    "ingredient": "Перець пірі-пірі"
+  },
+  {
+    "country": "ST",
+    "input": "хлібний плід",
+    "ingredient": "Хлібний плід"
+  },
+  {
+    "country": "ST",
+    "input": "банан",
+    "ingredient": "Банан"
+  },
+  {
+    "country": "ST",
+    "input": "кокос",
+    "ingredient": "Кокос"
+  },
+  {
+    "country": "ST",
+    "input": "морська риба",
+    "ingredient": "Морська риба"
+  },
+  {
+    "country": "SN",
+    "input": "дроблений рис",
+    "ingredient": "Дроблений рис"
+  },
+  {
+    "country": "SN",
+    "input": "сушена риба",
+    "ingredient": "Сушена риба"
+  },
+  {
+    "country": "SN",
+    "input": "арахіс",
+    "ingredient": "Арахіс"
+  },
+  {
+    "country": "SN",
+    "input": "гібіскус",
+    "ingredient": "Гібіскус"
+  },
+  {
+    "country": "SN",
+    "input": "плоди баобаба",
+    "ingredient": "Баобаб"
+  },
+  {
+    "country": "SN",
+    "input": "ферментована приправа нетету",
+    "ingredient": "Ферментована приправа нетету"
+  },
+  {
+    "country": "SN",
+    "input": "тамаринд",
+    "ingredient": "Тамаринд"
+  },
+  {
+    "country": "SC",
+    "input": "кориця",
+    "ingredient": "Кориця"
+  },
+  {
+    "country": "SC",
+    "input": "кокос",
+    "ingredient": "Кокос"
+  },
+  {
+    "country": "SC",
+    "input": "хлібний плід",
+    "ingredient": "Хлібний плід"
+  },
+  {
+    "country": "SC",
+    "input": "тунець",
+    "ingredient": "Тунець"
+  },
+  {
+    "country": "SC",
+    "input": "манго",
+    "ingredient": "Манго"
+  },
+  {
+    "country": "SC",
+    "input": "ваніль",
+    "ingredient": "Ваніль"
+  },
+  {
+    "country": "SC",
+    "input": "батат",
+    "ingredient": "Батат"
+  },
+  {
+    "country": "SL",
+    "input": "пальмова олія",
+    "ingredient": "Пальмова олія"
+  },
+  {
+    "country": "SL",
+    "input": "рис",
+    "ingredient": "Рис"
+  },
+  {
+    "country": "SL",
+    "input": "листя маніоку",
+    "ingredient": "Листя маніоку"
+  },
+  {
+    "country": "SL",
+    "input": "копчена риба",
+    "ingredient": "Копчена риба"
+  },
+  {
+    "country": "SL",
+    "input": "гострий перець",
+    "ingredient": "Перець гострий"
+  },
+  {
+    "country": "SL",
+    "input": "арахіс",
+    "ingredient": "Арахіс"
+  },
+  {
+    "country": "SL",
+    "input": "бамія",
+    "ingredient": "Окра"
+  },
+  {
+    "country": "SO",
+    "input": "верблюже молоко",
+    "ingredient": "Верблюже молоко"
+  },
+  {
+    "country": "SO",
+    "input": "топлене масло",
+    "ingredient": "Масло топлене"
+  },
+  {
+    "country": "SO",
+    "input": "банани",
+    "ingredient": "Банан"
+  },
+  {
+    "country": "SO",
+    "input": "кардамон",
+    "ingredient": "Кардамон"
+  },
+  {
+    "country": "SO",
+    "input": "суміш спецій хавааш",
+    "ingredient": "Суміш спецій хавааш"
+  },
+  {
+    "country": "SO",
+    "input": "рис",
+    "ingredient": "Рис"
+  },
+  {
+    "country": "SO",
+    "input": "фініки",
+    "ingredient": "Фініки"
+  },
+  {
+    "country": "ZA",
+    "input": "ройбуш",
+    "ingredient": "Ройбуш"
+  },
+  {
+    "country": "ZA",
+    "input": "білтонг",
+    "ingredient": "Білтонг"
+  },
+  {
+    "country": "ZA",
+    "input": "ковбаса буреворс",
+    "ingredient": "Ковбаса буреворс"
+  },
+  {
+    "country": "ZA",
+    "input": "кукурудзяне борошно",
+    "ingredient": "Борошно кукурудзяне"
+  },
+  {
+    "country": "ZA",
+    "input": "кисле молоко амасі",
+    "ingredient": "Кисле молоко амасі"
+  },
+  {
+    "country": "ZA",
+    "input": "марула",
+    "ingredient": "Плоди марули"
+  },
+  {
+    "country": "ZA",
+    "input": "приправа чакалака",
+    "ingredient": "Приправа чакалака"
+  },
+  {
+    "country": "ZA",
+    "input": "вино Пінотаж",
+    "ingredient": "Вино Пінотаж"
+  },
+  {
+    "country": "SS",
+    "input": "сорго",
+    "ingredient": "Сорго"
+  },
+  {
+    "country": "SS",
+    "input": "бамія",
+    "ingredient": "Окра"
+  },
+  {
+    "country": "SS",
+    "input": "кунжут",
+    "ingredient": "Насіння кунжуту"
+  },
+  {
+    "country": "SS",
+    "input": "яловичина",
+    "ingredient": "Яловичина"
+  },
+  {
+    "country": "SS",
+    "input": "нільський окунь",
+    "ingredient": "Нільський окунь"
+  },
+  {
+    "country": "SS",
+    "input": "ферментоване молоко",
+    "ingredient": "Ферментоване молоко"
+  },
+  {
+    "country": "SS",
+    "input": "арахісова паста",
+    "ingredient": "Арахісова паста"
+  },
+  {
+    "country": "SD",
+    "input": "сорго",
+    "ingredient": "Сорго"
+  },
+  {
+    "country": "SD",
+    "input": "кунжут",
+    "ingredient": "Насіння кунжуту"
+  },
+  {
+    "country": "SD",
+    "input": "арахіс",
+    "ingredient": "Арахіс"
+  },
+  {
+    "country": "SD",
+    "input": "порошок сушеної бамії",
+    "ingredient": "Порошок сушеної бамії"
+  },
+  {
+    "country": "SD",
+    "input": "фініки",
+    "ingredient": "Фініки"
+  },
+  {
+    "country": "SD",
+    "input": "гібіскус",
+    "ingredient": "Гібіскус"
+  },
+  {
+    "country": "SD",
+    "input": "ферментований напій хілу-мурр",
+    "ingredient": "Ферментований напій хілу-мурр"
+  },
+  {
+    "country": "TZ",
+    "input": "занзібарська гвоздика",
+    "ingredient": "Занзібарська гвоздика"
+  },
+  {
+    "country": "TZ",
+    "input": "кокосове молоко",
+    "ingredient": "Молоко кокосове"
+  },
+  {
+    "country": "TZ",
+    "input": "кеш'ю",
+    "ingredient": "Кеш'ю"
+  },
+  {
+    "country": "TZ",
+    "input": "кукурудза",
+    "ingredient": "Кукурудза свіжа"
+  },
+  {
+    "country": "TZ",
+    "input": "плантан",
+    "ingredient": "Плантан"
+  },
+  {
+    "country": "TZ",
+    "input": "кардамон",
+    "ingredient": "Кардамон"
+  },
+  {
+    "country": "TZ",
+    "input": "кориця",
+    "ingredient": "Кориця"
+  },
+  {
+    "country": "TG",
+    "input": "кукурудза",
+    "ingredient": "Кукурудза свіжа"
+  },
+  {
+    "country": "TG",
+    "input": "маніок",
+    "ingredient": "Маніок"
+  },
+  {
+    "country": "TG",
+    "input": "пальмова олія",
+    "ingredient": "Пальмова олія"
+  },
+  {
+    "country": "TG",
+    "input": "арахіс",
+    "ingredient": "Арахіс"
+  },
+  {
+    "country": "TG",
+    "input": "африканський баклажан",
+    "ingredient": "Африканський баклажан"
+  },
+  {
+    "country": "TG",
+    "input": "копчена риба",
+    "ingredient": "Копчена риба"
+  },
+  {
+    "country": "TG",
+    "input": "ферментовані боби ріжкового дерева",
+    "ingredient": "Ферментовані боби ріжкового дерева"
+  },
+  {
+    "country": "TN",
+    "input": "хариса",
+    "ingredient": "Хариса"
+  },
+  {
+    "country": "TN",
+    "input": "оливки",
+    "ingredient": "Оливки"
+  },
+  {
+    "country": "TN",
+    "input": "оливкова олія",
+    "ingredient": "Олія оливкова"
+  },
+  {
+    "country": "TN",
+    "input": "фініки Деглет Нур",
+    "ingredient": "Фініки Деглет Нур"
+  },
+  {
+    "country": "TN",
+    "input": "консервовані лимони",
+    "ingredient": "Консервовані лимони"
+  },
+  {
+    "country": "TN",
+    "input": "манна крупа",
+    "ingredient": "Манна крупа"
+  },
+  {
+    "country": "TN",
+    "input": "плоди опунції",
+    "ingredient": "Плоди опунції"
+  },
+  {
+    "country": "UG",
+    "input": "матоке",
+    "ingredient": "Матоке"
+  },
+  {
+    "country": "UG",
+    "input": "арахіс",
+    "ingredient": "Арахіс"
+  },
+  {
+    "country": "UG",
+    "input": "просо",
+    "ingredient": "Просо"
+  },
+  {
+    "country": "UG",
+    "input": "маніок",
+    "ingredient": "Маніок"
+  },
+  {
+    "country": "UG",
+    "input": "нільський окунь",
+    "ingredient": "Нільський окунь"
+  },
+  {
+    "country": "UG",
+    "input": "джекфрут",
+    "ingredient": "Джекфрут"
+  },
+  {
+    "country": "UG",
+    "input": "кава робуста",
+    "ingredient": "Кава робуста"
+  },
+  {
+    "country": "ZM",
+    "input": "кукурудзяне борошно",
+    "ingredient": "Борошно кукурудзяне"
+  },
+  {
+    "country": "ZM",
+    "input": "сушена риба капента",
+    "ingredient": "Сушена риба капента"
+  },
+  {
+    "country": "ZM",
+    "input": "арахіс",
+    "ingredient": "Арахіс"
+  },
+  {
+    "country": "ZM",
+    "input": "гарбузове листя",
+    "ingredient": "Гарбузове листя"
+  },
+  {
+    "country": "ZM",
+    "input": "бамія",
+    "ingredient": "Окра"
+  },
+  {
+    "country": "ZM",
+    "input": "батат",
+    "ingredient": "Батат"
+  },
+  {
+    "country": "ZM",
+    "input": "їстівні гусениці",
+    "ingredient": "Їстівні гусениці"
+  },
+  {
+    "country": "ZW",
+    "input": "кукурудзяне борошно",
+    "ingredient": "Борошно кукурудзяне"
+  },
+  {
+    "country": "ZW",
+    "input": "гарбузове листя",
+    "ingredient": "Гарбузове листя"
+  },
+  {
+    "country": "ZW",
+    "input": "гусениці мопане",
+    "ingredient": "Гусениці мопане"
+  },
+  {
+    "country": "ZW",
+    "input": "арахісова паста",
+    "ingredient": "Арахісова паста"
+  },
+  {
+    "country": "ZW",
+    "input": "сорго",
+    "ingredient": "Сорго"
+  },
+  {
+    "country": "ZW",
+    "input": "арахіс",
+    "ingredient": "Арахіс"
+  },
+  {
+    "country": "ZW",
+    "input": "сушене м'ясо",
+    "ingredient": "Сушене м'ясо"
+  },
+  {
+    "country": "AF",
+    "input": "гератський шафран",
+    "ingredient": "Гератський шафран"
+  },
+  {
+    "country": "AF",
+    "input": "сушена шовковиця",
+    "ingredient": "Сушена шовковиця"
+  },
+  {
+    "country": "AF",
+    "input": "фісташки",
+    "ingredient": "Фісташки"
+  },
+  {
+    "country": "AF",
+    "input": "гранат",
+    "ingredient": "Гранат"
+  },
+  {
+    "country": "AF",
+    "input": "курага",
+    "ingredient": "Курага"
+  },
+  {
+    "country": "AF",
+    "input": "родзинки",
+    "ingredient": "Родзинки"
+  },
+  {
+    "country": "AF",
+    "input": "баранина",
+    "ingredient": "Баранина"
+  },
+  {
+    "country": "AF",
+    "input": "чорний кмин",
+    "ingredient": "Кмин чорний"
+  },
+  {
+    "country": "AM",
+    "input": "лаваш",
+    "ingredient": "Лаваш"
+  },
+  {
+    "country": "AM",
+    "input": "сир чечил",
+    "ingredient": "Сир чечил"
+  },
+  {
+    "country": "AM",
+    "input": "абрикоси",
+    "ingredient": "Абрикос"
+  },
+  {
+    "country": "AM",
+    "input": "гранат",
+    "ingredient": "Гранат"
+  },
+  {
+    "country": "AM",
+    "input": "мацун",
+    "ingredient": "Мацун"
+  },
+  {
+    "country": "AM",
+    "input": "виноградне листя",
+    "ingredient": "Виноградне листя"
+  },
+  {
+    "country": "AM",
+    "input": "солодкий суджух",
+    "ingredient": "Солодкий суджух"
+  },
+  {
+    "country": "AM",
+    "input": "тархуновий лимонад",
+    "ingredient": "Тархуновий лимонад"
+  },
+  {
+    "country": "AZ",
+    "input": "чорний чай",
+    "ingredient": "Чай чорний"
+  },
+  {
+    "country": "AZ",
+    "input": "гранат",
+    "ingredient": "Гранат"
+  },
+  {
+    "country": "AZ",
+    "input": "шафран",
+    "ingredient": "Шафран"
+  },
+  {
+    "country": "AZ",
+    "input": "фейхоа",
+    "ingredient": "Фейхоа"
+  },
+  {
+    "country": "AZ",
+    "input": "айва",
+    "ingredient": "Айва"
+  },
+  {
+    "country": "AZ",
+    "input": "баранина",
+    "ingredient": "Баранина"
+  },
+  {
+    "country": "AZ",
+    "input": "сумах",
+    "ingredient": "Сумах"
+  },
+  {
+    "country": "AZ",
+    "input": "гранатовий соус наршараб",
+    "ingredient": "Гранатовий соус наршараб"
+  },
+  {
+    "country": "BH",
+    "input": "фініки",
+    "ingredient": "Фініки"
+  },
+  {
+    "country": "BH",
+    "input": "риба хамур",
+    "ingredient": "Риба хамур"
+  },
+  {
+    "country": "BH",
+    "input": "сушений лайм лумі",
+    "ingredient": "Сушений лайм лумі"
+  },
+  {
+    "country": "BH",
+    "input": "шафран",
+    "ingredient": "Шафран"
+  },
+  {
+    "country": "BH",
+    "input": "кардамон",
+    "ingredient": "Кардамон"
+  },
+  {
+    "country": "BH",
+    "input": "трояндова вода",
+    "ingredient": "Трояндова вода"
+  },
+  {
+    "country": "BH",
+    "input": "арабська кава",
+    "ingredient": "Арабська кава"
+  },
+  {
+    "country": "BD",
+    "input": "риба хільса",
+    "ingredient": "Риба хільса"
+  },
+  {
+    "country": "BD",
+    "input": "гірчична олія",
+    "ingredient": "Гірчична олія"
+  },
+  {
+    "country": "BD",
+    "input": "насіння гірчиці",
+    "ingredient": "Насіння гірчиці"
+  },
+  {
+    "country": "BD",
+    "input": "рис",
+    "ingredient": "Рис"
+  },
+  {
+    "country": "BD",
+    "input": "червона сочевиця",
+    "ingredient": "Сочевиця червона"
+  },
+  {
+    "country": "BD",
+    "input": "зелений чилі",
+    "ingredient": "Зелений чилі"
+  },
+  {
+    "country": "BD",
+    "input": "пальмовий цукор",
+    "ingredient": "Пальмовий цукор"
+  },
+  {
+    "country": "BD",
+    "input": "манго",
+    "ingredient": "Манго"
+  },
+  {
+    "country": "BT",
+    "input": "червоний рис",
+    "ingredient": "Червоний рис"
+  },
+  {
+    "country": "BT",
+    "input": "сушений перець чилі",
+    "ingredient": "Сушений перець чилі"
+  },
+  {
+    "country": "BT",
+    "input": "сир датші",
+    "ingredient": "Сир датші"
+  },
+  {
+    "country": "BT",
+    "input": "гречка",
+    "ingredient": "Гречка"
+  },
+  {
+    "country": "BT",
+    "input": "ячмінь",
+    "ingredient": "Ячмінь"
+  },
+  {
+    "country": "BT",
+    "input": "масляний чай суджа",
+    "ingredient": "Масляний чай суджа"
+  },
+  {
+    "country": "BT",
+    "input": "гірські гриби",
+    "ingredient": "Гірські гриби"
+  },
+  {
+    "country": "BN",
+    "input": "саговий крохмаль",
+    "ingredient": "Саговий крохмаль"
+  },
+  {
+    "country": "BN",
+    "input": "пандан",
+    "ingredient": "Пандан"
+  },
+  {
+    "country": "BN",
+    "input": "кокосове молоко",
+    "ingredient": "Молоко кокосове"
+  },
+  {
+    "country": "BN",
+    "input": "креветкова паста белачан",
+    "ingredient": "Креветкова паста белачан"
+  },
+  {
+    "country": "BN",
+    "input": "тамаринд",
+    "ingredient": "Тамаринд"
+  },
+  {
+    "country": "BN",
+    "input": "дуріан",
+    "ingredient": "Дуріан"
+  },
+  {
+    "country": "BN",
+    "input": "риба",
+    "ingredient": "Риба"
+  },
+  {
+    "country": "KH",
+    "input": "кампотський перець",
+    "ingredient": "Кампотський перець"
+  },
+  {
+    "country": "KH",
+    "input": "пальмовий цукор",
+    "ingredient": "Пальмовий цукор"
+  },
+  {
+    "country": "KH",
+    "input": "ферментована риба прахок",
+    "ingredient": "Ферментована риба прахок"
+  },
+  {
+    "country": "KH",
+    "input": "лемонграс",
+    "ingredient": "Лемонграс"
+  },
+  {
+    "country": "KH",
+    "input": "пряна паста кроенг",
+    "ingredient": "Пряна паста кроенг"
+  },
+  {
+    "country": "KH",
+    "input": "жасминовий рис",
+    "ingredient": "Жасминовий рис"
+  },
+  {
+    "country": "KH",
+    "input": "кокосове молоко",
+    "ingredient": "Молоко кокосове"
+  },
+  {
+    "country": "CN",
+    "input": "сичуанський перець",
+    "ingredient": "Сичуанський перець"
+  },
+  {
+    "country": "CN",
+    "input": "соєвий соус",
+    "ingredient": "Соус соєвий"
+  },
+  {
+    "country": "CN",
+    "input": "тофу",
+    "ingredient": "Тофу"
+  },
+  {
+    "country": "CN",
+    "input": "жасминовий чай",
+    "ingredient": "Жасминовий чай"
+  },
+  {
+    "country": "CN",
+    "input": "чорний оцет Чженьцзян",
+    "ingredient": "Чорний оцет Чженьцзян"
+  },
+  {
+    "country": "CN",
+    "input": "паста доубаньцзян",
+    "ingredient": "Паста доубаньцзян"
+  },
+  {
+    "country": "CN",
+    "input": "бадьян",
+    "ingredient": "Бадьян"
+  },
+  {
+    "country": "CN",
+    "input": "корінь лотоса",
+    "ingredient": "Корінь лотоса"
+  },
+  {
+    "country": "CN",
+    "input": "ягоди годжі",
+    "ingredient": "Ягоди годжі"
+  },
+  {
+    "country": "CN",
+    "input": "ферментовані чорні боби",
+    "ingredient": "Ферментовані чорні боби"
+  },
+  {
+    "country": "CY",
+    "input": "сир халумі",
+    "ingredient": "Сир халумі"
+  },
+  {
+    "country": "CY",
+    "input": "сир анарі",
+    "ingredient": "Сир анарі"
+  },
+  {
+    "country": "CY",
+    "input": "ріжковий сироп",
+    "ingredient": "Ріжковий сироп"
+  },
+  {
+    "country": "CY",
+    "input": "оливки",
+    "ingredient": "Оливки"
+  },
+  {
+    "country": "CY",
+    "input": "виноград",
+    "ingredient": "Виноград"
+  },
+  {
+    "country": "CY",
+    "input": "трахана",
+    "ingredient": "Трахана"
+  },
+  {
+    "country": "CY",
+    "input": "апельсинове варення",
+    "ingredient": "Апельсинове варення"
+  },
+  {
+    "country": "CY",
+    "input": "вино Коммандарія",
+    "ingredient": "Вино Коммандарія"
+  },
+  {
+    "country": "TL",
+    "input": "кава арабіка",
+    "ingredient": "Кава арабіка"
+  },
+  {
+    "country": "TL",
+    "input": "кукурудза",
+    "ingredient": "Кукурудза свіжа"
+  },
+  {
+    "country": "TL",
+    "input": "маніок",
+    "ingredient": "Маніок"
+  },
+  {
+    "country": "TL",
+    "input": "тамаринд",
+    "ingredient": "Тамаринд"
+  },
+  {
+    "country": "TL",
+    "input": "кокос",
+    "ingredient": "Кокос"
+  },
+  {
+    "country": "TL",
+    "input": "морські водорості",
+    "ingredient": "Харчові водорості"
+  },
+  {
+    "country": "TL",
+    "input": "риба",
+    "ingredient": "Риба"
+  },
+  {
+    "country": "TL",
+    "input": "папая",
+    "ingredient": "Папая"
+  },
+  {
+    "country": "GE",
+    "input": "сир сулугуні",
+    "ingredient": "Сир сулугуні"
+  },
+  {
+    "country": "GE",
+    "input": "ткемалі",
+    "ingredient": "Соус ткемалі"
+  },
+  {
+    "country": "GE",
+    "input": "аджика",
+    "ingredient": "Аджика"
+  },
+  {
+    "country": "GE",
+    "input": "волоські горіхи",
+    "ingredient": "Волоський горіх"
+  },
+  {
+    "country": "GE",
+    "input": "виноград",
+    "ingredient": "Виноград"
+  },
+  {
+    "country": "GE",
+    "input": "чурчхела",
+    "ingredient": "Чурчхела"
+  },
+  {
+    "country": "GE",
+    "input": "тархун",
+    "ingredient": "Тархун"
+  },
+  {
+    "country": "GE",
+    "input": "вино квеврі",
+    "ingredient": "Вино квеврі"
+  },
+  {
+    "country": "IN",
+    "input": "малабарський чорний перець",
+    "ingredient": "Малабарський чорний перець"
+  },
+  {
+    "country": "IN",
+    "input": "кардамон",
+    "ingredient": "Кардамон"
+  },
+  {
+    "country": "IN",
+    "input": "куркума",
+    "ingredient": "Куркума"
+  },
+  {
+    "country": "IN",
+    "input": "рис басматі",
+    "ingredient": "Рис басматі"
+  },
+  {
+    "country": "IN",
+    "input": "гхі",
+    "ingredient": "Масло гхі"
+  },
+  {
+    "country": "IN",
+    "input": "асафетида",
+    "ingredient": "Асафетида"
+  },
+  {
+    "country": "IN",
+    "input": "манго",
+    "ingredient": "Манго"
+  },
+  {
+    "country": "IN",
+    "input": "тамаринд",
+    "ingredient": "Тамаринд"
+  },
+  {
+    "country": "IN",
+    "input": "джагері",
+    "ingredient": "Джагері"
+  },
+  {
+    "country": "IN",
+    "input": "листя карі",
+    "ingredient": "Листя карі"
+  },
+  {
+    "country": "IN",
+    "input": "масала-чай",
+    "ingredient": "Масала-чай"
+  },
+  {
+    "country": "ID",
+    "input": "темпе",
+    "ingredient": "Темпе"
+  },
+  {
+    "country": "ID",
+    "input": "солодкий соєвий соус кечап маніс",
+    "ingredient": "Солодкий соєвий соус кечап маніс"
+  },
+  {
+    "country": "ID",
+    "input": "горіхи кемірі",
+    "ingredient": "Горіхи кемірі"
+  },
+  {
+    "country": "ID",
+    "input": "галангал",
+    "ingredient": "Галангал"
+  },
+  {
+    "country": "ID",
+    "input": "пандан",
+    "ingredient": "Пандан"
+  },
+  {
+    "country": "ID",
+    "input": "кокосове молоко",
+    "ingredient": "Молоко кокосове"
+  },
+  {
+    "country": "ID",
+    "input": "самбал",
+    "ingredient": "Самбал"
+  },
+  {
+    "country": "ID",
+    "input": "мускатний горіх",
+    "ingredient": "Мускатний горіх"
+  },
+  {
+    "country": "ID",
+    "input": "гвоздика",
+    "ingredient": "Гвоздика"
+  },
+  {
+    "country": "ID",
+    "input": "пальмовий цукор",
+    "ingredient": "Пальмовий цукор"
+  },
+  {
+    "country": "ID",
+    "input": "креветкова паста терасі",
+    "ingredient": "Креветкова паста терасі"
+  },
+  {
+    "country": "IR",
+    "input": "шафран",
+    "ingredient": "Шафран"
+  },
+  {
+    "country": "IR",
+    "input": "сушений лайм",
+    "ingredient": "Сушений лайм"
+  },
+  {
+    "country": "IR",
+    "input": "барбарис зерешк",
+    "ingredient": "Барбарис зерешк"
+  },
+  {
+    "country": "IR",
+    "input": "фісташки",
+    "ingredient": "Фісташки"
+  },
+  {
+    "country": "IR",
+    "input": "трояндова вода",
+    "ingredient": "Трояндова вода"
+  },
+  {
+    "country": "IR",
+    "input": "гранат",
+    "ingredient": "Гранат"
+  },
+  {
+    "country": "IR",
+    "input": "сумах",
+    "ingredient": "Сумах"
+  },
+  {
+    "country": "IR",
+    "input": "чорний чай",
+    "ingredient": "Чай чорний"
+  },
+  {
+    "country": "IQ",
+    "input": "фініки",
+    "ingredient": "Фініки"
+  },
+  {
+    "country": "IQ",
+    "input": "сушений лайм",
+    "ingredient": "Сушений лайм"
+  },
+  {
+    "country": "IQ",
+    "input": "тамаринд",
+    "ingredient": "Тамаринд"
+  },
+  {
+    "country": "IQ",
+    "input": "рис анбар",
+    "ingredient": "Рис анбар"
+  },
+  {
+    "country": "IQ",
+    "input": "кунжут",
+    "ingredient": "Насіння кунжуту"
+  },
+  {
+    "country": "IQ",
+    "input": "гранатовий сироп",
+    "ingredient": "Гранатовий сироп"
+  },
+  {
+    "country": "IQ",
+    "input": "короп",
+    "ingredient": "Короп"
+  },
+  {
+    "country": "IQ",
+    "input": "фініковий сироп",
+    "ingredient": "Сироп фініковий"
+  },
+  {
+    "country": "IL",
+    "input": "заатар",
+    "ingredient": "Заатар"
+  },
+  {
+    "country": "IL",
+    "input": "тахіні",
+    "ingredient": "Кунжутна паста тахіні"
+  },
+  {
+    "country": "IL",
+    "input": "оливки",
+    "ingredient": "Оливки"
+  },
+  {
+    "country": "IL",
+    "input": "фініки",
+    "ingredient": "Фініки"
+  },
+  {
+    "country": "IL",
+    "input": "лабне",
+    "ingredient": "Лабне"
+  },
+  {
+    "country": "IL",
+    "input": "гранат",
+    "ingredient": "Гранат"
+  },
+  {
+    "country": "IL",
+    "input": "плоди опунції",
+    "ingredient": "Плоди опунції"
+  },
+  {
+    "country": "IL",
+    "input": "паста птітім",
+    "ingredient": "Паста птітім"
+  },
+  {
+    "country": "JP",
+    "input": "місо",
+    "ingredient": "Місо-паста"
+  },
+  {
+    "country": "JP",
+    "input": "соєвий соус шою",
+    "ingredient": "Соус соєвий"
+  },
+  {
+    "country": "JP",
+    "input": "водорості комбу",
+    "ingredient": "Комбу"
+  },
+  {
+    "country": "JP",
+    "input": "кацуобусі",
+    "ingredient": "Рибні пластівці кацуобусі"
+  },
+  {
+    "country": "JP",
+    "input": "юдзу",
+    "ingredient": "Юдзу"
+  },
+  {
+    "country": "JP",
+    "input": "матча",
+    "ingredient": "Матча"
+  },
+  {
+    "country": "JP",
+    "input": "рисовий оцет",
+    "ingredient": "Оцет рисовий"
+  },
+  {
+    "country": "JP",
+    "input": "кодзі",
+    "ingredient": "Кодзі"
+  },
+  {
+    "country": "JP",
+    "input": "шісо",
+    "ingredient": "Шісо"
+  },
+  {
+    "country": "JP",
+    "input": "умебосі",
+    "ingredient": "Умебосі"
+  },
+  {
+    "country": "JP",
+    "input": "натто",
+    "ingredient": "Натто"
+  },
+  {
+    "country": "JP",
+    "input": "саке",
+    "ingredient": "Саке"
+  },
+  {
+    "country": "JO",
+    "input": "заатар",
+    "ingredient": "Заатар"
+  },
+  {
+    "country": "JO",
+    "input": "лабне",
+    "ingredient": "Лабне"
+  },
+  {
+    "country": "JO",
+    "input": "оливкова олія",
+    "ingredient": "Олія оливкова"
+  },
+  {
+    "country": "JO",
+    "input": "фріке",
+    "ingredient": "Фріке"
+  },
+  {
+    "country": "JO",
+    "input": "сушений йогурт джамід",
+    "ingredient": "Сушений йогурт джамід"
+  },
+  {
+    "country": "JO",
+    "input": "сумах",
+    "ingredient": "Сумах"
+  },
+  {
+    "country": "JO",
+    "input": "фініки",
+    "ingredient": "Фініки"
+  },
+  {
+    "country": "KZ",
+    "input": "кумис",
+    "ingredient": "Кумис"
+  },
+  {
+    "country": "KZ",
+    "input": "шубат",
+    "ingredient": "Шубат"
+  },
+  {
+    "country": "KZ",
+    "input": "курт",
+    "ingredient": "Курт"
+  },
+  {
+    "country": "KZ",
+    "input": "конина",
+    "ingredient": "Конина"
+  },
+  {
+    "country": "KZ",
+    "input": "баурсаки",
+    "ingredient": "Баурсаки"
+  },
+  {
+    "country": "KZ",
+    "input": "просо",
+    "ingredient": "Просо"
+  },
+  {
+    "country": "KZ",
+    "input": "яблука апорт",
+    "ingredient": "Яблука апорт"
+  },
+  {
+    "country": "KZ",
+    "input": "гречка",
+    "ingredient": "Гречка"
+  },
+  {
+    "country": "KW",
+    "input": "сушений лайм лумі",
+    "ingredient": "Сушений лайм лумі"
+  },
+  {
+    "country": "KW",
+    "input": "фініки",
+    "ingredient": "Фініки"
+  },
+  {
+    "country": "KW",
+    "input": "шафран",
+    "ingredient": "Шафран"
+  },
+  {
+    "country": "KW",
+    "input": "кардамон",
+    "ingredient": "Кардамон"
+  },
+  {
+    "country": "KW",
+    "input": "креветки",
+    "ingredient": "Креветки"
+  },
+  {
+    "country": "KW",
+    "input": "рис басматі",
+    "ingredient": "Рис басматі"
+  },
+  {
+    "country": "KW",
+    "input": "трояндова вода",
+    "ingredient": "Трояндова вода"
+  },
+  {
+    "country": "KW",
+    "input": "арабська кава",
+    "ingredient": "Арабська кава"
+  },
+  {
+    "country": "KG",
+    "input": "кумис",
+    "ingredient": "Кумис"
+  },
+  {
+    "country": "KG",
+    "input": "курут",
+    "ingredient": "Курут"
+  },
+  {
+    "country": "KG",
+    "input": "м'ясо яка",
+    "ingredient": "М'ясо яка"
+  },
+  {
+    "country": "KG",
+    "input": "волоські горіхи",
+    "ingredient": "Волоський горіх"
+  },
+  {
+    "country": "KG",
+    "input": "абрикоси",
+    "ingredient": "Абрикос"
+  },
+  {
+    "country": "KG",
+    "input": "ячмінь",
+    "ingredient": "Ячмінь"
+  },
+  {
+    "country": "KG",
+    "input": "напій бозо",
+    "ingredient": "Напій бозо"
+  },
+  {
+    "country": "KG",
+    "input": "гірський мед",
+    "ingredient": "Гірський мед"
+  },
+  {
+    "country": "LA",
+    "input": "клейкий рис",
+    "ingredient": "Клейкий рис"
+  },
+  {
+    "country": "LA",
+    "input": "ферментована риба падаек",
+    "ingredient": "Ферментована риба падаек"
+  },
+  {
+    "country": "LA",
+    "input": "галангал",
+    "ingredient": "Галангал"
+  },
+  {
+    "country": "LA",
+    "input": "лемонграс",
+    "ingredient": "Лемонграс"
+  },
+  {
+    "country": "LA",
+    "input": "листя макрут-лайма",
+    "ingredient": "Листя макрут-лайма"
+  },
+  {
+    "country": "LA",
+    "input": "пагони бамбука",
+    "ingredient": "Пагони бамбука"
+  },
+  {
+    "country": "LA",
+    "input": "паста джео",
+    "ingredient": "Паста джео"
+  },
+  {
+    "country": "LA",
+    "input": "річкові водорості",
+    "ingredient": "Річкові водорості"
+  },
+  {
+    "country": "LB",
+    "input": "заатар",
+    "ingredient": "Заатар"
+  },
+  {
+    "country": "LB",
+    "input": "сумах",
+    "ingredient": "Сумах"
+  },
+  {
+    "country": "LB",
+    "input": "лабне",
+    "ingredient": "Лабне"
+  },
+  {
+    "country": "LB",
+    "input": "булгур",
+    "ingredient": "Булгур"
+  },
+  {
+    "country": "LB",
+    "input": "кедрові горіхи",
+    "ingredient": "Кедровий горіх"
+  },
+  {
+    "country": "LB",
+    "input": "вода апельсинових квітів",
+    "ingredient": "Вода апельсинових квітів"
+  },
+  {
+    "country": "LB",
+    "input": "гранатова патока",
+    "ingredient": "Гранатова патока"
+  },
+  {
+    "country": "LB",
+    "input": "арак",
+    "ingredient": "Арак"
+  },
+  {
+    "country": "MY",
+    "input": "креветкова паста белачан",
+    "ingredient": "Креветкова паста белачан"
+  },
+  {
+    "country": "MY",
+    "input": "пандан",
+    "ingredient": "Пандан"
+  },
+  {
+    "country": "MY",
+    "input": "кокосове молоко",
+    "ingredient": "Молоко кокосове"
+  },
+  {
+    "country": "MY",
+    "input": "дуріан Мусанг Кінг",
+    "ingredient": "Дуріан Мусанг Кінг"
+  },
+  {
+    "country": "MY",
+    "input": "квіти імбиру",
+    "ingredient": "Квіти імбиру"
+  },
+  {
+    "country": "MY",
+    "input": "каламансі",
+    "ingredient": "Каламансі"
+  },
+  {
+    "country": "MY",
+    "input": "пальмовий цукор гула-мелака",
+    "ingredient": "Пальмовий цукор гула-мелака"
+  },
+  {
+    "country": "MY",
+    "input": "лемонграс",
+    "ingredient": "Лемонграс"
+  },
+  {
+    "country": "MV",
+    "input": "тунець",
+    "ingredient": "Тунець"
+  },
+  {
+    "country": "MV",
+    "input": "сушений мальдівський тунець",
+    "ingredient": "Сушений мальдівський тунець"
+  },
+  {
+    "country": "MV",
+    "input": "кокос",
+    "ingredient": "Кокос"
+  },
+  {
+    "country": "MV",
+    "input": "кокосове молоко",
+    "ingredient": "Молоко кокосове"
+  },
+  {
+    "country": "MV",
+    "input": "чилі",
+    "ingredient": "Чилі"
+  },
+  {
+    "country": "MV",
+    "input": "пандан",
+    "ingredient": "Пандан"
+  },
+  {
+    "country": "MV",
+    "input": "хлібний плід",
+    "ingredient": "Хлібний плід"
+  },
+  {
+    "country": "MV",
+    "input": "листя карі",
+    "ingredient": "Листя карі"
+  },
+  {
+    "country": "MN",
+    "input": "айраг",
+    "ingredient": "Айраг"
+  },
+  {
+    "country": "MN",
+    "input": "молоко яка",
+    "ingredient": "Молоко яка"
+  },
+  {
+    "country": "MN",
+    "input": "сушений сир ааруул",
+    "ingredient": "Сушений сир ааруул"
+  },
+  {
+    "country": "MN",
+    "input": "баранина",
+    "ingredient": "Баранина"
+  },
+  {
+    "country": "MN",
+    "input": "конина",
+    "ingredient": "Конина"
+  },
+  {
+    "country": "MN",
+    "input": "просо",
+    "ingredient": "Просо"
+  },
+  {
+    "country": "MN",
+    "input": "обліпиха",
+    "ingredient": "Обліпиха"
+  },
+  {
+    "country": "MN",
+    "input": "солоний молочний чай",
+    "ingredient": "Солоний молочний чай"
+  },
+  {
+    "country": "MM",
+    "input": "ферментована рибна паста нгапі",
+    "ingredient": "Ферментована рибна паста нгапі"
+  },
+  {
+    "country": "MM",
+    "input": "ферментоване чайне листя лапхет",
+    "ingredient": "Ферментоване чайне листя лапхет"
+  },
+  {
+    "country": "MM",
+    "input": "тамаринд",
+    "ingredient": "Тамаринд"
+  },
+  {
+    "country": "MM",
+    "input": "нутове борошно",
+    "ingredient": "Борошно нутове"
+  },
+  {
+    "country": "MM",
+    "input": "рисова локшина",
+    "ingredient": "Локшина рисова"
+  },
+  {
+    "country": "MM",
+    "input": "куркума",
+    "ingredient": "Куркума"
+  },
+  {
+    "country": "MM",
+    "input": "банановий цвіт",
+    "ingredient": "Банановий цвіт"
+  },
+  {
+    "country": "MM",
+    "input": "рибний соус",
+    "ingredient": "Соус рибний"
+  },
+  {
+    "country": "NP",
+    "input": "перець тимур",
+    "ingredient": "Перець тимур"
+  },
+  {
+    "country": "NP",
+    "input": "гречка",
+    "ingredient": "Гречка"
+  },
+  {
+    "country": "NP",
+    "input": "сир чхурпі",
+    "ingredient": "Сир чхурпі"
+  },
+  {
+    "country": "NP",
+    "input": "кропива сісну",
+    "ingredient": "Кропива сісну"
+  },
+  {
+    "country": "NP",
+    "input": "ферментована зелень гундрук",
+    "ingredient": "Ферментована зелень гундрук"
+  },
+  {
+    "country": "NP",
+    "input": "гімалайський мед",
+    "ingredient": "Гімалайський мед"
+  },
+  {
+    "country": "NP",
+    "input": "просо",
+    "ingredient": "Просо"
+  },
+  {
+    "country": "NP",
+    "input": "чай",
+    "ingredient": "Чай чорний"
+  },
+  {
+    "country": "KP",
+    "input": "кімчі",
+    "ingredient": "Кімчі"
+  },
+  {
+    "country": "KP",
+    "input": "перець кочугару",
+    "ingredient": "Перець кочугару"
+  },
+  {
+    "country": "KP",
+    "input": "гречана локшина",
+    "ingredient": "Локшина гречана"
+  },
+  {
+    "country": "KP",
+    "input": "соєва паста твенджан",
+    "ingredient": "Соєва паста твенджан"
+  },
+  {
+    "country": "KP",
+    "input": "редька дайкон",
+    "ingredient": "Редька дайкон"
+  },
+  {
+    "country": "KP",
+    "input": "рис",
+    "ingredient": "Рис"
+  },
+  {
+    "country": "KP",
+    "input": "кедрові горіхи",
+    "ingredient": "Кедровий горіх"
+  },
+  {
+    "country": "KP",
+    "input": "женьшень",
+    "ingredient": "Женьшень"
+  },
+  {
+    "country": "OM",
+    "input": "фініки",
+    "ingredient": "Фініки"
+  },
+  {
+    "country": "OM",
+    "input": "сушений лайм лумі",
+    "ingredient": "Сушений лайм лумі"
+  },
+  {
+    "country": "OM",
+    "input": "кардамон",
+    "ingredient": "Кардамон"
+  },
+  {
+    "country": "OM",
+    "input": "шафран",
+    "ingredient": "Шафран"
+  },
+  {
+    "country": "OM",
+    "input": "морська риба",
+    "ingredient": "Морська риба"
+  },
+  {
+    "country": "OM",
+    "input": "кокос",
+    "ingredient": "Кокос"
+  },
+  {
+    "country": "OM",
+    "input": "оманська халва",
+    "ingredient": "Оманська халва"
+  },
+  {
+    "country": "OM",
+    "input": "арабська кава",
+    "ingredient": "Арабська кава"
+  },
+  {
+    "country": "PK",
+    "input": "рис басматі",
+    "ingredient": "Рис басматі"
+  },
+  {
+    "country": "PK",
+    "input": "гімалайська рожева сіль",
+    "ingredient": "Гімалайська рожева сіль"
+  },
+  {
+    "country": "PK",
+    "input": "манго Чаунса",
+    "ingredient": "Манго Чаунса"
+  },
+  {
+    "country": "PK",
+    "input": "ажгон",
+    "ingredient": "Ажгон"
+  },
+  {
+    "country": "PK",
+    "input": "насіння калінджі",
+    "ingredient": "Кмин чорний"
+  },
+  {
+    "country": "PK",
+    "input": "кардамон",
+    "ingredient": "Кардамон"
+  },
+  {
+    "country": "PK",
+    "input": "козлятина",
+    "ingredient": "Козлятина"
+  },
+  {
+    "country": "PK",
+    "input": "сік цукрової тростини",
+    "ingredient": "Сік цукрової тростини"
+  },
+  {
+    "country": "PS",
+    "input": "оливкова олія",
+    "ingredient": "Олія оливкова"
+  },
+  {
+    "country": "PS",
+    "input": "заатар",
+    "ingredient": "Заатар"
+  },
+  {
+    "country": "PS",
+    "input": "сумах",
+    "ingredient": "Сумах"
+  },
+  {
+    "country": "PS",
+    "input": "фріке",
+    "ingredient": "Фріке"
+  },
+  {
+    "country": "PS",
+    "input": "сир набулсі",
+    "ingredient": "Сир набулсі"
+  },
+  {
+    "country": "PS",
+    "input": "фініки",
+    "ingredient": "Фініки"
+  },
+  {
+    "country": "PS",
+    "input": "ріжковий сироп",
+    "ingredient": "Ріжковий сироп"
+  },
+  {
+    "country": "PS",
+    "input": "чебрець",
+    "ingredient": "Чебрець"
+  },
+  {
+    "country": "PH",
+    "input": "каламансі",
+    "ingredient": "Каламансі"
+  },
+  {
+    "country": "PH",
+    "input": "фіолетовий ямс убе",
+    "ingredient": "Фіолетовий ямс убе"
+  },
+  {
+    "country": "PH",
+    "input": "кокосовий оцет",
+    "ingredient": "Кокосовий оцет"
+  },
+  {
+    "country": "PH",
+    "input": "банановий кетчуп",
+    "ingredient": "Банановий кетчуп"
+  },
+  {
+    "country": "PH",
+    "input": "ферментована паста багунг",
+    "ingredient": "Ферментована паста багунг"
+  },
+  {
+    "country": "PH",
+    "input": "горіхи пілі",
+    "ingredient": "Горіхи пілі"
+  },
+  {
+    "country": "PH",
+    "input": "кокосове молоко",
+    "ingredient": "Молоко кокосове"
+  },
+  {
+    "country": "PH",
+    "input": "пандан",
+    "ingredient": "Пандан"
+  },
+  {
+    "country": "PH",
+    "input": "рибний соус патіс",
+    "ingredient": "Рибний соус патіс"
+  },
+  {
+    "country": "QA",
+    "input": "фініки",
+    "ingredient": "Фініки"
+  },
+  {
+    "country": "QA",
+    "input": "сушений лайм",
+    "ingredient": "Сушений лайм"
+  },
+  {
+    "country": "QA",
+    "input": "шафран",
+    "ingredient": "Шафран"
+  },
+  {
+    "country": "QA",
+    "input": "кардамон",
+    "ingredient": "Кардамон"
+  },
+  {
+    "country": "QA",
+    "input": "трояндова вода",
+    "ingredient": "Трояндова вода"
+  },
+  {
+    "country": "QA",
+    "input": "креветки",
+    "ingredient": "Креветки"
+  },
+  {
+    "country": "QA",
+    "input": "арабська кава",
+    "ingredient": "Арабська кава"
+  },
+  {
+    "country": "SA",
+    "input": "фініки аджва",
+    "ingredient": "Фініки аджва"
+  },
+  {
+    "country": "SA",
+    "input": "фініки халас",
+    "ingredient": "Фініки халас"
+  },
+  {
+    "country": "SA",
+    "input": "арабська кава",
+    "ingredient": "Арабська кава"
+  },
+  {
+    "country": "SA",
+    "input": "кардамон",
+    "ingredient": "Кардамон"
+  },
+  {
+    "country": "SA",
+    "input": "сушений лайм",
+    "ingredient": "Сушений лайм"
+  },
+  {
+    "country": "SA",
+    "input": "баранина",
+    "ingredient": "Баранина"
+  },
+  {
+    "country": "SA",
+    "input": "верблюже молоко",
+    "ingredient": "Верблюже молоко"
+  },
+  {
+    "country": "SA",
+    "input": "пшенична крупа джаріш",
+    "ingredient": "Пшенична крупа джаріш"
+  },
+  {
+    "country": "SG",
+    "input": "кокосовий джем кая",
+    "ingredient": "Кокосовий джем кая"
+  },
+  {
+    "country": "SG",
+    "input": "паста лакса",
+    "ingredient": "Паста лакса"
+  },
+  {
+    "country": "SG",
+    "input": "білий перець",
+    "ingredient": "Перець білий"
+  },
+  {
+    "country": "SG",
+    "input": "чорний перець",
+    "ingredient": "Перець чорний"
+  },
+  {
+    "country": "SG",
+    "input": "пандан",
+    "ingredient": "Пандан"
+  },
+  {
+    "country": "SG",
+    "input": "самбал белачан",
+    "ingredient": "Самбал белачан"
+  },
+  {
+    "country": "SG",
+    "input": "в'ялена свинина бак-ква",
+    "ingredient": "В'ялена свинина бак-ква"
+  },
+  {
+    "country": "SG",
+    "input": "чай тех-тарік",
+    "ingredient": "Чай тех-тарік"
+  },
+  {
+    "country": "KR",
+    "input": "кочуджан",
+    "ingredient": "Паста кочуджан"
+  },
+  {
+    "country": "KR",
+    "input": "кочугару",
+    "ingredient": "Перець кочугару"
+  },
+  {
+    "country": "KR",
+    "input": "твенджан",
+    "ingredient": "Соєва паста твенджан"
+  },
+  {
+    "country": "KR",
+    "input": "кімчі",
+    "ingredient": "Кімчі"
+  },
+  {
+    "country": "KR",
+    "input": "кунжутна олія",
+    "ingredient": "Олія кунжутна"
+  },
+  {
+    "country": "KR",
+    "input": "листя перили",
+    "ingredient": "Листя перили"
+  },
+  {
+    "country": "KR",
+    "input": "макколлі",
+    "ingredient": "Макколлі"
+  },
+  {
+    "country": "KR",
+    "input": "цитрусовий чай юджа",
+    "ingredient": "Цитрусовий чай юджа"
+  },
+  {
+    "country": "KR",
+    "input": "водорості кім",
+    "ingredient": "Водорості кім"
+  },
+  {
+    "country": "LK",
+    "input": "цейлонська кориця",
+    "ingredient": "Цейлонська кориця"
+  },
+  {
+    "country": "LK",
+    "input": "цейлонський чай",
+    "ingredient": "Цейлонський чай"
+  },
+  {
+    "country": "LK",
+    "input": "кокосове молоко",
+    "ingredient": "Молоко кокосове"
+  },
+  {
+    "country": "LK",
+    "input": "сушений мальдівський тунець",
+    "ingredient": "Сушений мальдівський тунець"
+  },
+  {
+    "country": "LK",
+    "input": "горака",
+    "ingredient": "Горака"
+  },
+  {
+    "country": "LK",
+    "input": "пандан",
+    "ingredient": "Пандан"
+  },
+  {
+    "country": "LK",
+    "input": "чорний перець",
+    "ingredient": "Перець чорний"
+  },
+  {
+    "country": "LK",
+    "input": "пальмовий сироп кітул",
+    "ingredient": "Пальмовий сироп кітул"
+  },
+  {
+    "country": "SY",
+    "input": "алеппський перець",
+    "ingredient": "Алеппський перець"
+  },
+  {
+    "country": "SY",
+    "input": "булгур",
+    "ingredient": "Булгур"
+  },
+  {
+    "country": "SY",
+    "input": "сумах",
+    "ingredient": "Сумах"
+  },
+  {
+    "country": "SY",
+    "input": "алеппські фісташки",
+    "ingredient": "Алеппські фісташки"
+  },
+  {
+    "country": "SY",
+    "input": "трояндова вода",
+    "ingredient": "Трояндова вода"
+  },
+  {
+    "country": "SY",
+    "input": "гранатова патока",
+    "ingredient": "Гранатова патока"
+  },
+  {
+    "country": "SY",
+    "input": "лабне",
+    "ingredient": "Лабне"
+  },
+  {
+    "country": "SY",
+    "input": "заатар",
+    "ingredient": "Заатар"
+  },
+  {
+    "country": "TJ",
+    "input": "курага",
+    "ingredient": "Курага"
+  },
+  {
+    "country": "TJ",
+    "input": "волоські горіхи",
+    "ingredient": "Волоський горіх"
+  },
+  {
+    "country": "TJ",
+    "input": "курут",
+    "ingredient": "Курут"
+  },
+  {
+    "country": "TJ",
+    "input": "сумах",
+    "ingredient": "Сумах"
+  },
+  {
+    "country": "TJ",
+    "input": "баранина",
+    "ingredient": "Баранина"
+  },
+  {
+    "country": "TJ",
+    "input": "шовковиця",
+    "ingredient": "Шовковиця"
+  },
+  {
+    "country": "TJ",
+    "input": "родзинки",
+    "ingredient": "Родзинки"
+  },
+  {
+    "country": "TJ",
+    "input": "чорний чай",
+    "ingredient": "Чай чорний"
+  },
+  {
+    "country": "TH",
+    "input": "рибний соус нам-пла",
+    "ingredient": "Рибний соус нам-пла"
+  },
+  {
+    "country": "TH",
+    "input": "кокосове молоко",
+    "ingredient": "Молоко кокосове"
+  },
+  {
+    "country": "TH",
+    "input": "лемонграс",
+    "ingredient": "Лемонграс"
+  },
+  {
+    "country": "TH",
+    "input": "галангал",
+    "ingredient": "Галангал"
+  },
+  {
+    "country": "TH",
+    "input": "листя макрут-лайма",
+    "ingredient": "Листя макрут-лайма"
+  },
+  {
+    "country": "TH",
+    "input": "тайський базилік",
+    "ingredient": "Тайський базилік"
+  },
+  {
+    "country": "TH",
+    "input": "тамаринд",
+    "ingredient": "Тамаринд"
+  },
+  {
+    "country": "TH",
+    "input": "пальмовий цукор",
+    "ingredient": "Пальмовий цукор"
+  },
+  {
+    "country": "TH",
+    "input": "чилі пташине око",
+    "ingredient": "Чилі пташине око"
+  },
+  {
+    "country": "TH",
+    "input": "креветкова паста капі",
+    "ingredient": "Креветкова паста капі"
+  },
+  {
+    "country": "TR",
+    "input": "сумах",
+    "ingredient": "Сумах"
+  },
+  {
+    "country": "TR",
+    "input": "турецький йогурт",
+    "ingredient": "Турецький йогурт"
+  },
+  {
+    "country": "TR",
+    "input": "каймак",
+    "ingredient": "Каймак"
+  },
+  {
+    "country": "TR",
+    "input": "булгур",
+    "ingredient": "Булгур"
+  },
+  {
+    "country": "TR",
+    "input": "гранатова патока",
+    "ingredient": "Гранатова патока"
+  },
+  {
+    "country": "TR",
+    "input": "фісташки Антеп",
+    "ingredient": "Фісташки Антеп"
+  },
+  {
+    "country": "TR",
+    "input": "чорний чай",
+    "ingredient": "Чай чорний"
+  },
+  {
+    "country": "TR",
+    "input": "турецька кава",
+    "ingredient": "Турецька кава"
+  },
+  {
+    "country": "TR",
+    "input": "суджук",
+    "ingredient": "Суджук"
+  },
+  {
+    "country": "TR",
+    "input": "сир Езіне",
+    "ingredient": "Сир Езіне"
+  },
+  {
+    "country": "TM",
+    "input": "верблюже молоко чал",
+    "ingredient": "Верблюже молоко чал"
+  },
+  {
+    "country": "TM",
+    "input": "курут",
+    "ingredient": "Курут"
+  },
+  {
+    "country": "TM",
+    "input": "диня",
+    "ingredient": "Диня"
+  },
+  {
+    "country": "TM",
+    "input": "баранина",
+    "ingredient": "Баранина"
+  },
+  {
+    "country": "TM",
+    "input": "кунжут",
+    "ingredient": "Насіння кунжуту"
+  },
+  {
+    "country": "TM",
+    "input": "шовковиця",
+    "ingredient": "Шовковиця"
+  },
+  {
+    "country": "TM",
+    "input": "пшеничні коржі",
+    "ingredient": "Пшеничні коржі"
+  },
+  {
+    "country": "TM",
+    "input": "зелений чай",
+    "ingredient": "Чай зелений"
+  },
+  {
+    "country": "AE",
+    "input": "фініки",
+    "ingredient": "Фініки"
+  },
+  {
+    "country": "AE",
+    "input": "верблюже молоко",
+    "ingredient": "Верблюже молоко"
+  },
+  {
+    "country": "AE",
+    "input": "шафран",
+    "ingredient": "Шафран"
+  },
+  {
+    "country": "AE",
+    "input": "кардамон",
+    "ingredient": "Кардамон"
+  },
+  {
+    "country": "AE",
+    "input": "сушений лайм",
+    "ingredient": "Сушений лайм"
+  },
+  {
+    "country": "AE",
+    "input": "фініковий сироп",
+    "ingredient": "Сироп фініковий"
+  },
+  {
+    "country": "AE",
+    "input": "риба хамур",
+    "ingredient": "Риба хамур"
+  },
+  {
+    "country": "AE",
+    "input": "арабська кава",
+    "ingredient": "Арабська кава"
+  },
+  {
+    "country": "UZ",
+    "input": "рис девзіра",
+    "ingredient": "Рис девзіра"
+  },
+  {
+    "country": "UZ",
+    "input": "жовта морква",
+    "ingredient": "Жовта морква"
+  },
+  {
+    "country": "UZ",
+    "input": "баранина",
+    "ingredient": "Баранина"
+  },
+  {
+    "country": "UZ",
+    "input": "айва",
+    "ingredient": "Айва"
+  },
+  {
+    "country": "UZ",
+    "input": "зіра",
+    "ingredient": "Зіра"
+  },
+  {
+    "country": "UZ",
+    "input": "родзинки",
+    "ingredient": "Родзинки"
+  },
+  {
+    "country": "UZ",
+    "input": "курага",
+    "ingredient": "Курага"
+  },
+  {
+    "country": "UZ",
+    "input": "курут",
+    "ingredient": "Курут"
+  },
+  {
+    "country": "UZ",
+    "input": "зелений чай",
+    "ingredient": "Чай зелений"
+  },
+  {
+    "country": "UZ",
+    "input": "диня",
+    "ingredient": "Диня"
+  },
+  {
+    "country": "VN",
+    "input": "рибний соус ньок-мам",
+    "ingredient": "Рибний соус ньок-мам"
+  },
+  {
+    "country": "VN",
+    "input": "рисовий папір",
+    "ingredient": "Рисовий папір"
+  },
+  {
+    "country": "VN",
+    "input": "бадьян",
+    "ingredient": "Бадьян"
+  },
+  {
+    "country": "VN",
+    "input": "в'єтнамська кориця",
+    "ingredient": "В'єтнамська кориця"
+  },
+  {
+    "country": "VN",
+    "input": "лемонграс",
+    "ingredient": "Лемонграс"
+  },
+  {
+    "country": "VN",
+    "input": "рисова локшина",
+    "ingredient": "Локшина рисова"
+  },
+  {
+    "country": "VN",
+    "input": "в'єтнамський коріандр",
+    "ingredient": "В'єтнамський коріандр"
+  },
+  {
+    "country": "VN",
+    "input": "кава робуста",
+    "ingredient": "Кава робуста"
+  },
+  {
+    "country": "VN",
+    "input": "лотосовий чай",
+    "ingredient": "Лотосовий чай"
+  },
+  {
+    "country": "YE",
+    "input": "кава мокка",
+    "ingredient": "Кава мокка"
+  },
+  {
+    "country": "YE",
+    "input": "суміш спецій хаваїдж",
+    "ingredient": "Суміш спецій хаваїдж"
+  },
+  {
+    "country": "YE",
+    "input": "пажитникова паста хульба",
+    "ingredient": "Пажитникова паста хульба"
+  },
+  {
+    "country": "YE",
+    "input": "мед сидр",
+    "ingredient": "Мед сидр"
+  },
+  {
+    "country": "YE",
+    "input": "фініки",
+    "ingredient": "Фініки"
+  },
+  {
+    "country": "YE",
+    "input": "баранина",
+    "ingredient": "Баранина"
+  },
+  {
+    "country": "YE",
+    "input": "напій кішр",
+    "ingredient": "Напій кішр"
+  },
+  {
+    "country": "YE",
+    "input": "кардамон",
+    "ingredient": "Кардамон"
+  },
+  {
+    "country": "TW",
+    "input": "улун Алішань",
+    "ingredient": "Улун Алішань"
+  },
+  {
+    "country": "TW",
+    "input": "бульбашковий молочний чай",
+    "ingredient": "Бульбашковий молочний чай"
+  },
+  {
+    "country": "TW",
+    "input": "ананасові тістечка",
+    "ingredient": "Ананасові тістечка"
+  },
+  {
+    "country": "TW",
+    "input": "ферментований тофу",
+    "ingredient": "Ферментований тофу"
+  },
+  {
+    "country": "TW",
+    "input": "соус ша-ча",
+    "ingredient": "Соус ша-ча"
+  },
+  {
+    "country": "TW",
+    "input": "тайванський базилік",
+    "ingredient": "Тайванський базилік"
+  },
+  {
+    "country": "TW",
+    "input": "гуава",
+    "ingredient": "Гуава"
+  },
+  {
+    "country": "TW",
+    "input": "пагони бамбука",
+    "ingredient": "Пагони бамбука"
+  },
+  {
+    "country": "TW",
+    "input": "бататові кульки",
+    "ingredient": "Бататові кульки"
+  },
+  {
+    "country": "AL",
+    "input": "оливкова олія",
+    "ingredient": "Олія оливкова"
+  },
+  {
+    "country": "AL",
+    "input": "свіжий сир ґжізе",
+    "ingredient": "Свіжий сир ґжізе"
+  },
+  {
+    "country": "AL",
+    "input": "йогурт",
+    "ingredient": "Йогурт"
+  },
+  {
+    "country": "AL",
+    "input": "ракія",
+    "ingredient": "Ракія"
+  },
+  {
+    "country": "AL",
+    "input": "гірський чай",
+    "ingredient": "Гірський чай"
+  },
+  {
+    "country": "AL",
+    "input": "інжир",
+    "ingredient": "Інжир"
+  },
+  {
+    "country": "AL",
+    "input": "форель",
+    "ingredient": "Форель"
+  },
+  {
+    "country": "AL",
+    "input": "пиріг бирек",
+    "ingredient": "Пиріг бирек"
+  },
+  {
+    "country": "AD",
+    "input": "овечий сир",
+    "ingredient": "Овечий сир"
+  },
+  {
+    "country": "AD",
+    "input": "гірський мед",
+    "ingredient": "Гірський мед"
+  },
+  {
+    "country": "AD",
+    "input": "лісові гриби",
+    "ingredient": "Лісові гриби"
+  },
+  {
+    "country": "AD",
+    "input": "форель",
+    "ingredient": "Форель"
+  },
+  {
+    "country": "AD",
+    "input": "баранина",
+    "ingredient": "Баранина"
+  },
+  {
+    "country": "AD",
+    "input": "яблука",
+    "ingredient": "Яблуко"
+  },
+  {
+    "country": "AD",
+    "input": "ковбаса донжа",
+    "ingredient": "Ковбаса донжа"
+  },
+  {
+    "country": "AD",
+    "input": "вино рансі",
+    "ingredient": "Вино рансі"
+  },
+  {
+    "country": "AT",
+    "input": "гарбузова олія Штирії",
+    "ingredient": "Гарбузова олія Штирії"
+  },
+  {
+    "country": "AT",
+    "input": "абрикосовий джем Вахау",
+    "ingredient": "Абрикосовий джем Вахау"
+  },
+  {
+    "country": "AT",
+    "input": "тірольський шпек",
+    "ingredient": "Тірольський шпек"
+  },
+  {
+    "country": "AT",
+    "input": "гірський сир",
+    "ingredient": "Гірський сир"
+  },
+  {
+    "country": "AT",
+    "input": "вино Грюнер Вельтлінер",
+    "ingredient": "Вино Грюнер Вельтлінер"
+  },
+  {
+    "country": "AT",
+    "input": "сироп бузини",
+    "ingredient": "Сироп бузини"
+  },
+  {
+    "country": "AT",
+    "input": "мак",
+    "ingredient": "Насіння маку"
+  },
+  {
+    "country": "AT",
+    "input": "яблучний штрудель",
+    "ingredient": "Яблучний штрудель"
+  },
+  {
+    "country": "BY",
+    "input": "картопля",
+    "ingredient": "Картопля"
+  },
+  {
+    "country": "BY",
+    "input": "житній хліб",
+    "ingredient": "Хліб житній"
+  },
+  {
+    "country": "BY",
+    "input": "лісові гриби",
+    "ingredient": "Лісові гриби"
+  },
+  {
+    "country": "BY",
+    "input": "журавлина",
+    "ingredient": "Журавлина"
+  },
+  {
+    "country": "BY",
+    "input": "березовий сік",
+    "ingredient": "Березовий сік"
+  },
+  {
+    "country": "BY",
+    "input": "сметана",
+    "ingredient": "Сметана"
+  },
+  {
+    "country": "BY",
+    "input": "лляне насіння",
+    "ingredient": "Лляне насіння"
+  },
+  {
+    "country": "BY",
+    "input": "мед",
+    "ingredient": "Мед"
+  },
+  {
+    "country": "BE",
+    "input": "бельгійський шоколад",
+    "ingredient": "Бельгійський шоколад"
+  },
+  {
+    "country": "BE",
+    "input": "цикорій вітлуф",
+    "ingredient": "Цикорій вітлуф"
+  },
+  {
+    "country": "BE",
+    "input": "брюссельська капуста",
+    "ingredient": "Брюссельська капуста"
+  },
+  {
+    "country": "BE",
+    "input": "печиво спекулос",
+    "ingredient": "Печиво спекулос"
+  },
+  {
+    "country": "BE",
+    "input": "пиво ламбік",
+    "ingredient": "Пиво ламбік"
+  },
+  {
+    "country": "BE",
+    "input": "льєжський сироп",
+    "ingredient": "Льєжський сироп"
+  },
+  {
+    "country": "BE",
+    "input": "арденська шинка",
+    "ingredient": "Арденська шинка"
+  },
+  {
+    "country": "BE",
+    "input": "цукерки кубердон",
+    "ingredient": "Цукерки кубердон"
+  },
+  {
+    "country": "BA",
+    "input": "хліб сомун",
+    "ingredient": "Хліб сомун"
+  },
+  {
+    "country": "BA",
+    "input": "боснійська кава",
+    "ingredient": "Боснійська кава"
+  },
+  {
+    "country": "BA",
+    "input": "каймак",
+    "ingredient": "Каймак"
+  },
+  {
+    "country": "BA",
+    "input": "суджук",
+    "ingredient": "Суджук"
+  },
+  {
+    "country": "BA",
+    "input": "в'ялена яловичина",
+    "ingredient": "В'ялена яловичина"
+  },
+  {
+    "country": "BA",
+    "input": "свіжий сир",
+    "ingredient": "Свіжий сир"
+  },
+  {
+    "country": "BA",
+    "input": "сливи",
+    "ingredient": "Слива"
+  },
+  {
+    "country": "BA",
+    "input": "айвар",
+    "ingredient": "Айвар"
+  },
+  {
+    "country": "BG",
+    "input": "білий сир сирене",
+    "ingredient": "Білий сир сирене"
+  },
+  {
+    "country": "BG",
+    "input": "болгарський йогурт",
+    "ingredient": "Болгарський йогурт"
+  },
+  {
+    "country": "BG",
+    "input": "трояндове варення",
+    "ingredient": "Трояндове варення"
+  },
+  {
+    "country": "BG",
+    "input": "лютениця",
+    "ingredient": "Лютениця"
+  },
+  {
+    "country": "BG",
+    "input": "приправа шарена сол",
+    "ingredient": "Приправа шарена сол"
+  },
+  {
+    "country": "BG",
+    "input": "солодкий перець",
+    "ingredient": "Перець солодкий"
+  },
+  {
+    "country": "BG",
+    "input": "ракія",
+    "ingredient": "Ракія"
+  },
+  {
+    "country": "BG",
+    "input": "мед",
+    "ingredient": "Мед"
+  },
+  {
+    "country": "HR",
+    "input": "пажський сир",
+    "ingredient": "Пажський сир"
+  },
+  {
+    "country": "HR",
+    "input": "далматинський пршут",
+    "ingredient": "Далматинський пршут"
+  },
+  {
+    "country": "HR",
+    "input": "істрійські трюфелі",
+    "ingredient": "Істрійські трюфелі"
+  },
+  {
+    "country": "HR",
+    "input": "оливкова олія",
+    "ingredient": "Олія оливкова"
+  },
+  {
+    "country": "HR",
+    "input": "вишневий лікер мараскіно",
+    "ingredient": "Вишневий лікер мараскіно"
+  },
+  {
+    "country": "HR",
+    "input": "славонська ковбаса кулен",
+    "ingredient": "Славонська ковбаса кулен"
+  },
+  {
+    "country": "HR",
+    "input": "вино Плавац Малі",
+    "ingredient": "Вино Плавац Малі"
+  },
+  {
+    "country": "CZ",
+    "input": "пльзенське пиво",
+    "ingredient": "Пльзенське пиво"
+  },
+  {
+    "country": "CZ",
+    "input": "празька шинка",
+    "ingredient": "Празька шинка"
+  },
+  {
+    "country": "CZ",
+    "input": "кмин",
+    "ingredient": "Кмин"
+  },
+  {
+    "country": "CZ",
+    "input": "житній хліб",
+    "ingredient": "Хліб житній"
+  },
+  {
+    "country": "CZ",
+    "input": "кисломолочний сир тварог",
+    "ingredient": "Кисломолочний сир тварог"
+  },
+  {
+    "country": "CZ",
+    "input": "оломоуцькі сирки",
+    "ingredient": "Оломоуцькі сирки"
+  },
+  {
+    "country": "CZ",
+    "input": "сливовиця",
+    "ingredient": "Сливовиця"
+  },
+  {
+    "country": "CZ",
+    "input": "маринований гермелін",
+    "ingredient": "Маринований гермелін"
+  },
+  {
+    "country": "DK",
+    "input": "сир хаварті",
+    "ingredient": "Сир хаварті"
+  },
+  {
+    "country": "DK",
+    "input": "сир данаблю",
+    "ingredient": "Сир данаблю"
+  },
+  {
+    "country": "DK",
+    "input": "житній хліб ругброд",
+    "ingredient": "Житній хліб ругброд"
+  },
+  {
+    "country": "DK",
+    "input": "ремулaд",
+    "ingredient": "Ремулaд"
+  },
+  {
+    "country": "DK",
+    "input": "маринований оселедець",
+    "ingredient": "Маринований оселедець"
+  },
+  {
+    "country": "DK",
+    "input": "аквавіт",
+    "ingredient": "Аквавіт"
+  },
+  {
+    "country": "DK",
+    "input": "вершкове печиво",
+    "ingredient": "Вершкове печиво"
+  },
+  {
+    "country": "DK",
+    "input": "молочне масло",
+    "ingredient": "Молочне масло"
+  },
+  {
+    "country": "EE",
+    "input": "чорний житній хліб",
+    "ingredient": "Чорний житній хліб"
+  },
+  {
+    "country": "EE",
+    "input": "балтійські шпроти",
+    "ingredient": "Балтійські шпроти"
+  },
+  {
+    "country": "EE",
+    "input": "борошняна суміш кама",
+    "ingredient": "Борошняна суміш кама"
+  },
+  {
+    "country": "EE",
+    "input": "кефір",
+    "ingredient": "Кефір"
+  },
+  {
+    "country": "EE",
+    "input": "ялівець",
+    "ingredient": "Ялівець"
+  },
+  {
+    "country": "EE",
+    "input": "морошка",
+    "ingredient": "Морошка"
+  },
+  {
+    "country": "EE",
+    "input": "ревінь",
+    "ingredient": "Ревінь"
+  },
+  {
+    "country": "EE",
+    "input": "копчена шинка",
+    "ingredient": "Копчена шинка"
+  },
+  {
+    "country": "FI",
+    "input": "житнє борошно",
+    "ingredient": "Борошно житнє"
+  },
+  {
+    "country": "FI",
+    "input": "брусниця",
+    "ingredient": "Брусниця"
+  },
+  {
+    "country": "FI",
+    "input": "морошка",
+    "ingredient": "Морошка"
+  },
+  {
+    "country": "FI",
+    "input": "ряпушка",
+    "ingredient": "Ряпушка"
+  },
+  {
+    "country": "FI",
+    "input": "сир лейпяюусто",
+    "ingredient": "Сир лейпяюусто"
+  },
+  {
+    "country": "FI",
+    "input": "житній хліб",
+    "ingredient": "Хліб житній"
+  },
+  {
+    "country": "FI",
+    "input": "салміаккі",
+    "ingredient": "Салміаккі"
+  },
+  {
+    "country": "FI",
+    "input": "ягідний сік",
+    "ingredient": "Ягідний сік"
+  },
+  {
+    "country": "FR",
+    "input": "брі",
+    "ingredient": "Сир брі"
+  },
+  {
+    "country": "FR",
+    "input": "рокфор",
+    "ingredient": "Рокфор"
+  },
+  {
+    "country": "FR",
+    "input": "камамбер",
+    "ingredient": "Сир камамбер"
+  },
+  {
+    "country": "FR",
+    "input": "діжонська гірчиця",
+    "ingredient": "Гірчиця діжонська"
+  },
+  {
+    "country": "FR",
+    "input": "морська сіль флер-де-сель",
+    "ingredient": "Морська сіль флер-де-сель"
+  },
+  {
+    "country": "FR",
+    "input": "лавандовий мед",
+    "ingredient": "Лавандовий мед"
+  },
+  {
+    "country": "FR",
+    "input": "каштани",
+    "ingredient": "Каштани"
+  },
+  {
+    "country": "FR",
+    "input": "яблучний сидр",
+    "ingredient": "Сидр яблучний"
+  },
+  {
+    "country": "FR",
+    "input": "шампанське",
+    "ingredient": "Шампанське"
+  },
+  {
+    "country": "FR",
+    "input": "кальвадос",
+    "ingredient": "Кальвадос"
+  },
+  {
+    "country": "FR",
+    "input": "трюфелі",
+    "ingredient": "Трюфелі"
+  },
+  {
+    "country": "DE",
+    "input": "шварцвальдська шинка",
+    "ingredient": "Шварцвальдська шинка"
+  },
+  {
+    "country": "DE",
+    "input": "квашена капуста",
+    "ingredient": "Капуста квашена"
+  },
+  {
+    "country": "DE",
+    "input": "брецелі",
+    "ingredient": "Брецелі"
+  },
+  {
+    "country": "DE",
+    "input": "житній хліб",
+    "ingredient": "Хліб житній"
+  },
+  {
+    "country": "DE",
+    "input": "братвурст",
+    "ingredient": "Братвурст"
+  },
+  {
+    "country": "DE",
+    "input": "пиво",
+    "ingredient": "Пиво"
+  },
+  {
+    "country": "DE",
+    "input": "гірчиця",
+    "ingredient": "Гірчиця"
+  },
+  {
+    "country": "DE",
+    "input": "яєчна локшина шпецле",
+    "ingredient": "Яєчна локшина шпецле"
+  },
+  {
+    "country": "DE",
+    "input": "сир кварк",
+    "ingredient": "Сир кварк"
+  },
+  {
+    "country": "GR",
+    "input": "фета",
+    "ingredient": "Сир фета"
+  },
+  {
+    "country": "GR",
+    "input": "оливки Каламата",
+    "ingredient": "Оливки Каламата"
+  },
+  {
+    "country": "GR",
+    "input": "оливкова олія",
+    "ingredient": "Олія оливкова"
+  },
+  {
+    "country": "GR",
+    "input": "орегано",
+    "ingredient": "Орегано"
+  },
+  {
+    "country": "GR",
+    "input": "мастиха Хіоса",
+    "ingredient": "Мастиха Хіоса"
+  },
+  {
+    "country": "GR",
+    "input": "чебрецевий мед",
+    "ingredient": "Чебрецевий мед"
+  },
+  {
+    "country": "GR",
+    "input": "грецький йогурт",
+    "ingredient": "Йогурт грецький"
+  },
+  {
+    "country": "GR",
+    "input": "вино рецина",
+    "ingredient": "Вино рецина"
+  },
+  {
+    "country": "GR",
+    "input": "каперси",
+    "ingredient": "Каперси"
+  },
+  {
+    "country": "HU",
+    "input": "паприка Калоча",
+    "ingredient": "Паприка Калоча"
+  },
+  {
+    "country": "HU",
+    "input": "свинина мангалиці",
+    "ingredient": "Свинина мангалиці"
+  },
+  {
+    "country": "HU",
+    "input": "гусяча печінка",
+    "ingredient": "Гусяча печінка"
+  },
+  {
+    "country": "HU",
+    "input": "токайське вино",
+    "ingredient": "Токайське вино"
+  },
+  {
+    "country": "HU",
+    "input": "акацієвий мед",
+    "ingredient": "Акацієвий мед"
+  },
+  {
+    "country": "HU",
+    "input": "ковбаса чабаї",
+    "ingredient": "Ковбаса чабаї"
+  },
+  {
+    "country": "HU",
+    "input": "мак",
+    "ingredient": "Насіння маку"
+  },
+  {
+    "country": "HU",
+    "input": "вишня",
+    "ingredient": "Вишня"
+  },
+  {
+    "country": "HU",
+    "input": "гусячий жир",
+    "ingredient": "Гусячий жир"
+  },
+  {
+    "country": "IS",
+    "input": "скір",
+    "ingredient": "Скір"
+  },
+  {
+    "country": "IS",
+    "input": "ферментоване м'ясо акули",
+    "ingredient": "Ферментоване м'ясо акули"
+  },
+  {
+    "country": "IS",
+    "input": "баранина",
+    "ingredient": "Баранина"
+  },
+  {
+    "country": "IS",
+    "input": "арктичний голець",
+    "ingredient": "Арктичний голець"
+  },
+  {
+    "country": "IS",
+    "input": "житній хліб ругбрауд",
+    "ingredient": "Житній хліб ругбрауд"
+  },
+  {
+    "country": "IS",
+    "input": "чорниця",
+    "ingredient": "Чорниця"
+  },
+  {
+    "country": "IS",
+    "input": "напій бреннівін",
+    "ingredient": "Напій бреннівін"
+  },
+  {
+    "country": "IS",
+    "input": "сушена риба",
+    "ingredient": "Сушена риба"
+  },
+  {
+    "country": "IE",
+    "input": "ірландське вершкове масло",
+    "ingredient": "Ірландське вершкове масло"
+  },
+  {
+    "country": "IE",
+    "input": "фермерський чеддер",
+    "ingredient": "Фермерський чеддер"
+  },
+  {
+    "country": "IE",
+    "input": "ірландський віскі",
+    "ingredient": "Ірландський віскі"
+  },
+  {
+    "country": "IE",
+    "input": "содовий хліб",
+    "ingredient": "Содовий хліб"
+  },
+  {
+    "country": "IE",
+    "input": "копчений лосось",
+    "ingredient": "Копчений лосось"
+  },
+  {
+    "country": "IE",
+    "input": "кров'яна ковбаса",
+    "ingredient": "Кров'яна ковбаса"
+  },
+  {
+    "country": "IE",
+    "input": "стаут",
+    "ingredient": "Стаут"
+  },
+  {
+    "country": "IE",
+    "input": "овес",
+    "ingredient": "Овес"
+  },
+  {
+    "country": "IT",
+    "input": "моцарела ді буфала",
+    "ingredient": "Моцарела ді буфала"
+  },
+  {
+    "country": "IT",
+    "input": "парміджано-реджано",
+    "ingredient": "Парміджано-реджано"
+  },
+  {
+    "country": "IT",
+    "input": "прошуто ді Парма",
+    "ingredient": "Прошуто ді Парма"
+  },
+  {
+    "country": "IT",
+    "input": "бальзамічний оцет Модени",
+    "ingredient": "Бальзамічний оцет Модени"
+  },
+  {
+    "country": "IT",
+    "input": "помідори Сан-Марцано",
+    "ingredient": "Помідори Сан-Марцано"
+  },
+  {
+    "country": "IT",
+    "input": "рис арборіо",
+    "ingredient": "Рис арборіо"
+  },
+  {
+    "country": "IT",
+    "input": "песто дженовезе",
+    "ingredient": "Песто дженовезе"
+  },
+  {
+    "country": "IT",
+    "input": "оливкова олія",
+    "ingredient": "Олія оливкова"
+  },
+  {
+    "country": "IT",
+    "input": "лімончелло",
+    "ingredient": "Лімончелло"
+  },
+  {
+    "country": "IT",
+    "input": "еспресо",
+    "ingredient": "Еспресо"
+  },
+  {
+    "country": "IT",
+    "input": "полента",
+    "ingredient": "Полента"
+  },
+  {
+    "country": "IT",
+    "input": "гуанчале",
+    "ingredient": "Гуанчале"
+  },
+  {
+    "country": "LV",
+    "input": "житній хліб",
+    "ingredient": "Хліб житній"
+  },
+  {
+    "country": "LV",
+    "input": "ризькі шпроти",
+    "ingredient": "Ризькі шпроти"
+  },
+  {
+    "country": "LV",
+    "input": "Ризький чорний бальзам",
+    "ingredient": "Ризький чорний бальзам"
+  },
+  {
+    "country": "LV",
+    "input": "сир із кмином Яню",
+    "ingredient": "Сир із кмином Яню"
+  },
+  {
+    "country": "LV",
+    "input": "обліпиха",
+    "ingredient": "Обліпиха"
+  },
+  {
+    "country": "LV",
+    "input": "журавлина",
+    "ingredient": "Журавлина"
+  },
+  {
+    "country": "LV",
+    "input": "квас",
+    "ingredient": "Квас"
+  },
+  {
+    "country": "LV",
+    "input": "копчена риба",
+    "ingredient": "Копчена риба"
+  },
+  {
+    "country": "LI",
+    "input": "альпійський сир",
+    "ingredient": "Альпійський сир"
+  },
+  {
+    "country": "LI",
+    "input": "кукурудзяне борошно",
+    "ingredient": "Борошно кукурудзяне"
+  },
+  {
+    "country": "LI",
+    "input": "яблучний сидр",
+    "ingredient": "Сидр яблучний"
+  },
+  {
+    "country": "LI",
+    "input": "квашена капуста",
+    "ingredient": "Капуста квашена"
+  },
+  {
+    "country": "LI",
+    "input": "гірський мед",
+    "ingredient": "Гірський мед"
+  },
+  {
+    "country": "LI",
+    "input": "молочне масло",
+    "ingredient": "Молочне масло"
+  },
+  {
+    "country": "LI",
+    "input": "місцеве вино",
+    "ingredient": "Місцеве вино"
+  },
+  {
+    "country": "LT",
+    "input": "темний житній хліб",
+    "ingredient": "Темний житній хліб"
+  },
+  {
+    "country": "LT",
+    "input": "копчений вугор",
+    "ingredient": "Копчений вугор"
+  },
+  {
+    "country": "LT",
+    "input": "ковбаса скілaндіс",
+    "ingredient": "Ковбаса скілaндіс"
+  },
+  {
+    "country": "LT",
+    "input": "сир із сиру кисломолочного",
+    "ingredient": "Сир із сиру кисломолочного"
+  },
+  {
+    "country": "LT",
+    "input": "березовий сік",
+    "ingredient": "Березовий сік"
+  },
+  {
+    "country": "LT",
+    "input": "мед",
+    "ingredient": "Мед"
+  },
+  {
+    "country": "LT",
+    "input": "торт шакотіс",
+    "ingredient": "Торт шакотіс"
+  },
+  {
+    "country": "LT",
+    "input": "квас",
+    "ingredient": "Квас"
+  },
+  {
+    "country": "LU",
+    "input": "рислінг",
+    "ingredient": "Рислінг"
+  },
+  {
+    "country": "LU",
+    "input": "ігристе вино креман",
+    "ingredient": "Ігристе вино креман"
+  },
+  {
+    "country": "LU",
+    "input": "люксембурзька гірчиця",
+    "ingredient": "Люксембурзька гірчиця"
+  },
+  {
+    "country": "LU",
+    "input": "копчена свинина",
+    "ingredient": "Копчена свинина"
+  },
+  {
+    "country": "LU",
+    "input": "печінковий паштет",
+    "ingredient": "Паштет печінковий"
+  },
+  {
+    "country": "LU",
+    "input": "сливове варення",
+    "ingredient": "Сливове варення"
+  },
+  {
+    "country": "LU",
+    "input": "яблучний сидр",
+    "ingredient": "Сидр яблучний"
+  },
+  {
+    "country": "MT",
+    "input": "козячий сир джбейна",
+    "ingredient": "Козячий сир джбейна"
+  },
+  {
+    "country": "MT",
+    "input": "каперси",
+    "ingredient": "Каперси"
+  },
+  {
+    "country": "MT",
+    "input": "оливки",
+    "ingredient": "Оливки"
+  },
+  {
+    "country": "MT",
+    "input": "опунція",
+    "ingredient": "Опунція"
+  },
+  {
+    "country": "MT",
+    "input": "кролятина",
+    "ingredient": "Кролятина"
+  },
+  {
+    "country": "MT",
+    "input": "томатна паста кунсерва",
+    "ingredient": "Томатна паста кунсерва"
+  },
+  {
+    "country": "MT",
+    "input": "напій Kinnie",
+    "ingredient": "Напій Kinnie"
+  },
+  {
+    "country": "MT",
+    "input": "мальтійський хліб фтіра",
+    "ingredient": "Мальтійський хліб фтіра"
+  },
+  {
+    "country": "MD",
+    "input": "плацинди",
+    "ingredient": "Плацинди"
+  },
+  {
+    "country": "MD",
+    "input": "бринза",
+    "ingredient": "Сир бринза"
+  },
+  {
+    "country": "MD",
+    "input": "виноград",
+    "ingredient": "Виноград"
+  },
+  {
+    "country": "MD",
+    "input": "вино Фетяска Нягре",
+    "ingredient": "Вино Фетяска Нягре"
+  },
+  {
+    "country": "MD",
+    "input": "сливова горілка",
+    "ingredient": "Сливова горілка"
+  },
+  {
+    "country": "MD",
+    "input": "насіння соняшнику",
+    "ingredient": "Насіння соняшнику"
+  },
+  {
+    "country": "MD",
+    "input": "волоські горіхи",
+    "ingredient": "Волоський горіх"
+  },
+  {
+    "country": "MD",
+    "input": "вишневе варення",
+    "ingredient": "Вишневе варення"
+  },
+  {
+    "country": "MC",
+    "input": "нутове борошно",
+    "ingredient": "Борошно нутове"
+  },
+  {
+    "country": "MC",
+    "input": "пиріжки барбаджуан",
+    "ingredient": "Пиріжки барбаджуан"
+  },
+  {
+    "country": "MC",
+    "input": "монегаська фугас",
+    "ingredient": "Монегаська фугас"
+  },
+  {
+    "country": "MC",
+    "input": "оливкова олія",
+    "ingredient": "Олія оливкова"
+  },
+  {
+    "country": "MC",
+    "input": "мангольд",
+    "ingredient": "Мангольд"
+  },
+  {
+    "country": "MC",
+    "input": "вода апельсинових квітів",
+    "ingredient": "Вода апельсинових квітів"
+  },
+  {
+    "country": "MC",
+    "input": "лимони",
+    "ingredient": "Лимон"
+  },
+  {
+    "country": "MC",
+    "input": "місцеве рожеве вино",
+    "ingredient": "Місцеве рожеве вино"
+  },
+  {
+    "country": "ME",
+    "input": "негушський пршут",
+    "ingredient": "Негушський пршут"
+  },
+  {
+    "country": "ME",
+    "input": "плевлянський сир",
+    "ingredient": "Плевлянський сир"
+  },
+  {
+    "country": "ME",
+    "input": "оливки Бара",
+    "ingredient": "Оливки Бара"
+  },
+  {
+    "country": "ME",
+    "input": "гранат",
+    "ingredient": "Гранат"
+  },
+  {
+    "country": "ME",
+    "input": "каймак",
+    "ingredient": "Каймак"
+  },
+  {
+    "country": "ME",
+    "input": "гірський мед",
+    "ingredient": "Гірський мед"
+  },
+  {
+    "country": "ME",
+    "input": "вино Вранац",
+    "ingredient": "Вино Вранац"
+  },
+  {
+    "country": "NL",
+    "input": "гауда",
+    "ingredient": "Сир гауда"
+  },
+  {
+    "country": "NL",
+    "input": "едам",
+    "ingredient": "Едам"
+  },
+  {
+    "country": "NL",
+    "input": "фермерський сир буренкаас",
+    "ingredient": "Фермерський сир буренкаас"
+  },
+  {
+    "country": "NL",
+    "input": "оселедець",
+    "ingredient": "Оселедець"
+  },
+  {
+    "country": "NL",
+    "input": "стропвафлі",
+    "ingredient": "Стропвафлі"
+  },
+  {
+    "country": "NL",
+    "input": "лакриця дроп",
+    "ingredient": "Лакриця дроп"
+  },
+  {
+    "country": "NL",
+    "input": "женевер",
+    "ingredient": "Женевер"
+  },
+  {
+    "country": "NL",
+    "input": "гірчиця",
+    "ingredient": "Гірчиця"
+  },
+  {
+    "country": "NL",
+    "input": "яблучний сироп",
+    "ingredient": "Яблучний сироп"
+  },
+  {
+    "country": "MK",
+    "input": "айвар",
+    "ingredient": "Айвар"
+  },
+  {
+    "country": "MK",
+    "input": "перець куртовська капія",
+    "ingredient": "Перець куртовська капія"
+  },
+  {
+    "country": "MK",
+    "input": "овечий сир",
+    "ingredient": "Овечий сир"
+  },
+  {
+    "country": "MK",
+    "input": "тетовська квасоля",
+    "ingredient": "Тетовська квасоля"
+  },
+  {
+    "country": "MK",
+    "input": "виноградна ракія",
+    "ingredient": "Виноградна ракія"
+  },
+  {
+    "country": "MK",
+    "input": "часниковий соус макало",
+    "ingredient": "Часниковий соус макало"
+  },
+  {
+    "country": "MK",
+    "input": "гірський чай",
+    "ingredient": "Гірський чай"
+  },
+  {
+    "country": "MK",
+    "input": "вино Вранец",
+    "ingredient": "Вино Вранец"
+  },
+  {
+    "country": "NO",
+    "input": "коричневий сир брюнуст",
+    "ingredient": "Коричневий сир брюнуст"
+  },
+  {
+    "country": "NO",
+    "input": "лосось",
+    "ingredient": "Лосось"
+  },
+  {
+    "country": "NO",
+    "input": "сушена тріска стокфіск",
+    "ingredient": "Сушена тріска стокфіск"
+  },
+  {
+    "country": "NO",
+    "input": "ферментована форель ракфіск",
+    "ingredient": "Ферментована форель ракфіск"
+  },
+  {
+    "country": "NO",
+    "input": "морошка",
+    "ingredient": "Морошка"
+  },
+  {
+    "country": "NO",
+    "input": "хрусткий хліб",
+    "ingredient": "Хрусткий хліб"
+  },
+  {
+    "country": "NO",
+    "input": "аквавіт",
+    "ingredient": "Аквавіт"
+  },
+  {
+    "country": "PL",
+    "input": "копчений сир осципек",
+    "ingredient": "Копчений сир осципек"
+  },
+  {
+    "country": "PL",
+    "input": "квашена капуста",
+    "ingredient": "Капуста квашена"
+  },
+  {
+    "country": "PL",
+    "input": "гречка",
+    "ingredient": "Гречка"
+  },
+  {
+    "country": "PL",
+    "input": "житня закваска жур",
+    "ingredient": "Житня закваска жур"
+  },
+  {
+    "country": "PL",
+    "input": "ковбаса кільбаса",
+    "ingredient": "Ковбаса кільбаса"
+  },
+  {
+    "country": "PL",
+    "input": "квашені огірки",
+    "ingredient": "Огірки квашені"
+  },
+  {
+    "country": "PL",
+    "input": "торунські пряники",
+    "ingredient": "Торунські пряники"
+  },
+  {
+    "country": "PL",
+    "input": "вишнева наливка",
+    "ingredient": "Вишнева наливка"
+  },
+  {
+    "country": "PT",
+    "input": "солона тріска бакаляу",
+    "ingredient": "Солона тріска бакаляу"
+  },
+  {
+    "country": "PT",
+    "input": "сардини",
+    "ingredient": "Сардини"
+  },
+  {
+    "country": "PT",
+    "input": "сир Серра-да-Ештрела",
+    "ingredient": "Сир Серра-да-Ештрела"
+  },
+  {
+    "country": "PT",
+    "input": "оливкова олія",
+    "ingredient": "Олія оливкова"
+  },
+  {
+    "country": "PT",
+    "input": "портвейн",
+    "ingredient": "Портвейн"
+  },
+  {
+    "country": "PT",
+    "input": "паштел-де-ната",
+    "ingredient": "Паштел-де-ната"
+  },
+  {
+    "country": "PT",
+    "input": "зелене вино Вінью Верде",
+    "ingredient": "Зелене вино Вінью Верде"
+  },
+  {
+    "country": "PT",
+    "input": "вишневий лікер жінжинья",
+    "ingredient": "Вишневий лікер жінжинья"
+  },
+  {
+    "country": "RO",
+    "input": "сир телемеа",
+    "ingredient": "Сир телемеа"
+  },
+  {
+    "country": "RO",
+    "input": "овочева паста закуска",
+    "ingredient": "Овочева паста закуска"
+  },
+  {
+    "country": "RO",
+    "input": "копчені ковбаси",
+    "ingredient": "Копчені ковбаси"
+  },
+  {
+    "country": "RO",
+    "input": "палінка",
+    "ingredient": "Палінка"
+  },
+  {
+    "country": "RO",
+    "input": "вишнева настоянка вішіната",
+    "ingredient": "Вишнева настоянка вішіната"
+  },
+  {
+    "country": "RO",
+    "input": "кукурудзяна крупа",
+    "ingredient": "Кукурудзяна крупа"
+  },
+  {
+    "country": "RO",
+    "input": "любисток",
+    "ingredient": "Любисток"
+  },
+  {
+    "country": "RO",
+    "input": "сливове варення",
+    "ingredient": "Сливове варення"
+  },
+  {
+    "country": "RU",
+    "input": "осетрова ікра",
+    "ingredient": "Осетрова ікра"
+  },
+  {
+    "country": "RU",
+    "input": "гречка",
+    "ingredient": "Гречка"
+  },
+  {
+    "country": "RU",
+    "input": "ряжанка",
+    "ingredient": "Ряжанка"
+  },
+  {
+    "country": "RU",
+    "input": "квас",
+    "ingredient": "Квас"
+  },
+  {
+    "country": "RU",
+    "input": "житній хліб",
+    "ingredient": "Хліб житній"
+  },
+  {
+    "country": "RU",
+    "input": "кедрові горіхи",
+    "ingredient": "Кедровий горіх"
+  },
+  {
+    "country": "RU",
+    "input": "обліпиха",
+    "ingredient": "Обліпиха"
+  },
+  {
+    "country": "RU",
+    "input": "морошка",
+    "ingredient": "Морошка"
+  },
+  {
+    "country": "RU",
+    "input": "мед",
+    "ingredient": "Мед"
+  },
+  {
+    "country": "RU",
+    "input": "пиріжки",
+    "ingredient": "Пиріжки"
+  },
+  {
+    "country": "SM",
+    "input": "оливкова олія",
+    "ingredient": "Олія оливкова"
+  },
+  {
+    "country": "SM",
+    "input": "вино Санджовезе",
+    "ingredient": "Вино Санджовезе"
+  },
+  {
+    "country": "SM",
+    "input": "піадіна",
+    "ingredient": "Піадіна"
+  },
+  {
+    "country": "SM",
+    "input": "овечий сир пекоріно",
+    "ingredient": "Овечий сир пекоріно"
+  },
+  {
+    "country": "SM",
+    "input": "мед",
+    "ingredient": "Мед"
+  },
+  {
+    "country": "SM",
+    "input": "в'ялена шинка",
+    "ingredient": "В'ялена шинка"
+  },
+  {
+    "country": "SM",
+    "input": "вафельний торт Tre Monti",
+    "ingredient": "Вафельний торт Tre Monti"
+  },
+  {
+    "country": "RS",
+    "input": "айвар",
+    "ingredient": "Айвар"
+  },
+  {
+    "country": "RS",
+    "input": "каймак",
+    "ingredient": "Каймак"
+  },
+  {
+    "country": "RS",
+    "input": "сливовиця",
+    "ingredient": "Сливовиця"
+  },
+  {
+    "country": "RS",
+    "input": "пршута",
+    "ingredient": "Пршута"
+  },
+  {
+    "country": "RS",
+    "input": "паприка",
+    "ingredient": "Паприка"
+  },
+  {
+    "country": "RS",
+    "input": "малина",
+    "ingredient": "Малина"
+  },
+  {
+    "country": "RS",
+    "input": "сьєницький сир",
+    "ingredient": "Сьєницький сир"
+  },
+  {
+    "country": "RS",
+    "input": "ковбаса кулен",
+    "ingredient": "Ковбаса кулен"
+  },
+  {
+    "country": "SK",
+    "input": "бринза",
+    "ingredient": "Сир бринза"
+  },
+  {
+    "country": "SK",
+    "input": "копчений овечий сир оштьєпок",
+    "ingredient": "Копчений овечий сир оштьєпок"
+  },
+  {
+    "country": "SK",
+    "input": "мак",
+    "ingredient": "Насіння маку"
+  },
+  {
+    "country": "SK",
+    "input": "квашена капуста",
+    "ingredient": "Капуста квашена"
+  },
+  {
+    "country": "SK",
+    "input": "сливове повидло",
+    "ingredient": "Сливове повидло"
+  },
+  {
+    "country": "SK",
+    "input": "овечий молочний напій жинчиця",
+    "ingredient": "Овечий молочний напій жинчиця"
+  },
+  {
+    "country": "SK",
+    "input": "хрін",
+    "ingredient": "Хрін"
+  },
+  {
+    "country": "SK",
+    "input": "сливовиця",
+    "ingredient": "Сливовиця"
+  },
+  {
+    "country": "SI",
+    "input": "гарбузова олія",
+    "ingredient": "Олія гарбузова"
+  },
+  {
+    "country": "SI",
+    "input": "крайнська ковбаса",
+    "ingredient": "Крайнська ковбаса"
+  },
+  {
+    "country": "SI",
+    "input": "альпійський мед",
+    "ingredient": "Альпійський мед"
+  },
+  {
+    "country": "SI",
+    "input": "бохінський сир",
+    "ingredient": "Бохінський сир"
+  },
+  {
+    "country": "SI",
+    "input": "прекмурська шинка",
+    "ingredient": "Прекмурська шинка"
+  },
+  {
+    "country": "SI",
+    "input": "горіхова потиця",
+    "ingredient": "Горіхова потиця"
+  },
+  {
+    "country": "SI",
+    "input": "вино теран",
+    "ingredient": "Вино теран"
+  },
+  {
+    "country": "SI",
+    "input": "гречане борошно",
+    "ingredient": "Борошно гречане"
+  },
+  {
+    "country": "ES",
+    "input": "хамон іберіко",
+    "ingredient": "Хамон іберіко"
+  },
+  {
+    "country": "ES",
+    "input": "сир манчего",
+    "ingredient": "Сир манчего"
+  },
+  {
+    "country": "ES",
+    "input": "шафран Ла-Манчі",
+    "ingredient": "Шафран Ла-Манчі"
+  },
+  {
+    "country": "ES",
+    "input": "оливкова олія",
+    "ingredient": "Олія оливкова"
+  },
+  {
+    "country": "ES",
+    "input": "копчена паприка піментон",
+    "ingredient": "Копчена паприка піментон"
+  },
+  {
+    "country": "ES",
+    "input": "хересний оцет",
+    "ingredient": "Хересний оцет"
+  },
+  {
+    "country": "ES",
+    "input": "турон",
+    "ingredient": "Турон"
+  },
+  {
+    "country": "ES",
+    "input": "горчата з чуфи",
+    "ingredient": "Горчата з чуфи"
+  },
+  {
+    "country": "ES",
+    "input": "кава",
+    "ingredient": "Кава мелена"
+  },
+  {
+    "country": "SE",
+    "input": "брусничне варення",
+    "ingredient": "Брусничне варення"
+  },
+  {
+    "country": "SE",
+    "input": "морошка",
+    "ingredient": "Морошка"
+  },
+  {
+    "country": "SE",
+    "input": "оселедець",
+    "ingredient": "Оселедець"
+  },
+  {
+    "country": "SE",
+    "input": "сюрстремінг",
+    "ingredient": "Сюрстремінг"
+  },
+  {
+    "country": "SE",
+    "input": "хрусткий хліб кнекебред",
+    "ingredient": "Хрусткий хліб кнекебред"
+  },
+  {
+    "country": "SE",
+    "input": "сир Вестерботтен",
+    "ingredient": "Сир Вестерботтен"
+  },
+  {
+    "country": "SE",
+    "input": "аквавіт",
+    "ingredient": "Аквавіт"
+  },
+  {
+    "country": "SE",
+    "input": "кріп",
+    "ingredient": "Кріп"
+  },
+  {
+    "country": "CH",
+    "input": "грюєр",
+    "ingredient": "Грюєр"
+  },
+  {
+    "country": "CH",
+    "input": "емменталь",
+    "ingredient": "Сир ементаль"
+  },
+  {
+    "country": "CH",
+    "input": "аппенцеллер",
+    "ingredient": "Аппенцеллер"
+  },
+  {
+    "country": "CH",
+    "input": "швейцарський шоколад",
+    "ingredient": "Швейцарський шоколад"
+  },
+  {
+    "country": "CH",
+    "input": "сир для раклету",
+    "ingredient": "Сир для раклету"
+  },
+  {
+    "country": "CH",
+    "input": "в'ялена яловичина бюнднерфляйш",
+    "ingredient": "В'ялена яловичина бюнднерфляйш"
+  },
+  {
+    "country": "CH",
+    "input": "напій Rivella",
+    "ingredient": "Напій Rivella"
+  },
+  {
+    "country": "CH",
+    "input": "берхер-мюслі",
+    "ingredient": "Берхер-мюслі"
+  },
+  {
+    "country": "UA",
+    "input": "гречка",
+    "ingredient": "Гречка"
+  },
+  {
+    "country": "UA",
+    "input": "соняшникова олія",
+    "ingredient": "Олія соняшникова"
+  },
+  {
+    "country": "UA",
+    "input": "сало",
+    "ingredient": "Сало"
+  },
+  {
+    "country": "UA",
+    "input": "сметана",
+    "ingredient": "Сметана"
+  },
+  {
+    "country": "UA",
+    "input": "вишня",
+    "ingredient": "Вишня"
+  },
+  {
+    "country": "UA",
+    "input": "квас",
+    "ingredient": "Квас"
+  },
+  {
+    "country": "UA",
+    "input": "житній хліб",
+    "ingredient": "Хліб житній"
+  },
+  {
+    "country": "UA",
+    "input": "хрін",
+    "ingredient": "Хрін"
+  },
+  {
+    "country": "UA",
+    "input": "домашня ковбаса",
+    "ingredient": "Домашня ковбаса"
+  },
+  {
+    "country": "UA",
+    "input": "бринза",
+    "ingredient": "Сир бринза"
+  },
+  {
+    "country": "UA",
+    "input": "узвар",
+    "ingredient": "Узвар"
+  },
+  {
+    "country": "UA",
+    "input": "мед",
+    "ingredient": "Мед"
+  },
+  {
+    "country": "GB",
+    "input": "чеддер",
+    "ingredient": "Сир чедер"
+  },
+  {
+    "country": "GB",
+    "input": "стілтон",
+    "ingredient": "Стілтон"
+  },
+  {
+    "country": "GB",
+    "input": "згущені вершки clotted cream",
+    "ingredient": "Згущені вершки clotted cream"
+  },
+  {
+    "country": "GB",
+    "input": "шотландський віскі",
+    "ingredient": "Шотландський віскі"
+  },
+  {
+    "country": "GB",
+    "input": "кров'яна ковбаса black pudding",
+    "ingredient": "Кров'яна ковбаса black pudding"
+  },
+  {
+    "country": "GB",
+    "input": "вустерський соус",
+    "ingredient": "Соус вустерський"
+  },
+  {
+    "country": "GB",
+    "input": "лимонний крем lemon curd",
+    "ingredient": "Лимонний крем lemon curd"
+  },
+  {
+    "country": "GB",
+    "input": "апельсиновий мармелад",
+    "ingredient": "Апельсиновий мармелад"
+  },
+  {
+    "country": "GB",
+    "input": "ель",
+    "ingredient": "Ель"
+  },
+  {
+    "country": "GB",
+    "input": "овес",
+    "ingredient": "Овес"
+  },
+  {
+    "country": "VA",
+    "input": "пекоріно романо",
+    "ingredient": "Пекоріно романо"
+  },
+  {
+    "country": "VA",
+    "input": "гуанчале",
+    "ingredient": "Гуанчале"
+  },
+  {
+    "country": "VA",
+    "input": "артишоки",
+    "ingredient": "Артишок"
+  },
+  {
+    "country": "VA",
+    "input": "зелень пунтарелле",
+    "ingredient": "Зелень пунтарелле"
+  },
+  {
+    "country": "VA",
+    "input": "оливкова олія",
+    "ingredient": "Олія оливкова"
+  },
+  {
+    "country": "VA",
+    "input": "еспресо",
+    "ingredient": "Еспресо"
+  },
+  {
+    "country": "VA",
+    "input": "римська паста",
+    "ingredient": "Римська паста"
+  },
+  {
+    "country": "XK",
+    "input": "шарський сир",
+    "ingredient": "Шарський сир"
+  },
+  {
+    "country": "XK",
+    "input": "яловичий суджук",
+    "ingredient": "Яловичий суджук"
+  },
+  {
+    "country": "XK",
+    "input": "айвар",
+    "ingredient": "Айвар"
+  },
+  {
+    "country": "XK",
+    "input": "солодкий перець",
+    "ingredient": "Перець солодкий"
+  },
+  {
+    "country": "XK",
+    "input": "каймак",
+    "ingredient": "Каймак"
+  },
+  {
+    "country": "XK",
+    "input": "гірський мед",
+    "ingredient": "Гірський мед"
+  },
+  {
+    "country": "XK",
+    "input": "йогурт",
+    "ingredient": "Йогурт"
+  },
+  {
+    "country": "XK",
+    "input": "кукурудзяне борошно",
+    "ingredient": "Борошно кукурудзяне"
+  },
+  {
+    "country": "AG",
+    "input": "чорний ананас Антигуа",
+    "ingredient": "Чорний ананас Антигуа"
+  },
+  {
+    "country": "AG",
+    "input": "лобстер",
+    "ingredient": "Лобстер"
+  },
+  {
+    "country": "AG",
+    "input": "солона риба",
+    "ingredient": "Солона риба"
+  },
+  {
+    "country": "AG",
+    "input": "кукурудзяне борошно",
+    "ingredient": "Борошно кукурудзяне"
+  },
+  {
+    "country": "AG",
+    "input": "тамаринд",
+    "ingredient": "Тамаринд"
+  },
+  {
+    "country": "AG",
+    "input": "гібіскусовий напій",
+    "ingredient": "Гібіскусовий напій"
+  },
+  {
+    "country": "AG",
+    "input": "кокос",
+    "ingredient": "Кокос"
+  },
+  {
+    "country": "AG",
+    "input": "гострий перець",
+    "ingredient": "Перець гострий"
+  },
+  {
+    "country": "AR",
+    "input": "єрба-мате",
+    "ingredient": "Мате"
+  },
+  {
+    "country": "AR",
+    "input": "дульсе-де-лече",
+    "ingredient": "Дульсе-де-лече"
+  },
+  {
+    "country": "AR",
+    "input": "вино Мальбек",
+    "ingredient": "Вино Мальбек"
+  },
+  {
+    "country": "AR",
+    "input": "яловичина",
+    "ingredient": "Яловичина"
+  },
+  {
+    "country": "AR",
+    "input": "соус чимічурі",
+    "ingredient": "Соус чимічурі"
+  },
+  {
+    "country": "AR",
+    "input": "сир проволоне",
+    "ingredient": "Сир проволоне"
+  },
+  {
+    "country": "AR",
+    "input": "айвовий мармелад",
+    "ingredient": "Айвовий мармелад"
+  },
+  {
+    "country": "AR",
+    "input": "патагонська баранина",
+    "ingredient": "Патагонська баранина"
+  },
+  {
+    "country": "BS",
+    "input": "морський молюск конч",
+    "ingredient": "Морський молюск конч"
+  },
+  {
+    "country": "BS",
+    "input": "карибський лобстер",
+    "ingredient": "Карибський лобстер"
+  },
+  {
+    "country": "BS",
+    "input": "голубиний горох",
+    "ingredient": "Голубиний горох"
+  },
+  {
+    "country": "BS",
+    "input": "кокосове молоко",
+    "ingredient": "Молоко кокосове"
+  },
+  {
+    "country": "BS",
+    "input": "гуава",
+    "ingredient": "Гуава"
+  },
+  {
+    "country": "BS",
+    "input": "гуанабана",
+    "ingredient": "Гуанабана"
+  },
+  {
+    "country": "BS",
+    "input": "морський виноград",
+    "ingredient": "Морський виноград"
+  },
+  {
+    "country": "BS",
+    "input": "гострий соус",
+    "ingredient": "Гострий соус"
+  },
+  {
+    "country": "BB",
+    "input": "летюча риба",
+    "ingredient": "Летюча риба"
+  },
+  {
+    "country": "BB",
+    "input": "барбадоський перцевий соус",
+    "ingredient": "Барбадоський перцевий соус"
+  },
+  {
+    "country": "BB",
+    "input": "батат",
+    "ingredient": "Батат"
+  },
+  {
+    "country": "BB",
+    "input": "гібіскус",
+    "ingredient": "Гібіскус"
+  },
+  {
+    "country": "BB",
+    "input": "меляса",
+    "ingredient": "Меляса"
+  },
+  {
+    "country": "BB",
+    "input": "ром",
+    "ingredient": "Ром"
+  },
+  {
+    "country": "BB",
+    "input": "бамія",
+    "ingredient": "Окра"
+  },
+  {
+    "country": "BB",
+    "input": "хлібний плід",
+    "ingredient": "Хлібний плід"
+  },
+  {
+    "country": "BZ",
+    "input": "какао",
+    "ingredient": "Какао-порошок"
+  },
+  {
+    "country": "BZ",
+    "input": "аннато ачіоте",
+    "ingredient": "Аннато ачіоте"
+  },
+  {
+    "country": "BZ",
+    "input": "хабанеро",
+    "ingredient": "Хабанеро"
+  },
+  {
+    "country": "BZ",
+    "input": "маніок",
+    "ingredient": "Маніок"
+  },
+  {
+    "country": "BZ",
+    "input": "квасоля",
+    "ingredient": "Квасоля"
+  },
+  {
+    "country": "BZ",
+    "input": "кокосове молоко",
+    "ingredient": "Молоко кокосове"
+  },
+  {
+    "country": "BZ",
+    "input": "плантан",
+    "ingredient": "Плантан"
+  },
+  {
+    "country": "BZ",
+    "input": "пряна паста рекадо",
+    "ingredient": "Пряна паста рекадо"
+  },
+  {
+    "country": "BZ",
+    "input": "молюск конч",
+    "ingredient": "Молюск конч"
+  },
+  {
+    "country": "BO",
+    "input": "кіноа",
+    "ingredient": "Кіноа"
+  },
+  {
+    "country": "BO",
+    "input": "каньїва",
+    "ingredient": "Каньїва"
+  },
+  {
+    "country": "BO",
+    "input": "сушена картопля чуньйо",
+    "ingredient": "Сушена картопля чуньйо"
+  },
+  {
+    "country": "BO",
+    "input": "ока",
+    "ingredient": "Ока"
+  },
+  {
+    "country": "BO",
+    "input": "люпин тарві",
+    "ingredient": "Люпин тарві"
+  },
+  {
+    "country": "BO",
+    "input": "в'ялене м'ясо лами",
+    "ingredient": "В'ялене м'ясо лами"
+  },
+  {
+    "country": "BO",
+    "input": "перець локото",
+    "ingredient": "Перець локото"
+  },
+  {
+    "country": "BO",
+    "input": "амарант",
+    "ingredient": "Амарант"
+  },
+  {
+    "country": "BO",
+    "input": "кукурудзяна чича",
+    "ingredient": "Кукурудзяна чича"
+  },
+  {
+    "country": "BR",
+    "input": "асаї",
+    "ingredient": "Асаї"
+  },
+  {
+    "country": "BR",
+    "input": "маніок",
+    "ingredient": "Маніок"
+  },
+  {
+    "country": "BR",
+    "input": "тапіока",
+    "ingredient": "Тапіока"
+  },
+  {
+    "country": "BR",
+    "input": "купуасу",
+    "ingredient": "Купуасу"
+  },
+  {
+    "country": "BR",
+    "input": "гуарана",
+    "ingredient": "Гуарана"
+  },
+  {
+    "country": "BR",
+    "input": "бразильський горіх",
+    "ingredient": "Бразильський горіх"
+  },
+  {
+    "country": "BR",
+    "input": "жаботикаба",
+    "ingredient": "Жаботикаба"
+  },
+  {
+    "country": "BR",
+    "input": "кеш'ю",
+    "ingredient": "Кеш'ю"
+  },
+  {
+    "country": "BR",
+    "input": "пальмова олія денде",
+    "ingredient": "Пальмова олія денде"
+  },
+  {
+    "country": "BR",
+    "input": "кашаса",
+    "ingredient": "Кашаса"
+  },
+  {
+    "country": "BR",
+    "input": "сирні булочки pão de queijo",
+    "ingredient": "Сирні булочки pão de queijo"
+  },
+  {
+    "country": "BR",
+    "input": "кава",
+    "ingredient": "Кава мелена"
+  },
+  {
+    "country": "CA",
+    "input": "кленовий сироп",
+    "ingredient": "Сироп кленовий"
+  },
+  {
+    "country": "CA",
+    "input": "дика чорниця",
+    "ingredient": "Дика чорниця"
+  },
+  {
+    "country": "CA",
+    "input": "журавлина",
+    "ingredient": "Журавлина"
+  },
+  {
+    "country": "CA",
+    "input": "лосось",
+    "ingredient": "Лосось"
+  },
+  {
+    "country": "CA",
+    "input": "м'ясо бізона",
+    "ingredient": "М'ясо бізона"
+  },
+  {
+    "country": "CA",
+    "input": "крижане вино",
+    "ingredient": "Крижане вино"
+  },
+  {
+    "country": "CA",
+    "input": "сирні зерна",
+    "ingredient": "Сирні зерна"
+  },
+  {
+    "country": "CA",
+    "input": "монреальська копчена яловичина",
+    "ingredient": "Монреальська копчена яловичина"
+  },
+  {
+    "country": "CA",
+    "input": "ріпакова олія",
+    "ingredient": "Олія ріпакова"
+  },
+  {
+    "country": "CA",
+    "input": "масляні тарталетки",
+    "ingredient": "Масляні тарталетки"
+  },
+  {
+    "country": "CL",
+    "input": "приправа меркен",
+    "ingredient": "Приправа меркен"
+  },
+  {
+    "country": "CL",
+    "input": "ягоди макі",
+    "ingredient": "Ягоди макі"
+  },
+  {
+    "country": "CL",
+    "input": "морські водорості кочаюйо",
+    "ingredient": "Морські водорості кочаюйо"
+  },
+  {
+    "country": "CL",
+    "input": "насіння араукарії піньйонес",
+    "ingredient": "Насіння араукарії піньйонес"
+  },
+  {
+    "country": "CL",
+    "input": "чилійський піско",
+    "ingredient": "Чилійський піско"
+  },
+  {
+    "country": "CL",
+    "input": "вино Карменер",
+    "ingredient": "Вино Карменер"
+  },
+  {
+    "country": "CL",
+    "input": "кіноа",
+    "ingredient": "Кіноа"
+  },
+  {
+    "country": "CL",
+    "input": "молюски",
+    "ingredient": "Молюски"
+  },
+  {
+    "country": "CL",
+    "input": "лукума",
+    "ingredient": "Лукума"
+  },
+  {
+    "country": "CO",
+    "input": "кава",
+    "ingredient": "Кава мелена"
+  },
+  {
+    "country": "CO",
+    "input": "панела",
+    "ingredient": "Панела"
+  },
+  {
+    "country": "CO",
+    "input": "фрукт луло",
+    "ingredient": "Фрукт луло"
+  },
+  {
+    "country": "CO",
+    "input": "гуанабана",
+    "ingredient": "Гуанабана"
+  },
+  {
+    "country": "CO",
+    "input": "фізаліс учува",
+    "ingredient": "Фізаліс учува"
+  },
+  {
+    "country": "CO",
+    "input": "гуавова паста бокадільйо",
+    "ingredient": "Гуавова паста бокадільйо"
+  },
+  {
+    "country": "CO",
+    "input": "молочна карамель арекіпе",
+    "ingredient": "Молочна карамель арекіпе"
+  },
+  {
+    "country": "CO",
+    "input": "какао",
+    "ingredient": "Какао-порошок"
+  },
+  {
+    "country": "CO",
+    "input": "кокос",
+    "ingredient": "Кокос"
+  },
+  {
+    "country": "CR",
+    "input": "плоди персикової пальми пехібає",
+    "ingredient": "Плоди персикової пальми пехібає"
+  },
+  {
+    "country": "CR",
+    "input": "кава",
+    "ingredient": "Кава мелена"
+  },
+  {
+    "country": "CR",
+    "input": "какао",
+    "ingredient": "Какао-порошок"
+  },
+  {
+    "country": "CR",
+    "input": "серцевина пальми",
+    "ingredient": "Серцевина пальми"
+  },
+  {
+    "country": "CR",
+    "input": "плантан",
+    "ingredient": "Плантан"
+  },
+  {
+    "country": "CR",
+    "input": "гуава",
+    "ingredient": "Гуава"
+  },
+  {
+    "country": "CR",
+    "input": "цукрова тростина",
+    "ingredient": "Цукрова тростина"
+  },
+  {
+    "country": "CR",
+    "input": "гострий соус чілеро",
+    "ingredient": "Гострий соус чілеро"
+  },
+  {
+    "country": "CU",
+    "input": "кубинська кава",
+    "ingredient": "Кубинська кава"
+  },
+  {
+    "country": "CU",
+    "input": "цукрова тростина",
+    "ingredient": "Цукрова тростина"
+  },
+  {
+    "country": "CU",
+    "input": "чорна квасоля",
+    "ingredient": "Квасоля чорна"
+  },
+  {
+    "country": "CU",
+    "input": "кислий апельсин",
+    "ingredient": "Кислий апельсин"
+  },
+  {
+    "country": "CU",
+    "input": "гуавова паста",
+    "ingredient": "Гуавова паста"
+  },
+  {
+    "country": "CU",
+    "input": "юка",
+    "ingredient": "Маніок"
+  },
+  {
+    "country": "CU",
+    "input": "ром",
+    "ingredient": "Ром"
+  },
+  {
+    "country": "CU",
+    "input": "маланга",
+    "ingredient": "Маланга"
+  },
+  {
+    "country": "DM",
+    "input": "таро дашин",
+    "ingredient": "Таро"
+  },
+  {
+    "country": "DM",
+    "input": "хлібний плід",
+    "ingredient": "Хлібний плід"
+  },
+  {
+    "country": "DM",
+    "input": "зелень калалу",
+    "ingredient": "Зелень калалу"
+  },
+  {
+    "country": "DM",
+    "input": "грейпфрут",
+    "ingredient": "Грейпфрут"
+  },
+  {
+    "country": "DM",
+    "input": "банани",
+    "ingredient": "Банан"
+  },
+  {
+    "country": "DM",
+    "input": "прісноводні креветки",
+    "ingredient": "Прісноводні креветки"
+  },
+  {
+    "country": "DM",
+    "input": "какао-чай",
+    "ingredient": "Какао-чай"
+  },
+  {
+    "country": "DM",
+    "input": "гібіскус",
+    "ingredient": "Гібіскус"
+  },
+  {
+    "country": "DO",
+    "input": "мамахуана",
+    "ingredient": "Мамахуана"
+  },
+  {
+    "country": "DO",
+    "input": "какао",
+    "ingredient": "Какао-порошок"
+  },
+  {
+    "country": "DO",
+    "input": "кава",
+    "ingredient": "Кава мелена"
+  },
+  {
+    "country": "DO",
+    "input": "плантан",
+    "ingredient": "Плантан"
+  },
+  {
+    "country": "DO",
+    "input": "юка",
+    "ingredient": "Маніок"
+  },
+  {
+    "country": "DO",
+    "input": "карибський орегано",
+    "ingredient": "Карибський орегано"
+  },
+  {
+    "country": "DO",
+    "input": "домініканська салямі",
+    "ingredient": "Домініканська салямі"
+  },
+  {
+    "country": "DO",
+    "input": "маракуя",
+    "ingredient": "Маракуя"
+  },
+  {
+    "country": "DO",
+    "input": "кокос",
+    "ingredient": "Кокос"
+  },
+  {
+    "country": "EC",
+    "input": "ароматне какао фіно-де-арома",
+    "ingredient": "Ароматне какао фіно-де-арома"
+  },
+  {
+    "country": "EC",
+    "input": "плантан",
+    "ingredient": "Плантан"
+  },
+  {
+    "country": "EC",
+    "input": "наранхілья",
+    "ingredient": "Наранхілья"
+  },
+  {
+    "country": "EC",
+    "input": "деревний томат",
+    "ingredient": "Деревний томат"
+  },
+  {
+    "country": "EC",
+    "input": "люпин чочо",
+    "ingredient": "Люпин чочо"
+  },
+  {
+    "country": "EC",
+    "input": "маніок",
+    "ingredient": "Маніок"
+  },
+  {
+    "country": "EC",
+    "input": "кіноа",
+    "ingredient": "Кіноа"
+  },
+  {
+    "country": "EC",
+    "input": "панела",
+    "ingredient": "Панела"
+  },
+  {
+    "country": "EC",
+    "input": "креветки",
+    "ingredient": "Креветки"
+  },
+  {
+    "country": "SV",
+    "input": "квіти лороко",
+    "ingredient": "Квіти лороко"
+  },
+  {
+    "country": "SV",
+    "input": "сир кесільйо",
+    "ingredient": "Сир кесільйо"
+  },
+  {
+    "country": "SV",
+    "input": "маринована капуста куртідо",
+    "ingredient": "Маринована капуста куртідо"
+  },
+  {
+    "country": "SV",
+    "input": "рисове борошно",
+    "ingredient": "Борошно рисове"
+  },
+  {
+    "country": "SV",
+    "input": "кукурудзяне тісто маса",
+    "ingredient": "Кукурудзяне тісто маса"
+  },
+  {
+    "country": "SV",
+    "input": "квасоля",
+    "ingredient": "Квасоля"
+  },
+  {
+    "country": "SV",
+    "input": "напій горчата з насіння морро",
+    "ingredient": "Напій горчата з насіння морро"
+  },
+  {
+    "country": "SV",
+    "input": "листя чипілін",
+    "ingredient": "Листя чипілін"
+  },
+  {
+    "country": "GD",
+    "input": "мускатний горіх",
+    "ingredient": "Мускатний горіх"
+  },
+  {
+    "country": "GD",
+    "input": "мацис",
+    "ingredient": "Мацис"
+  },
+  {
+    "country": "GD",
+    "input": "какао",
+    "ingredient": "Какао-порошок"
+  },
+  {
+    "country": "GD",
+    "input": "кориця",
+    "ingredient": "Кориця"
+  },
+  {
+    "country": "GD",
+    "input": "гвоздика",
+    "ingredient": "Гвоздика"
+  },
+  {
+    "country": "GD",
+    "input": "банани",
+    "ingredient": "Банан"
+  },
+  {
+    "country": "GD",
+    "input": "лавровий лист",
+    "ingredient": "Лавровий лист"
+  },
+  {
+    "country": "GD",
+    "input": "гуанабана",
+    "ingredient": "Гуанабана"
+  },
+  {
+    "country": "GT",
+    "input": "какао",
+    "ingredient": "Какао-порошок"
+  },
+  {
+    "country": "GT",
+    "input": "кардамон",
+    "ingredient": "Кардамон"
+  },
+  {
+    "country": "GT",
+    "input": "суміш спецій пепіан",
+    "ingredient": "Суміш спецій пепіан"
+  },
+  {
+    "country": "GT",
+    "input": "чорна квасоля",
+    "ingredient": "Квасоля чорна"
+  },
+  {
+    "country": "GT",
+    "input": "кукурудзяне тісто маса",
+    "ingredient": "Кукурудзяне тісто маса"
+  },
+  {
+    "country": "GT",
+    "input": "листя чаї",
+    "ingredient": "Листя чаї"
+  },
+  {
+    "country": "GT",
+    "input": "сливи хокоте",
+    "ingredient": "Сливи хокоте"
+  },
+  {
+    "country": "GT",
+    "input": "квіти пальми пакая",
+    "ingredient": "Квіти пальми пакая"
+  },
+  {
+    "country": "GT",
+    "input": "чипілін",
+    "ingredient": "Чипілін"
+  },
+  {
+    "country": "GY",
+    "input": "маніоковий соус касаріп",
+    "ingredient": "Маніоковий соус касаріп"
+  },
+  {
+    "country": "GY",
+    "input": "рис",
+    "ingredient": "Рис"
+  },
+  {
+    "country": "GY",
+    "input": "цукор демерара",
+    "ingredient": "Цукор демерара"
+  },
+  {
+    "country": "GY",
+    "input": "кокосове молоко",
+    "ingredient": "Молоко кокосове"
+  },
+  {
+    "country": "GY",
+    "input": "зелена пряна приправа",
+    "ingredient": "Зелена пряна приправа"
+  },
+  {
+    "country": "GY",
+    "input": "маніоковий хліб",
+    "ingredient": "Маніоковий хліб"
+  },
+  {
+    "country": "GY",
+    "input": "манго",
+    "ingredient": "Манго"
+  },
+  {
+    "country": "GY",
+    "input": "тамаринд",
+    "ingredient": "Тамаринд"
+  },
+  {
+    "country": "HT",
+    "input": "гостра маринована капуста пікліз",
+    "ingredient": "Гостра маринована капуста пікліз"
+  },
+  {
+    "country": "HT",
+    "input": "пряна паста епіс",
+    "ingredient": "Пряна паста епіс"
+  },
+  {
+    "country": "HT",
+    "input": "чорні гриби джонджон",
+    "ingredient": "Чорні гриби джонджон"
+  },
+  {
+    "country": "HT",
+    "input": "плантан",
+    "ingredient": "Плантан"
+  },
+  {
+    "country": "HT",
+    "input": "маніок",
+    "ingredient": "Маніок"
+  },
+  {
+    "country": "HT",
+    "input": "гаїтянський ром",
+    "ingredient": "Гаїтянський ром"
+  },
+  {
+    "country": "HT",
+    "input": "гібіскус",
+    "ingredient": "Гібіскус"
+  },
+  {
+    "country": "HT",
+    "input": "кава",
+    "ingredient": "Кава мелена"
+  },
+  {
+    "country": "HN",
+    "input": "какао",
+    "ingredient": "Какао-порошок"
+  },
+  {
+    "country": "HN",
+    "input": "кава",
+    "ingredient": "Кава мелена"
+  },
+  {
+    "country": "HN",
+    "input": "кукурудза",
+    "ingredient": "Кукурудза свіжа"
+  },
+  {
+    "country": "HN",
+    "input": "квіти лороко",
+    "ingredient": "Квіти лороко"
+  },
+  {
+    "country": "HN",
+    "input": "квасоля",
+    "ingredient": "Квасоля"
+  },
+  {
+    "country": "HN",
+    "input": "кокос",
+    "ingredient": "Кокос"
+  },
+  {
+    "country": "HN",
+    "input": "плантан",
+    "ingredient": "Плантан"
+  },
+  {
+    "country": "HN",
+    "input": "чайот",
+    "ingredient": "Чайот"
+  },
+  {
+    "country": "HN",
+    "input": "кислий апельсин",
+    "ingredient": "Кислий апельсин"
+  },
+  {
+    "country": "JM",
+    "input": "акі",
+    "ingredient": "Акі"
+  },
+  {
+    "country": "JM",
+    "input": "перець скотч-боннет",
+    "ingredient": "Перець скотч-боннет"
+  },
+  {
+    "country": "JM",
+    "input": "духмяний перець пімент",
+    "ingredient": "Духмяний перець пімент"
+  },
+  {
+    "country": "JM",
+    "input": "суміш спецій джерк",
+    "ingredient": "Суміш спецій джерк"
+  },
+  {
+    "country": "JM",
+    "input": "кава Blue Mountain",
+    "ingredient": "Кава Blue Mountain"
+  },
+  {
+    "country": "JM",
+    "input": "гібіскусовий напій",
+    "ingredient": "Гібіскусовий напій"
+  },
+  {
+    "country": "JM",
+    "input": "калалу",
+    "ingredient": "Калалу"
+  },
+  {
+    "country": "JM",
+    "input": "хлібний плід",
+    "ingredient": "Хлібний плід"
+  },
+  {
+    "country": "JM",
+    "input": "ром",
+    "ingredient": "Ром"
+  },
+  {
+    "country": "JM",
+    "input": "тамаринд",
+    "ingredient": "Тамаринд"
+  },
+  {
+    "country": "MX",
+    "input": "какао",
+    "ingredient": "Какао-порошок"
+  },
+  {
+    "country": "MX",
+    "input": "ваніль",
+    "ingredient": "Ваніль"
+  },
+  {
+    "country": "MX",
+    "input": "кукурудза",
+    "ingredient": "Кукурудза свіжа"
+  },
+  {
+    "country": "MX",
+    "input": "перець чипотле",
+    "ingredient": "Перець чипотле"
+  },
+  {
+    "country": "MX",
+    "input": "поблано",
+    "ingredient": "Поблано"
+  },
+  {
+    "country": "MX",
+    "input": "халапеньйо",
+    "ingredient": "Перець халапеньйо"
+  },
+  {
+    "country": "MX",
+    "input": "авокадо",
+    "ingredient": "Авокадо"
+  },
+  {
+    "country": "MX",
+    "input": "томатильйо",
+    "ingredient": "Томатильйо"
+  },
+  {
+    "country": "MX",
+    "input": "епасоте",
+    "ingredient": "Епасоте"
+  },
+  {
+    "country": "MX",
+    "input": "листя кактуса нопаль",
+    "ingredient": "Листя кактуса нопаль"
+  },
+  {
+    "country": "MX",
+    "input": "гриб уїтлакоче",
+    "ingredient": "Гриб уїтлакоче"
+  },
+  {
+    "country": "MX",
+    "input": "агава",
+    "ingredient": "Агава"
+  },
+  {
+    "country": "MX",
+    "input": "мескаль",
+    "ingredient": "Мескаль"
+  },
+  {
+    "country": "MX",
+    "input": "соус моле",
+    "ingredient": "Соус моле"
+  },
+  {
+    "country": "MX",
+    "input": "амарант",
+    "ingredient": "Амарант"
+  },
+  {
+    "country": "NI",
+    "input": "сир куахада",
+    "ingredient": "Сир куахада"
+  },
+  {
+    "country": "NI",
+    "input": "кукурудзяний напій піноль",
+    "ingredient": "Кукурудзяний напій піноль"
+  },
+  {
+    "country": "NI",
+    "input": "какао",
+    "ingredient": "Какао-порошок"
+  },
+  {
+    "country": "NI",
+    "input": "кислий апельсин",
+    "ingredient": "Кислий апельсин"
+  },
+  {
+    "country": "NI",
+    "input": "плантан",
+    "ingredient": "Плантан"
+  },
+  {
+    "country": "NI",
+    "input": "червона квасоля",
+    "ingredient": "Квасоля червона"
+  },
+  {
+    "country": "NI",
+    "input": "сир кесільйо",
+    "ingredient": "Сир кесільйо"
+  },
+  {
+    "country": "NI",
+    "input": "кукурудзяна чича",
+    "ingredient": "Кукурудзяна чича"
+  },
+  {
+    "country": "NI",
+    "input": "тамаринд",
+    "ingredient": "Тамаринд"
+  },
+  {
+    "country": "PA",
+    "input": "кава Ґейша",
+    "ingredient": "Кава Ґейша"
+  },
+  {
+    "country": "PA",
+    "input": "плантан",
+    "ingredient": "Плантан"
+  },
+  {
+    "country": "PA",
+    "input": "кулантро",
+    "ingredient": "Кулантро"
+  },
+  {
+    "country": "PA",
+    "input": "кокосове молоко",
+    "ingredient": "Молоко кокосове"
+  },
+  {
+    "country": "PA",
+    "input": "маніок",
+    "ingredient": "Маніок"
+  },
+  {
+    "country": "PA",
+    "input": "рис",
+    "ingredient": "Рис"
+  },
+  {
+    "country": "PA",
+    "input": "морепродукти",
+    "ingredient": "Морепродукти"
+  },
+  {
+    "country": "PA",
+    "input": "сік цукрової тростини",
+    "ingredient": "Сік цукрової тростини"
+  },
+  {
+    "country": "PY",
+    "input": "єрба-мате",
+    "ingredient": "Мате"
+  },
+  {
+    "country": "PY",
+    "input": "холодний напій терере",
+    "ingredient": "Холодний напій терере"
+  },
+  {
+    "country": "PY",
+    "input": "маніоковий крохмаль",
+    "ingredient": "Маніоковий крохмаль"
+  },
+  {
+    "country": "PY",
+    "input": "парагвайський сир",
+    "ingredient": "Парагвайський сир"
+  },
+  {
+    "country": "PY",
+    "input": "кукурудза",
+    "ingredient": "Кукурудза свіжа"
+  },
+  {
+    "country": "PY",
+    "input": "арахіс",
+    "ingredient": "Арахіс"
+  },
+  {
+    "country": "PY",
+    "input": "стевія",
+    "ingredient": "Стевія"
+  },
+  {
+    "country": "PY",
+    "input": "сирні булочки чипа",
+    "ingredient": "Сирні булочки чипа"
+  },
+  {
+    "country": "PE",
+    "input": "картопля",
+    "ingredient": "Картопля"
+  },
+  {
+    "country": "PE",
+    "input": "кіноа",
+    "ingredient": "Кіноа"
+  },
+  {
+    "country": "PE",
+    "input": "перець ахі-амарильйо",
+    "ingredient": "Перець ахі-амарильйо"
+  },
+  {
+    "country": "PE",
+    "input": "ахі-панка",
+    "ingredient": "Ахі-панка"
+  },
+  {
+    "country": "PE",
+    "input": "рокото",
+    "ingredient": "Рокото"
+  },
+  {
+    "country": "PE",
+    "input": "мака",
+    "ingredient": "Мака"
+  },
+  {
+    "country": "PE",
+    "input": "лукума",
+    "ingredient": "Лукума"
+  },
+  {
+    "country": "PE",
+    "input": "фіолетова кукурудза",
+    "ingredient": "Фіолетова кукурудза"
+  },
+  {
+    "country": "PE",
+    "input": "каму-каму",
+    "ingredient": "Каму-каму"
+  },
+  {
+    "country": "PE",
+    "input": "чича-морада",
+    "ingredient": "Чича-морада"
+  },
+  {
+    "country": "PE",
+    "input": "піско",
+    "ingredient": "Піско"
+  },
+  {
+    "country": "PE",
+    "input": "кукурудза канча",
+    "ingredient": "Кукурудза канча"
+  },
+  {
+    "country": "PE",
+    "input": "якон",
+    "ingredient": "Якон"
+  },
+  {
+    "country": "PE",
+    "input": "тарві",
+    "ingredient": "Тарві"
+  },
+  {
+    "country": "PE",
+    "input": "ока",
+    "ingredient": "Ока"
+  },
+  {
+    "country": "KN",
+    "input": "козлятина",
+    "ingredient": "Козлятина"
+  },
+  {
+    "country": "KN",
+    "input": "хлібний плід",
+    "ingredient": "Хлібний плід"
+  },
+  {
+    "country": "KN",
+    "input": "манго",
+    "ingredient": "Манго"
+  },
+  {
+    "country": "KN",
+    "input": "кокос",
+    "ingredient": "Кокос"
+  },
+  {
+    "country": "KN",
+    "input": "меляса",
+    "ingredient": "Меляса"
+  },
+  {
+    "country": "KN",
+    "input": "ром",
+    "ingredient": "Ром"
+  },
+  {
+    "country": "KN",
+    "input": "кров'яна ковбаса",
+    "ingredient": "Кров'яна ковбаса"
+  },
+  {
+    "country": "KN",
+    "input": "папая",
+    "ingredient": "Папая"
+  },
+  {
+    "country": "LC",
+    "input": "зелені банани",
+    "ingredient": "Зелені банани"
+  },
+  {
+    "country": "LC",
+    "input": "хлібний плід",
+    "ingredient": "Хлібний плід"
+  },
+  {
+    "country": "LC",
+    "input": "какао",
+    "ingredient": "Какао-порошок"
+  },
+  {
+    "country": "LC",
+    "input": "кокос",
+    "ingredient": "Кокос"
+  },
+  {
+    "country": "LC",
+    "input": "листя калалу",
+    "ingredient": "Листя калалу"
+  },
+  {
+    "country": "LC",
+    "input": "таро дашин",
+    "ingredient": "Таро"
+  },
+  {
+    "country": "LC",
+    "input": "напій із морських водоростей",
+    "ingredient": "Напій із морських водоростей"
+  },
+  {
+    "country": "LC",
+    "input": "гострий перець",
+    "ingredient": "Перець гострий"
+  },
+  {
+    "country": "VC",
+    "input": "крохмаль арорут",
+    "ingredient": "Крохмаль арорут"
+  },
+  {
+    "country": "VC",
+    "input": "хлібний плід",
+    "ingredient": "Хлібний плід"
+  },
+  {
+    "country": "VC",
+    "input": "кокос",
+    "ingredient": "Кокос"
+  },
+  {
+    "country": "VC",
+    "input": "риба джекфіш",
+    "ingredient": "Риба джекфіш"
+  },
+  {
+    "country": "VC",
+    "input": "маніок",
+    "ingredient": "Маніок"
+  },
+  {
+    "country": "VC",
+    "input": "манго",
+    "ingredient": "Манго"
+  },
+  {
+    "country": "VC",
+    "input": "какао",
+    "ingredient": "Какао-порошок"
+  },
+  {
+    "country": "VC",
+    "input": "гібіскусовий напій",
+    "ingredient": "Гібіскусовий напій"
+  },
+  {
+    "country": "SR",
+    "input": "коренеплід помтаєр",
+    "ingredient": "Коренеплід помтаєр"
+  },
+  {
+    "country": "SR",
+    "input": "маніок",
+    "ingredient": "Маніок"
+  },
+  {
+    "country": "SR",
+    "input": "солона тріска",
+    "ingredient": "Солона тріска"
+  },
+  {
+    "country": "SR",
+    "input": "колотий жовтий горох",
+    "ingredient": "Колотий жовтий горох"
+  },
+  {
+    "country": "SR",
+    "input": "самбал",
+    "ingredient": "Самбал"
+  },
+  {
+    "country": "SR",
+    "input": "тамаринд",
+    "ingredient": "Тамаринд"
+  },
+  {
+    "country": "SR",
+    "input": "рис",
+    "ingredient": "Рис"
+  },
+  {
+    "country": "SR",
+    "input": "перець мадам-жанет",
+    "ingredient": "Перець мадам-жанет"
+  },
+  {
+    "country": "TT",
+    "input": "перець Trinidad Scorpion",
+    "ingredient": "Перець Trinidad Scorpion"
+  },
+  {
+    "country": "TT",
+    "input": "кулантро",
+    "ingredient": "Кулантро"
+  },
+  {
+    "country": "TT",
+    "input": "какао",
+    "ingredient": "Какао-порошок"
+  },
+  {
+    "country": "TT",
+    "input": "кокос",
+    "ingredient": "Кокос"
+  },
+  {
+    "country": "TT",
+    "input": "маніок",
+    "ingredient": "Маніок"
+  },
+  {
+    "country": "TT",
+    "input": "тамаринд",
+    "ingredient": "Тамаринд"
+  },
+  {
+    "country": "TT",
+    "input": "гібіскус",
+    "ingredient": "Гібіскус"
+  },
+  {
+    "country": "TT",
+    "input": "ром",
+    "ingredient": "Ром"
+  },
+  {
+    "country": "TT",
+    "input": "гострий перцевий соус",
+    "ingredient": "Гострий перцевий соус"
+  },
+  {
+    "country": "TT",
+    "input": "манго",
+    "ingredient": "Манго"
+  },
+  {
+    "country": "US",
+    "input": "арахісова паста",
+    "ingredient": "Арахісова паста"
+  },
+  {
+    "country": "US",
+    "input": "горіх пекан",
+    "ingredient": "Пекан"
+  },
+  {
+    "country": "US",
+    "input": "журавлина",
+    "ingredient": "Журавлина"
+  },
+  {
+    "country": "US",
+    "input": "каліфорнійський мигдаль",
+    "ingredient": "Каліфорнійський мигдаль"
+  },
+  {
+    "country": "US",
+    "input": "бурбон",
+    "ingredient": "Бурбон"
+  },
+  {
+    "country": "US",
+    "input": "кукурудзяне борошно",
+    "ingredient": "Борошно кукурудзяне"
+  },
+  {
+    "country": "US",
+    "input": "соус барбекю",
+    "ingredient": "Соус барбекю"
+  },
+  {
+    "country": "US",
+    "input": "попкорн",
+    "ingredient": "Попкорн"
+  },
+  {
+    "country": "US",
+    "input": "виноград Конкорд",
+    "ingredient": "Виноград Конкорд"
+  },
+  {
+    "country": "US",
+    "input": "рутбір",
+    "ingredient": "Рутбір"
+  },
+  {
+    "country": "US",
+    "input": "соус табаско",
+    "ingredient": "Соус табаско"
+  },
+  {
+    "country": "US",
+    "input": "соус ранч",
+    "ingredient": "Соус ранч"
+  },
+  {
+    "country": "US",
+    "input": "кленовий сироп",
+    "ingredient": "Сироп кленовий"
+  },
+  {
+    "country": "UY",
+    "input": "яловичина",
+    "ingredient": "Яловичина"
+  },
+  {
+    "country": "UY",
+    "input": "дульсе-де-лече",
+    "ingredient": "Дульсе-де-лече"
+  },
+  {
+    "country": "UY",
+    "input": "єрба-мате",
+    "ingredient": "Мате"
+  },
+  {
+    "country": "UY",
+    "input": "вино Таннат",
+    "ingredient": "Вино Таннат"
+  },
+  {
+    "country": "UY",
+    "input": "сир колонія",
+    "ingredient": "Сир колонія"
+  },
+  {
+    "country": "UY",
+    "input": "чимічурі",
+    "ingredient": "Соус чимічурі"
+  },
+  {
+    "country": "UY",
+    "input": "оливкова олія",
+    "ingredient": "Олія оливкова"
+  },
+  {
+    "country": "UY",
+    "input": "айвова паста",
+    "ingredient": "Айвова паста"
+  },
+  {
+    "country": "UY",
+    "input": "ковбаси",
+    "ingredient": "Ковбаси"
+  },
+  {
+    "country": "VE",
+    "input": "кукурудзяне борошно для ареп",
+    "ingredient": "Кукурудзяне борошно для ареп"
+  },
+  {
+    "country": "VE",
+    "input": "біла кукурудза",
+    "ingredient": "Біла кукурудза"
+  },
+  {
+    "country": "VE",
+    "input": "сир кесо-де-мано",
+    "ingredient": "Сир кесо-де-мано"
+  },
+  {
+    "country": "VE",
+    "input": "какао Чуао",
+    "ingredient": "Какао Чуао"
+  },
+  {
+    "country": "VE",
+    "input": "тростинний цукор папелон",
+    "ingredient": "Тростинний цукор папелон"
+  },
+  {
+    "country": "VE",
+    "input": "маніоковий хліб касабе",
+    "ingredient": "Маніоковий хліб касабе"
+  },
+  {
+    "country": "VE",
+    "input": "соус гуасакака",
+    "ingredient": "Соус гуасакака"
+  },
+  {
+    "country": "VE",
+    "input": "маракуя",
+    "ingredient": "Маракуя"
+  },
+  {
+    "country": "VE",
+    "input": "ром",
+    "ingredient": "Ром"
+  },
+  {
+    "country": "VE",
+    "input": "авокадо",
+    "ingredient": "Авокадо"
+  },
+  {
+    "country": "AU",
+    "input": "насіння акації wattleseed",
+    "ingredient": "Насіння акації wattleseed"
+  },
+  {
+    "country": "AU",
+    "input": "макадамія",
+    "ingredient": "Макадамія"
+  },
+  {
+    "country": "AU",
+    "input": "пальчиковий лайм",
+    "ingredient": "Пальчиковий лайм"
+  },
+  {
+    "country": "AU",
+    "input": "лимонний мирт",
+    "ingredient": "Лимонний мирт"
+  },
+  {
+    "country": "AU",
+    "input": "м'ясо кенгуру",
+    "ingredient": "М'ясо кенгуру"
+  },
+  {
+    "country": "AU",
+    "input": "кущовий томат",
+    "ingredient": "Кущовий томат"
+  },
+  {
+    "country": "AU",
+    "input": "евкаліптовий мед",
+    "ingredient": "Евкаліптовий мед"
+  },
+  {
+    "country": "AU",
+    "input": "паста Vegemite",
+    "ingredient": "Паста Vegemite"
+  },
+  {
+    "country": "AU",
+    "input": "квандонг",
+    "ingredient": "Квандонг"
+  },
+  {
+    "country": "AU",
+    "input": "риба баррамунді",
+    "ingredient": "Риба баррамунді"
+  },
+  {
+    "country": "AU",
+    "input": "печиво Tim Tam",
+    "ingredient": "Печиво Tim Tam"
+  },
+  {
+    "country": "FJ",
+    "input": "таро",
+    "ingredient": "Таро"
+  },
+  {
+    "country": "FJ",
+    "input": "маніок",
+    "ingredient": "Маніок"
+  },
+  {
+    "country": "FJ",
+    "input": "кокосове молоко",
+    "ingredient": "Молоко кокосове"
+  },
+  {
+    "country": "FJ",
+    "input": "листя таро",
+    "ingredient": "Листя таро"
+  },
+  {
+    "country": "FJ",
+    "input": "кава-кава",
+    "ingredient": "Кава-кава"
+  },
+  {
+    "country": "FJ",
+    "input": "риба махі-махі",
+    "ingredient": "Риба махі-махі"
+  },
+  {
+    "country": "FJ",
+    "input": "хлібний плід",
+    "ingredient": "Хлібний плід"
+  },
+  {
+    "country": "FJ",
+    "input": "цукрова тростина",
+    "ingredient": "Цукрова тростина"
+  },
+  {
+    "country": "FJ",
+    "input": "їстівні пагони дурука",
+    "ingredient": "Їстівні пагони дурука"
+  },
+  {
+    "country": "KI",
+    "input": "плоди пандануса",
+    "ingredient": "Плоди пандануса"
+  },
+  {
+    "country": "KI",
+    "input": "кокос",
+    "ingredient": "Кокос"
+  },
+  {
+    "country": "KI",
+    "input": "хлібний плід",
+    "ingredient": "Хлібний плід"
+  },
+  {
+    "country": "KI",
+    "input": "болотне таро бабаї",
+    "ingredient": "Болотне таро бабаї"
+  },
+  {
+    "country": "KI",
+    "input": "рифова риба",
+    "ingredient": "Рифова риба"
+  },
+  {
+    "country": "KI",
+    "input": "морська сіль",
+    "ingredient": "Сіль морська"
+  },
+  {
+    "country": "KI",
+    "input": "кокосовий сік",
+    "ingredient": "Кокосовий сік"
+  },
+  {
+    "country": "KI",
+    "input": "тунець",
+    "ingredient": "Тунець"
+  },
+  {
+    "country": "MH",
+    "input": "кокос",
+    "ingredient": "Кокос"
+  },
+  {
+    "country": "MH",
+    "input": "панданус",
+    "ingredient": "Панданус"
+  },
+  {
+    "country": "MH",
+    "input": "хлібний плід",
+    "ingredient": "Хлібний плід"
+  },
+  {
+    "country": "MH",
+    "input": "таро",
+    "ingredient": "Таро"
+  },
+  {
+    "country": "MH",
+    "input": "тунець",
+    "ingredient": "Тунець"
+  },
+  {
+    "country": "MH",
+    "input": "рифова риба",
+    "ingredient": "Рифова риба"
+  },
+  {
+    "country": "MH",
+    "input": "сушена кокосова м'якоть",
+    "ingredient": "Сушена кокосова м'якоть"
+  },
+  {
+    "country": "MH",
+    "input": "кокосовий сік",
+    "ingredient": "Кокосовий сік"
+  },
+  {
+    "country": "FM",
+    "input": "напій сакау",
+    "ingredient": "Напій сакау"
+  },
+  {
+    "country": "FM",
+    "input": "болотне таро",
+    "ingredient": "Болотне таро"
+  },
+  {
+    "country": "FM",
+    "input": "хлібний плід",
+    "ingredient": "Хлібний плід"
+  },
+  {
+    "country": "FM",
+    "input": "кокос",
+    "ingredient": "Кокос"
+  },
+  {
+    "country": "FM",
+    "input": "панданус",
+    "ingredient": "Панданус"
+  },
+  {
+    "country": "FM",
+    "input": "тунець",
+    "ingredient": "Тунець"
+  },
+  {
+    "country": "FM",
+    "input": "рифові краби",
+    "ingredient": "Рифові краби"
+  },
+  {
+    "country": "NR",
+    "input": "кокос",
+    "ingredient": "Кокос"
+  },
+  {
+    "country": "NR",
+    "input": "панданус",
+    "ingredient": "Панданус"
+  },
+  {
+    "country": "NR",
+    "input": "хлібний плід",
+    "ingredient": "Хлібний плід"
+  },
+  {
+    "country": "NR",
+    "input": "молочна риба",
+    "ingredient": "Молочна риба"
+  },
+  {
+    "country": "NR",
+    "input": "тунець",
+    "ingredient": "Тунець"
+  },
+  {
+    "country": "NR",
+    "input": "кокосовий сік",
+    "ingredient": "Кокосовий сік"
+  },
+  {
+    "country": "NR",
+    "input": "сушена риба",
+    "ingredient": "Сушена риба"
+  },
+  {
+    "country": "NZ",
+    "input": "мед манука",
+    "ingredient": "Мед манука"
+  },
+  {
+    "country": "NZ",
+    "input": "зеленогубі мідії",
+    "ingredient": "Зеленогубі мідії"
+  },
+  {
+    "country": "NZ",
+    "input": "ківі",
+    "ingredient": "Ківі"
+  },
+  {
+    "country": "NZ",
+    "input": "баранина",
+    "ingredient": "Баранина"
+  },
+  {
+    "country": "NZ",
+    "input": "батат кумара",
+    "ingredient": "Батат"
+  },
+  {
+    "country": "NZ",
+    "input": "зелень пуха",
+    "ingredient": "Зелень пуха"
+  },
+  {
+    "country": "NZ",
+    "input": "перець хоропіто",
+    "ingredient": "Перець хоропіто"
+  },
+  {
+    "country": "NZ",
+    "input": "листя кавакава",
+    "ingredient": "Листя кавакава"
+  },
+  {
+    "country": "NZ",
+    "input": "карамель хокі-покі",
+    "ingredient": "Карамель хокі-покі"
+  },
+  {
+    "country": "NZ",
+    "input": "вино Совіньйон Блан",
+    "ingredient": "Вино Совіньйон Блан"
+  },
+  {
+    "country": "PW",
+    "input": "таро",
+    "ingredient": "Таро"
+  },
+  {
+    "country": "PW",
+    "input": "маніок",
+    "ingredient": "Маніок"
+  },
+  {
+    "country": "PW",
+    "input": "кокос",
+    "ingredient": "Кокос"
+  },
+  {
+    "country": "PW",
+    "input": "хлібний плід",
+    "ingredient": "Хлібний плід"
+  },
+  {
+    "country": "PW",
+    "input": "тунець",
+    "ingredient": "Тунець"
+  },
+  {
+    "country": "PW",
+    "input": "рифова риба",
+    "ingredient": "Рифова риба"
+  },
+  {
+    "country": "PW",
+    "input": "панданус",
+    "ingredient": "Панданус"
+  },
+  {
+    "country": "PW",
+    "input": "мангрові краби",
+    "ingredient": "Мангрові краби"
+  },
+  {
+    "country": "PG",
+    "input": "батат каукау",
+    "ingredient": "Батат"
+  },
+  {
+    "country": "PG",
+    "input": "саго",
+    "ingredient": "Саго"
+  },
+  {
+    "country": "PG",
+    "input": "таро",
+    "ingredient": "Таро"
+  },
+  {
+    "country": "PG",
+    "input": "банани",
+    "ingredient": "Банан"
+  },
+  {
+    "country": "PG",
+    "input": "кокос",
+    "ingredient": "Кокос"
+  },
+  {
+    "country": "PG",
+    "input": "панданус",
+    "ingredient": "Панданус"
+  },
+  {
+    "country": "PG",
+    "input": "кава",
+    "ingredient": "Кава мелена"
+  },
+  {
+    "country": "PG",
+    "input": "какао",
+    "ingredient": "Какао-порошок"
+  },
+  {
+    "country": "PG",
+    "input": "їстівні пагони пітпіт",
+    "ingredient": "Їстівні пагони пітпіт"
+  },
+  {
+    "country": "PG",
+    "input": "річкова риба",
+    "ingredient": "Річкова риба"
+  },
+  {
+    "country": "WS",
+    "input": "кокосові вершки",
+    "ingredient": "Кокосові вершки"
+  },
+  {
+    "country": "WS",
+    "input": "листя таро",
+    "ingredient": "Листя таро"
+  },
+  {
+    "country": "WS",
+    "input": "хлібний плід",
+    "ingredient": "Хлібний плід"
+  },
+  {
+    "country": "WS",
+    "input": "банани",
+    "ingredient": "Банан"
+  },
+  {
+    "country": "WS",
+    "input": "кава-кава",
+    "ingredient": "Кава-кава"
+  },
+  {
+    "country": "WS",
+    "input": "какао для напою koko Samoa",
+    "ingredient": "Какао для напою koko Samoa"
+  },
+  {
+    "country": "WS",
+    "input": "тунець",
+    "ingredient": "Тунець"
+  },
+  {
+    "country": "WS",
+    "input": "кокосовий сік",
+    "ingredient": "Кокосовий сік"
+  },
+  {
+    "country": "SB",
+    "input": "таро",
+    "ingredient": "Таро"
+  },
+  {
+    "country": "SB",
+    "input": "батат",
+    "ingredient": "Батат"
+  },
+  {
+    "country": "SB",
+    "input": "саго",
+    "ingredient": "Саго"
+  },
+  {
+    "country": "SB",
+    "input": "кокос",
+    "ingredient": "Кокос"
+  },
+  {
+    "country": "SB",
+    "input": "банани",
+    "ingredient": "Банан"
+  },
+  {
+    "country": "SB",
+    "input": "рифова риба",
+    "ingredient": "Рифова риба"
+  },
+  {
+    "country": "SB",
+    "input": "маніок",
+    "ingredient": "Маніок"
+  },
+  {
+    "country": "SB",
+    "input": "хлібний плід",
+    "ingredient": "Хлібний плід"
+  },
+  {
+    "country": "SB",
+    "input": "горіхи нгалі",
+    "ingredient": "Горіхи нгалі"
+  },
+  {
+    "country": "TO",
+    "input": "таро",
+    "ingredient": "Таро"
+  },
+  {
+    "country": "TO",
+    "input": "ямс",
+    "ingredient": "Ямс"
+  },
+  {
+    "country": "TO",
+    "input": "маніок",
+    "ingredient": "Маніок"
+  },
+  {
+    "country": "TO",
+    "input": "кокосове молоко",
+    "ingredient": "Молоко кокосове"
+  },
+  {
+    "country": "TO",
+    "input": "кава-кава",
+    "ingredient": "Кава-кава"
+  },
+  {
+    "country": "TO",
+    "input": "морські водорості ліму",
+    "ingredient": "Морські водорості ліму"
+  },
+  {
+    "country": "TO",
+    "input": "рифова риба",
+    "ingredient": "Рифова риба"
+  },
+  {
+    "country": "TO",
+    "input": "кавун",
+    "ingredient": "Кавун"
+  },
+  {
+    "country": "TO",
+    "input": "фруктовий напій отаї",
+    "ingredient": "Фруктовий напій отаї"
+  },
+  {
+    "country": "TO",
+    "input": "ваніль",
+    "ingredient": "Ваніль"
+  },
+  {
+    "country": "TV",
+    "input": "кокос",
+    "ingredient": "Кокос"
+  },
+  {
+    "country": "TV",
+    "input": "панданус",
+    "ingredient": "Панданус"
+  },
+  {
+    "country": "TV",
+    "input": "болотне таро пулака",
+    "ingredient": "Болотне таро пулака"
+  },
+  {
+    "country": "TV",
+    "input": "хлібний плід",
+    "ingredient": "Хлібний плід"
+  },
+  {
+    "country": "TV",
+    "input": "тунець",
+    "ingredient": "Тунець"
+  },
+  {
+    "country": "TV",
+    "input": "летюча риба",
+    "ingredient": "Летюча риба"
+  },
+  {
+    "country": "TV",
+    "input": "кокосовий сік",
+    "ingredient": "Кокосовий сік"
+  },
+  {
+    "country": "TV",
+    "input": "банани",
+    "ingredient": "Банан"
+  },
+  {
+    "country": "VU",
+    "input": "кава-кава",
+    "ingredient": "Кава-кава"
+  },
+  {
+    "country": "VU",
+    "input": "таро",
+    "ingredient": "Таро"
+  },
+  {
+    "country": "VU",
+    "input": "ямс",
+    "ingredient": "Ямс"
+  },
+  {
+    "country": "VU",
+    "input": "хлібний плід",
+    "ingredient": "Хлібний плід"
+  },
+  {
+    "country": "VU",
+    "input": "кокосове молоко",
+    "ingredient": "Молоко кокосове"
+  },
+  {
+    "country": "VU",
+    "input": "какао",
+    "ingredient": "Какао-порошок"
+  },
+  {
+    "country": "VU",
+    "input": "ваніль",
+    "ingredient": "Ваніль"
+  },
+  {
+    "country": "VU",
+    "input": "рифова риба",
+    "ingredient": "Рифова риба"
+  },
+  {
+    "country": "VU",
+    "input": "терта коренеплідна маса для лаплап",
+    "ingredient": "Терта коренеплідна маса для лаплап"
+  }
+]

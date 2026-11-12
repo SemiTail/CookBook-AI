@@ -1,0 +1,4 @@
+export const personSelect={id:true,name:true,handle:true,deletedAt:true,profileHiddenAt:true,profile:{select:{avatarUrl:true}}} as const;
+export const commentInclude={user:{select:personSelect},mentions:{select:{handle:true,kind:true,recipient:{select:personSelect}}},parent:{select:{id:true,text:true,hiddenAt:true,deletedAt:true,user:{select:personSelect}}}} as const;
+export const recipeSelect={id:true,title:true,description:true,imageUrl:true,emoji:true,preparationMinutes:true,servings:true,difficulty:true,calories:true,protein:true,fat:true,carbs:true,mealType:true,publishedAt:true,createdAt:true,isPublished:true,isShared:true,authorId:true,author:{select:personSelect}} as const;
+export function mentionedHandles(text:string){const names=[...text.matchAll(/(?:^|[^\p{L}\p{N}_@])@([\p{L}\p{N}_.-]{3,32})(?![\p{L}\p{N}_.-])/gu)].map(m=>m[1].replace(/[.-]+$/g,'').normalize('NFKC').toLocaleLowerCase('uk'));return [...new Set(names.filter(n=>n.length>=3))];}

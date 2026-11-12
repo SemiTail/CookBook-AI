@@ -2,6 +2,9 @@ import type { Session } from "./types";
 
 const BASE = (import.meta.env.VITE_API_URL || "/api/v1").replace(/\/$/, "");
 const STORAGE_KEY = "cookbook-demo-session";
+export function resolvePhotoUrl(url: string): string {
+  return url.startsWith("/api/v1/photos/") ? `${BASE}/photos/${url.split("/").pop()}` : url;
+}
 export const SESSION_EXPIRED_EVENT = "cookbook-session-expired";
 
 export class ApiError extends Error {
@@ -34,7 +37,7 @@ export async function api<T>(path: string, init: RequestInit = {}): Promise<T> {
     response = await fetch(`${BASE}${path}`, {
     ...init,
     headers: {
-      "Content-Type": "application/json",
+      ...(init.body instanceof FormData ? {} : { "Content-Type": "application/json" }),
       ...(token ? { Authorization: `Bearer ${token}` } : {}),
       ...init.headers,
     },
@@ -50,6 +53,7 @@ export async function api<T>(path: string, init: RequestInit = {}): Promise<T> {
     throw new ApiError("Сервер повернув некоректну відповідь. Перевірте, чи запущений сервер CookBook AI.", response.status);
   });
   if (!response.ok) {
+    if (response.status === 413) throw new ApiError("Фото перевищує допустимі 2,5 МБ", 413);
     const err = (data ?? {}) as { message?: string | string[] };
     throw new ApiError(Array.isArray(err.message) ? err.message.join("; ") : err.message ?? (response.status >= 500 ? "Сервер тимчасово недоступний. Спробуйте пізніше." : `HTTP ${response.status}`), response.status);
   }

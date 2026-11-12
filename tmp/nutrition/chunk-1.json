@@ -1,0 +1,2392 @@
+[
+  {
+    "id": "09b018db-e1bb-48c6-8c73-f31c07ab17ea",
+    "name": "Рисове борошно",
+    "category": "Інше",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": null
+  },
+  {
+    "id": "fbd58820-c68f-4f7e-a636-0edc2b40449e",
+    "name": "Бульйон дасі",
+    "category": "Азійські продукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍲"
+  },
+  {
+    "id": "0c30a283-c442-4311-94cd-e0c8b4dd82fa",
+    "name": "Корінь лотоса",
+    "category": "Азійські продукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌸"
+  },
+  {
+    "id": "1788f082-9680-4274-80d9-b1b4cddac1e6",
+    "name": "Норі",
+    "category": "Азійські продукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍙"
+  },
+  {
+    "id": "df3ec66b-3694-407a-94f9-7ec2cfb8be3f",
+    "name": "Паста карі зелена",
+    "category": "Азійські продукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍛"
+  },
+  {
+    "id": "9692eae1-e430-4f4e-9a30-fad5d198f667",
+    "name": "Паста самджан",
+    "category": "Азійські продукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🫘"
+  },
+  {
+    "id": "1eb5c677-7e67-4e53-9f8b-b01445d72e4c",
+    "name": "Рисовий папір",
+    "category": "Азійські продукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍚"
+  },
+  {
+    "id": "44be67f2-3978-47c7-a532-76c881f1681c",
+    "name": "Ігристе вино кава",
+    "category": "Алкогольні напої",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥂"
+  },
+  {
+    "id": "43836964-12cd-4601-b5b6-32cdd385aa2e",
+    "name": "Бренді",
+    "category": "Алкогольні напої",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥃"
+  },
+  {
+    "id": "2cc536c1-4150-40f9-9009-33d4d71ee18f",
+    "name": "Вермут білий",
+    "category": "Алкогольні напої",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍸"
+  },
+  {
+    "id": "8c4c9faa-c479-4661-a1dc-984b8e822369",
+    "name": "Вино біле напівсухе",
+    "category": "Алкогольні напої",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥂"
+  },
+  {
+    "id": "b8173782-4dfc-4f23-8bfc-db3e8811b861",
+    "name": "Вино кулінарне біле",
+    "category": "Алкогольні напої",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥂"
+  },
+  {
+    "id": "6c162080-adfa-4f7d-be4f-31ec624886af",
+    "name": "Вино рожеве сухе",
+    "category": "Алкогольні напої",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍷"
+  },
+  {
+    "id": "4751abe5-b40e-4b36-83cd-00f941a55c33",
+    "name": "Вино червоне солодке",
+    "category": "Алкогольні напої",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍷"
+  },
+  {
+    "id": "9b8594f9-1cf3-4bb1-8c3d-edd2b2ae3a14",
+    "name": "Вино ігристе рожеве",
+    "category": "Алкогольні напої",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥂"
+  },
+  {
+    "id": "de096466-1b7f-4cdf-9010-bd3004e9a255",
+    "name": "Горілка",
+    "category": "Алкогольні напої",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥃"
+  },
+  {
+    "id": "485f388b-8a08-47b8-b404-009a6974e4ff",
+    "name": "Кальвадос",
+    "category": "Алкогольні напої",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍎"
+  },
+  {
+    "id": "c3a7cda9-8bb8-4596-b56c-7492a589d3a5",
+    "name": "Лікер вершковий",
+    "category": "Алкогольні напої",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥛"
+  },
+  {
+    "id": "1cfcec63-0609-4835-98a6-390a9740b8a4",
+    "name": "Лікер шоколадний",
+    "category": "Алкогольні напої",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍫"
+  },
+  {
+    "id": "d8918aad-c4dd-455a-8f2f-69f9a7e197ab",
+    "name": "Марсала",
+    "category": "Алкогольні напої",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍷"
+  },
+  {
+    "id": "950654dd-3210-43ca-b2cf-3777ea592f3e",
+    "name": "Настоянка трав'яна",
+    "category": "Алкогольні напої",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌿"
+  },
+  {
+    "id": "46a87937-c150-4e01-93d6-97e314f62876",
+    "name": "Пиво пшеничне",
+    "category": "Алкогольні напої",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍺"
+  },
+  {
+    "id": "fc38385a-0fc7-4c49-8ff3-776c5e4f84ef",
+    "name": "Портвейн",
+    "category": "Алкогольні напої",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍷"
+  },
+  {
+    "id": "2bf868ab-a3db-4da4-b0d3-94dc1973fa37",
+    "name": "Ром білий",
+    "category": "Алкогольні напої",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥃"
+  },
+  {
+    "id": "fdb7236c-d093-4608-acb0-bc6d316ce12a",
+    "name": "Самбука",
+    "category": "Алкогольні напої",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍸"
+  },
+  {
+    "id": "702d824c-6b37-4116-87f9-ef7453bd57d3",
+    "name": "Текіла",
+    "category": "Алкогольні напої",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥃"
+  },
+  {
+    "id": "a41d9df8-4c75-469e-9d80-2b8f3a72cc16",
+    "name": "Шампанське",
+    "category": "Алкогольні напої",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥂"
+  },
+  {
+    "id": "16fd6718-587b-4ca4-80f1-ef1c4379c586",
+    "name": "Боби",
+    "category": "Бобові",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🫘"
+  },
+  {
+    "id": "e1383dc2-d263-487a-883e-a8e58d80a84e",
+    "name": "Горох сухий",
+    "category": "Бобові",
+    "caloriesPer100g": 341.0,
+    "proteinPer100g": 24.6,
+    "fatPer100g": 1.2,
+    "carbsPer100g": 60.4,
+    "emoji": "🟢"
+  },
+  {
+    "id": "f8da8ed4-83ce-40a7-8627-bf689d35b408",
+    "name": "Квасоля спаржева",
+    "category": "Бобові",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🫛"
+  },
+  {
+    "id": "57e8ab5f-18ea-4900-9d8f-dc32c70fbfc4",
+    "name": "Квасоля чорна",
+    "category": "Бобові",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🫘"
+  },
+  {
+    "id": "5895ff13-0893-484f-8c7e-853aa9f8b6a5",
+    "name": "Нут",
+    "category": "Бобові",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🫘"
+  },
+  {
+    "id": "684c814b-0d1e-4dc8-aed5-0881f7d5aca5",
+    "name": "Сочевиця коричнева",
+    "category": "Бобові",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🫘"
+  },
+  {
+    "id": "34a1cea4-a3b8-4ab5-8b85-c5acb836dcf8",
+    "name": "Борошно вівсяне",
+    "category": "Борошно та крохмаль",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌾"
+  },
+  {
+    "id": "007799b5-9fb6-4c29-a051-cff9ccfbf20b",
+    "name": "Борошно кокосове",
+    "category": "Борошно та крохмаль",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥥"
+  },
+  {
+    "id": "5109ae40-6f86-4ef9-a3d4-64b52a5d6c9b",
+    "name": "Борошно нутове",
+    "category": "Борошно та крохмаль",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🫘"
+  },
+  {
+    "id": "757df61d-c5c9-4598-be5c-88bb1d1b7dfe",
+    "name": "Борошно соєве",
+    "category": "Борошно та крохмаль",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🫘"
+  },
+  {
+    "id": "71c8d185-2197-45fa-86b0-18c51e8e9f63",
+    "name": "Крохмаль картопляний",
+    "category": "Борошно та крохмаль",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥔"
+  },
+  {
+    "id": "4fd3f5d2-3f72-4fc7-88fe-7debf827a7f4",
+    "name": "Крохмаль тапіоковий",
+    "category": "Борошно та крохмаль",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌱"
+  },
+  {
+    "id": "372b8bc5-434c-4324-b212-97fd0768abeb",
+    "name": "Волоський горіх",
+    "category": "Горіхи та насіння",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌰"
+  },
+  {
+    "id": "be6430e9-0400-491c-aaf0-0c1281d7088f",
+    "name": "Кокосова стружка",
+    "category": "Горіхи та насіння",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥥"
+  },
+  {
+    "id": "da607a3f-96e4-4e63-8541-237673ed1282",
+    "name": "Мигдаль",
+    "category": "Горіхи та насіння",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌰"
+  },
+  {
+    "id": "15f5ddbd-449c-4d3d-934b-a5a0a26b6279",
+    "name": "Насіння конопель",
+    "category": "Горіхи та насіння",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌱"
+  },
+  {
+    "id": "ed03147d-a16d-49a9-b05f-4cf0324797eb",
+    "name": "Насіння маку",
+    "category": "Горіхи та насіння",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌸"
+  },
+  {
+    "id": "7e2e2a99-78f6-4952-b269-368f5332c87d",
+    "name": "Пекан",
+    "category": "Горіхи та насіння",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌰"
+  },
+  {
+    "id": "de70057e-1019-483e-bae6-f19d6f0d1faa",
+    "name": "Чорний кунжут",
+    "category": "Горіхи та насіння",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "⚫"
+  },
+  {
+    "id": "9cdaab40-06fc-461d-ae56-89fe8c1866e8",
+    "name": "Гриби печериці",
+    "category": "Гриби",
+    "caloriesPer100g": 22.0,
+    "proteinPer100g": 3.1,
+    "fatPer100g": 0.3,
+    "carbsPer100g": 3.3,
+    "emoji": "🍽️"
+  },
+  {
+    "id": "8d80b76f-33f4-49ab-a369-30c37c042d21",
+    "name": "Лисички",
+    "category": "Гриби",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍄"
+  },
+  {
+    "id": "92150e1a-b27d-47cb-b73a-4f0c3bac936c",
+    "name": "Муер",
+    "category": "Гриби",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍄"
+  },
+  {
+    "id": "1e7f62a8-804d-4260-9324-97c1d30a0bd8",
+    "name": "Печериці коричневі",
+    "category": "Гриби",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍄"
+  },
+  {
+    "id": "f8f91c3b-e991-4cd4-b4e6-daa2d3130763",
+    "name": "Сморчки",
+    "category": "Гриби",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍄"
+  },
+  {
+    "id": "87447128-3f8e-488f-b5ad-3b2dae5fb11a",
+    "name": "Броколі заморожена",
+    "category": "Заморожені продукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥦"
+  },
+  {
+    "id": "55aca4ce-694c-492b-99cb-6da882b2db46",
+    "name": "Горошок заморожений",
+    "category": "Заморожені продукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🫛"
+  },
+  {
+    "id": "0be46908-6869-4df9-9ec6-ba864372ec61",
+    "name": "Кукурудза заморожена",
+    "category": "Заморожені продукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌽"
+  },
+  {
+    "id": "dc8fa881-95c9-49e9-921c-a7ba83f16dbf",
+    "name": "Овочева суміш заморожена",
+    "category": "Заморожені продукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥦"
+  },
+  {
+    "id": "ad4855d2-e5ec-450e-81ac-d0034e8e8030",
+    "name": "Цвітна капуста заморожена",
+    "category": "Заморожені продукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥦"
+  },
+  {
+    "id": "f1bb4184-d2b8-4ed0-a63a-493eb5dc1528",
+    "name": "Базилік",
+    "category": "Зелень",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌿"
+  },
+  {
+    "id": "65fb605c-7823-412c-98e3-d798212e8fef",
+    "name": "Кріп",
+    "category": "Зелень",
+    "caloriesPer100g": 43.0,
+    "proteinPer100g": 3.5,
+    "fatPer100g": 1.1,
+    "carbsPer100g": 7.0,
+    "emoji": "🌿"
+  },
+  {
+    "id": "23aeb778-6923-4083-be2c-2b32c2d512c6",
+    "name": "Листя карі",
+    "category": "Зелень",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍃"
+  },
+  {
+    "id": "11c30082-36e1-45ba-bbd4-472a61edee05",
+    "name": "М'ята",
+    "category": "Зелень",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌱"
+  },
+  {
+    "id": "e2a984ba-57cf-448b-9a3b-a12b822dbee0",
+    "name": "Мікрозелень",
+    "category": "Зелень",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌱"
+  },
+  {
+    "id": "b5345ee7-5c3b-4d7d-acf0-5a0e01ddc7f3",
+    "name": "Розмарин",
+    "category": "Зелень",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌿"
+  },
+  {
+    "id": "fc1a7cbf-3795-4e96-9cb5-3ed18327c953",
+    "name": "Салат латук",
+    "category": "Зелень",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥬"
+  },
+  {
+    "id": "88bb0bee-1f41-46fb-b781-2281c2224487",
+    "name": "Чебрець",
+    "category": "Зелень",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌿"
+  },
+  {
+    "id": "56491c3c-ede0-4970-9467-9d2ade37bbc4",
+    "name": "Шпинат",
+    "category": "Зелень",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥬"
+  },
+  {
+    "id": "010b35f3-48a8-4f7b-9522-367ca7474e39",
+    "name": "Ванільний екстракт",
+    "category": "Кондитерські інгредієнти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌸"
+  },
+  {
+    "id": "fa907635-26a7-4d2c-83a4-1a17ab0bebcd",
+    "name": "Дріжджі свіжі",
+    "category": "Кондитерські інгредієнти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍞"
+  },
+  {
+    "id": "81e8986b-34fb-4497-815b-9ad2d8c794fc",
+    "name": "Какао-масло",
+    "category": "Кондитерські інгредієнти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍫"
+  },
+  {
+    "id": "f36b1b97-0cfe-4f10-b353-0b5c9cdd5ad0",
+    "name": "Кондитерська посипка",
+    "category": "Кондитерські інгредієнти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🧁"
+  },
+  {
+    "id": "b84cda55-9104-48de-848a-b0c4967d090f",
+    "name": "Мастика кондитерська",
+    "category": "Кондитерські інгредієнти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🎂"
+  },
+  {
+    "id": "67f32510-91b5-4e32-96fa-d6d72479e58a",
+    "name": "Печиво савоярді",
+    "category": "Кондитерські інгредієнти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍪"
+  },
+  {
+    "id": "1de62fb7-07f9-4be5-b6e2-cc3584917f46",
+    "name": "Сода харчова",
+    "category": "Кондитерські інгредієнти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥄"
+  },
+  {
+    "id": "415ffaa0-57f7-4ac7-a636-a35060ab4130",
+    "name": "Шоколад молочний",
+    "category": "Кондитерські інгредієнти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍫"
+  },
+  {
+    "id": "9c36772c-37f4-412f-ac21-dc3e32c2e08d",
+    "name": "Ананаси консервовані",
+    "category": "Консерви",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍍"
+  },
+  {
+    "id": "a8d9765d-2bc9-42d1-a0c3-d5131aeeb161",
+    "name": "Груші консервовані",
+    "category": "Консерви",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍐"
+  },
+  {
+    "id": "a397eb46-10cf-4b20-a45c-d722774dadb8",
+    "name": "Кокосове молоко консервоване",
+    "category": "Консерви",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥥"
+  },
+  {
+    "id": "349ff46b-cd7d-4f1b-ae13-ab4f81603582",
+    "name": "Огірки консервовані",
+    "category": "Консерви",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥒"
+  },
+  {
+    "id": "8be2779f-f37c-49d5-8663-0f58c1c2783d",
+    "name": "Паштет м'ясний консервований",
+    "category": "Консерви",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥫"
+  },
+  {
+    "id": "1f2c0d6a-3658-47a5-b3c5-de2c141c4541",
+    "name": "Печінка тріски консервована",
+    "category": "Консерви",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥫"
+  },
+  {
+    "id": "680e97e4-2c6d-4f21-9ba5-47fce2c78274",
+    "name": "Томати у власному соку",
+    "category": "Консерви",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍅"
+  },
+  {
+    "id": "8be733a7-2ccb-4a6b-857e-28732b57ad6e",
+    "name": "Тушкована яловичина консервована",
+    "category": "Консерви",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥫"
+  },
+  {
+    "id": "a5b7a1e9-f461-453a-8612-108fb31f2535",
+    "name": "Булгур",
+    "category": "Крупи",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌾"
+  },
+  {
+    "id": "e514f962-3097-4572-bf1b-75b552294a62",
+    "name": "Гречка",
+    "category": "Крупи",
+    "caloriesPer100g": 343.0,
+    "proteinPer100g": 13.3,
+    "fatPer100g": 3.4,
+    "carbsPer100g": 71.5,
+    "emoji": "🌾"
+  },
+  {
+    "id": "efb57dec-fd5e-463b-8651-5364e087c422",
+    "name": "Кіноа",
+    "category": "Крупи",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌾"
+  },
+  {
+    "id": "68a3596c-7692-4faa-8fc8-52a7ba1b88a3",
+    "name": "Полента",
+    "category": "Крупи",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌽"
+  },
+  {
+    "id": "eae5cb35-0f68-407d-a2e7-188cddaa022f",
+    "name": "Пшоно",
+    "category": "Крупи",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌾"
+  },
+  {
+    "id": "4e3fe958-53e1-4372-bec4-df2b679d04a6",
+    "name": "Рис басматі",
+    "category": "Крупи",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍚"
+  },
+  {
+    "id": "948faf8c-feb7-469d-bc05-0cab8682a160",
+    "name": "Рис дикий",
+    "category": "Крупи",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌾"
+  },
+  {
+    "id": "5908c0a5-6bbb-4f40-a3f2-705b37e0d0b0",
+    "name": "Рисова січка",
+    "category": "Крупи",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍚"
+  },
+  {
+    "id": "083fdb21-bca6-4152-a64b-b355cf694b18",
+    "name": "Ячна крупа",
+    "category": "Крупи",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌾"
+  },
+  {
+    "id": "8e8ae1ae-27b3-4864-9e59-5abe8ec2c9f0",
+    "name": "Бекон",
+    "category": "М'ясні вироби",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥓"
+  },
+  {
+    "id": "6bd57dd5-c367-4dcb-84b4-d038974a88a9",
+    "name": "Ковбаса сирокопчена",
+    "category": "М'ясні вироби",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌭"
+  },
+  {
+    "id": "effea9d9-79c9-4028-93cb-378a18a9d7b2",
+    "name": "Пастрамі",
+    "category": "М'ясні вироби",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥩"
+  },
+  {
+    "id": "d1f79058-36f8-4c6c-8162-7d61e97ba19d",
+    "name": "Прошутто",
+    "category": "М'ясні вироби",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍖"
+  },
+  {
+    "id": "ac77a78b-a51b-4b97-bcd3-a2992cf8f984",
+    "name": "Сардельки",
+    "category": "М'ясні вироби",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌭"
+  },
+  {
+    "id": "494732c1-e182-47a4-8f46-4268b760f58b",
+    "name": "Шинка",
+    "category": "М'ясні вироби",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍖"
+  },
+  {
+    "id": "84e8951b-1cf4-4fa5-a5e7-da81a38510d0",
+    "name": "Гуска",
+    "category": "М'ясо",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🪿"
+  },
+  {
+    "id": "4088ef5f-ec8c-4ae8-bb29-0807ca7f8b22",
+    "name": "Курятина",
+    "category": "М'ясо",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍗"
+  },
+  {
+    "id": "96068437-0d7f-4db2-8d92-a3f5009fdfd3",
+    "name": "Куряче стегно",
+    "category": "М'ясо",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍗"
+  },
+  {
+    "id": "64f5e5f4-70b7-4c0f-b551-25842c830580",
+    "name": "М'ясо кабана",
+    "category": "М'ясо",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍖"
+  },
+  {
+    "id": "6089835b-9fdd-496a-a2f2-dd382f5a44f4",
+    "name": "Свинина",
+    "category": "М'ясо",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥩"
+  },
+  {
+    "id": "2d222ec2-501f-4d59-9b3c-c6ac88b60f71",
+    "name": "Свиняча грудинка",
+    "category": "М'ясо",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥓"
+  },
+  {
+    "id": "1097449c-5926-4024-9cc2-7b01ad297db3",
+    "name": "Фарш змішаний",
+    "category": "М'ясо",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥩"
+  },
+  {
+    "id": "3a3887fb-9e4b-40e0-b204-e487f99f8d38",
+    "name": "Фарш яловичий",
+    "category": "М'ясо",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥩"
+  },
+  {
+    "id": "18018771-a5c4-4b6f-af36-298af5d6498a",
+    "name": "Ягнятина",
+    "category": "М'ясо",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍖"
+  },
+  {
+    "id": "61c3fd67-74b8-412a-88de-c0182decbc69",
+    "name": "Яловичі ребра",
+    "category": "М'ясо",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍖"
+  },
+  {
+    "id": "095fba89-b218-4c12-bf6b-a24367800970",
+    "name": "Листи лазаньї",
+    "category": "Макаронні вироби",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍝"
+  },
+  {
+    "id": "47f2df00-a836-4483-bd52-84553df0f1f1",
+    "name": "Локшина яєчна",
+    "category": "Макаронні вироби",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍜"
+  },
+  {
+    "id": "f898b885-47ae-4600-8353-c3465b74b0ac",
+    "name": "Орзо",
+    "category": "Макаронні вироби",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍝"
+  },
+  {
+    "id": "c982cc07-39c3-45ec-980d-e1e7cd2ce316",
+    "name": "Рігатоні",
+    "category": "Макаронні вироби",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍝"
+  },
+  {
+    "id": "c2a068ef-3a6f-4aa7-b84c-544be7d5733f",
+    "name": "Удон",
+    "category": "Макаронні вироби",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍜"
+  },
+  {
+    "id": "f0c883fb-17b8-475a-97cf-56915fe7bbf0",
+    "name": "Фузілі",
+    "category": "Макаронні вироби",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍝"
+  },
+  {
+    "id": "d7eaf98e-ceba-434f-b32f-0e60bd40bb69",
+    "name": "Гриби мариновані",
+    "category": "Мариновані та ферментовані продукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍄"
+  },
+  {
+    "id": "f0abc283-7c2c-4ba0-92cd-662d56395199",
+    "name": "Місо-паста",
+    "category": "Мариновані та ферментовані продукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🫘"
+  },
+  {
+    "id": "452f5add-aa24-439a-9083-f03a7c9c76af",
+    "name": "Перець маринований",
+    "category": "Мариновані та ферментовані продукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🫑"
+  },
+  {
+    "id": "c2f6c692-baef-4986-aa39-5912b26481d1",
+    "name": "Цибуля маринована",
+    "category": "Мариновані та ферментовані продукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🧅"
+  },
+  {
+    "id": "ee06ca81-75f1-4e1e-bf92-dba78957760d",
+    "name": "Вершки для збивання",
+    "category": "Молочні продукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥛"
+  },
+  {
+    "id": "dffbead0-ce9a-4b5a-ac96-18c1dd9cb9ad",
+    "name": "Йогурт фруктовий",
+    "category": "Молочні продукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍓"
+  },
+  {
+    "id": "723d72c1-2041-4d3f-885f-6583af64279e",
+    "name": "Масло вершкове",
+    "category": "Молочні продукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🧈"
+  },
+  {
+    "id": "2459fc77-08ba-4d86-ba79-334c4151d7c8",
+    "name": "Молоко безлактозне",
+    "category": "Молочні продукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥛"
+  },
+  {
+    "id": "fadce296-39ad-4e98-a1a3-323e05eaf7c3",
+    "name": "Морозиво пломбір",
+    "category": "Молочні продукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍦"
+  },
+  {
+    "id": "78eb4188-21ab-46d0-883a-bf41b6b3aa99",
+    "name": "Сир брі",
+    "category": "Молочні продукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🧀"
+  },
+  {
+    "id": "6b6e2094-b5fb-44c3-a7a9-ae3f4d231588",
+    "name": "Сир горгонзола",
+    "category": "Молочні продукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🧀"
+  },
+  {
+    "id": "55365f7a-9d23-451f-bbc0-cd5176d870a8",
+    "name": "Сир камамбер",
+    "category": "Молочні продукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🧀"
+  },
+  {
+    "id": "f898f0c5-b4fa-4734-966d-025d114fd6d5",
+    "name": "Сир моцарела",
+    "category": "Молочні продукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🧀"
+  },
+  {
+    "id": "6e66b2d5-4d0b-4b3b-8afe-058e1938c0fc",
+    "name": "Сир рікота",
+    "category": "Молочні продукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🧀"
+  },
+  {
+    "id": "8d0f6157-bb16-4a11-8239-7b8cc05ce48b",
+    "name": "Сир фета",
+    "category": "Молочні продукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🧀"
+  },
+  {
+    "id": "9921f814-b579-4473-a47f-37a89a879bb0",
+    "name": "Сметана",
+    "category": "Молочні продукти",
+    "caloriesPer100g": 206.0,
+    "proteinPer100g": 2.8,
+    "fatPer100g": 20.0,
+    "carbsPer100g": 3.2,
+    "emoji": "🥛"
+  },
+  {
+    "id": "86ad0114-c7bb-4d79-ac37-30735f467e76",
+    "name": "Вода питна",
+    "category": "Напої",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "💧"
+  },
+  {
+    "id": "77a984e5-8a97-415c-9975-ed9e812fac87",
+    "name": "Кава розчинна",
+    "category": "Напої",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "☕"
+  },
+  {
+    "id": "e929ac67-8ae7-4297-b6a2-f2e7f5696da5",
+    "name": "Комбуча",
+    "category": "Напої",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍵"
+  },
+  {
+    "id": "20022d99-6c09-4c89-b253-aac436f37e9b",
+    "name": "Сік апельсиновий",
+    "category": "Напої",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🧃"
+  },
+  {
+    "id": "60de2959-6b1e-4787-84cc-6b4be25dbcef",
+    "name": "Сік мультифруктовий",
+    "category": "Напої",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🧃"
+  },
+  {
+    "id": "537b47ae-b04d-4c73-b2bc-70bf9aa5a5b8",
+    "name": "Чай білий",
+    "category": "Напої",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍵"
+  },
+  {
+    "id": "40185065-067a-4a20-8001-79542aaa3ccc",
+    "name": "Чай матча",
+    "category": "Напої",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍵"
+  },
+  {
+    "id": "2b119b55-964f-407f-9665-b4dd0c29ede2",
+    "name": "Артишок",
+    "category": "Овочі",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌿"
+  },
+  {
+    "id": "0c362146-c74a-45fc-8552-a16825265882",
+    "name": "Броколі",
+    "category": "Овочі",
+    "caloriesPer100g": 34.0,
+    "proteinPer100g": 2.8,
+    "fatPer100g": 0.4,
+    "carbsPer100g": 6.6,
+    "emoji": "🥦"
+  },
+  {
+    "id": "4d61ece8-7691-41ab-bbc5-3c234d249de5",
+    "name": "Гарбуз",
+    "category": "Овочі",
+    "caloriesPer100g": 26.0,
+    "proteinPer100g": 1.0,
+    "fatPer100g": 0.1,
+    "carbsPer100g": 6.5,
+    "emoji": "🎃"
+  },
+  {
+    "id": "55f4be06-43e5-4230-af19-8f0bf1b35980",
+    "name": "Капуста",
+    "category": "Овочі",
+    "caloriesPer100g": 25.0,
+    "proteinPer100g": 1.3,
+    "fatPer100g": 0.1,
+    "carbsPer100g": 5.8,
+    "emoji": "🍽️"
+  },
+  {
+    "id": "96c8af7c-95ee-49f5-b21f-5a16c0205c6d",
+    "name": "Капуста пекінська",
+    "category": "Овочі",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥬"
+  },
+  {
+    "id": "a2171ee4-2ed8-49a2-b3e2-4eb2005806a4",
+    "name": "Картопля",
+    "category": "Овочі",
+    "caloriesPer100g": 77.0,
+    "proteinPer100g": 2.0,
+    "fatPer100g": 0.1,
+    "carbsPer100g": 17.0,
+    "emoji": "🥔"
+  },
+  {
+    "id": "8ef67dc8-bf02-476f-8573-42dad6c09496",
+    "name": "Молода картопля",
+    "category": "Овочі",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥔"
+  },
+  {
+    "id": "9efe23d8-706d-4f8f-a215-a51fc50d8c56",
+    "name": "Окра",
+    "category": "Овочі",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌱"
+  },
+  {
+    "id": "4a5f5550-6636-4078-99e2-524afdecffed",
+    "name": "Перець гострий",
+    "category": "Овочі",
+    "caloriesPer100g": 40.0,
+    "proteinPer100g": 1.9,
+    "fatPer100g": 0.4,
+    "carbsPer100g": 8.8,
+    "emoji": "🌶️"
+  },
+  {
+    "id": "6dae718d-55ac-4818-a957-0610d44c00e7",
+    "name": "Помідор",
+    "category": "Овочі",
+    "caloriesPer100g": 18.0,
+    "proteinPer100g": 0.9,
+    "fatPer100g": 0.2,
+    "carbsPer100g": 3.9,
+    "emoji": "🍅"
+  },
+  {
+    "id": "350fae5d-c87d-4693-86a8-021d4e3782ba",
+    "name": "Редиска",
+    "category": "Овочі",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌱"
+  },
+  {
+    "id": "03f55cdf-6d7e-4911-bcf6-d158accca441",
+    "name": "Селера коренева",
+    "category": "Овочі",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌱"
+  },
+  {
+    "id": "080f2607-9275-4af4-9667-8152cf958028",
+    "name": "Фенхель",
+    "category": "Овочі",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌿"
+  },
+  {
+    "id": "ae3ef572-3305-4208-a40b-6a8b73d98e4f",
+    "name": "Цибуля",
+    "category": "Овочі",
+    "caloriesPer100g": 40.0,
+    "proteinPer100g": 1.1,
+    "fatPer100g": 0.1,
+    "carbsPer100g": 9.3,
+    "emoji": "🍽️"
+  },
+  {
+    "id": "ea4961e4-be6e-495f-a54d-46a9f0280fed",
+    "name": "Цибуля червона",
+    "category": "Овочі",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🧅"
+  },
+  {
+    "id": "5548d304-5559-4263-bab1-c6939432b7c4",
+    "name": "Олія авокадо",
+    "category": "Олії",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥑"
+  },
+  {
+    "id": "b03c721a-43ce-4a9f-bfe8-039cc2bbe47e",
+    "name": "Олія волоського горіха",
+    "category": "Олії",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌰"
+  },
+  {
+    "id": "f91e6526-cbdf-4705-adc3-6510f848b985",
+    "name": "Олія кукурудзяна",
+    "category": "Олії",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌽"
+  },
+  {
+    "id": "20c16708-7965-4e39-95dd-f3336f1725eb",
+    "name": "Олія оливкова",
+    "category": "Олії",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🫒"
+  },
+  {
+    "id": "616940e0-435e-4c5d-a597-9f169c926488",
+    "name": "Олія ріпакова",
+    "category": "Олії",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌼"
+  },
+  {
+    "id": "4361711b-2fde-48ca-a526-f588f3d64ab1",
+    "name": "Еритритол",
+    "category": "Підсолоджувачі",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍬"
+  },
+  {
+    "id": "f12aece0-30bd-432e-a5fb-568a253682bf",
+    "name": "Меляса",
+    "category": "Підсолоджувачі",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍯"
+  },
+  {
+    "id": "58a67fcf-a7a8-4c26-a784-00a91667e148",
+    "name": "Сироп кленовий",
+    "category": "Підсолоджувачі",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍁"
+  },
+  {
+    "id": "a3d51719-b00c-47e0-bdd3-831aac1a3991",
+    "name": "Стевія",
+    "category": "Підсолоджувачі",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌿"
+  },
+  {
+    "id": "7af9344b-320d-4465-9c34-a91dc17eb9fa",
+    "name": "Цукор кокосовий",
+    "category": "Підсолоджувачі",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥥"
+  },
+  {
+    "id": "2d47d28d-5f53-423e-ac56-c0862d20da08",
+    "name": "Ікра червона",
+    "category": "Риба та морепродукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🟠"
+  },
+  {
+    "id": "f969dcd4-91bb-495b-9cf1-b9c8d47a291c",
+    "name": "Восьминіг",
+    "category": "Риба та морепродукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🐙"
+  },
+  {
+    "id": "3fdca5b0-21f1-4939-adb1-86c9990c8ed6",
+    "name": "Дорадо",
+    "category": "Риба та морепродукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🐟"
+  },
+  {
+    "id": "580cd351-db87-4c39-8025-7a8d562dc30e",
+    "name": "Карась",
+    "category": "Риба та морепродукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🐟"
+  },
+  {
+    "id": "10da1c1b-77f0-4451-a904-8ef9d4097433",
+    "name": "Краб",
+    "category": "Риба та морепродукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🦀"
+  },
+  {
+    "id": "5e7a1e02-5b7c-4ee6-9901-e895743308f5",
+    "name": "Лобстер",
+    "category": "Риба та морепродукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🦞"
+  },
+  {
+    "id": "92501034-46f2-4d8b-9bc6-6dbd576303ba",
+    "name": "Мойва",
+    "category": "Риба та морепродукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🐟"
+  },
+  {
+    "id": "9d859fbc-7dfa-4624-91a6-eee0aade1b16",
+    "name": "Окунь",
+    "category": "Риба та морепродукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🐟"
+  },
+  {
+    "id": "a63da7b9-b7ae-47bd-b9f8-abe0d7f4e29b",
+    "name": "Раки",
+    "category": "Риба та морепродукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🦞"
+  },
+  {
+    "id": "c33ed918-6e25-430e-ba92-01150e8632bb",
+    "name": "Сом",
+    "category": "Риба та морепродукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🐟"
+  },
+  {
+    "id": "20c54806-553e-4e86-a300-736897f16a31",
+    "name": "Сібас",
+    "category": "Риба та морепродукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🐟"
+  },
+  {
+    "id": "d9e7edd3-ad7d-4520-808e-8ddd342343f4",
+    "name": "Тунець",
+    "category": "Риба та морепродукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🐟"
+  },
+  {
+    "id": "efa0b170-8c51-4a3d-8593-9b8e5e16060f",
+    "name": "Хек",
+    "category": "Риба та морепродукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🐟"
+  },
+  {
+    "id": "dc3dd400-f5fd-4c96-b64e-07e656280401",
+    "name": "Вершки рослинні",
+    "category": "Рослинні альтернативи",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥛"
+  },
+  {
+    "id": "d8afe91a-45f9-4085-adfc-7d95b5d82801",
+    "name": "Молоко вівсяне",
+    "category": "Рослинні альтернативи",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌾"
+  },
+  {
+    "id": "e93eafcd-7dbb-47d8-a43a-91eb18c1232e",
+    "name": "Молоко мигдалеве",
+    "category": "Рослинні альтернативи",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌰"
+  },
+  {
+    "id": "6e15a8ec-b90e-443f-acdc-ca6186bf47a8",
+    "name": "Рослинне масло",
+    "category": "Рослинні альтернативи",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🧈"
+  },
+  {
+    "id": "ab9b250a-95ef-4788-a928-d0d5a58de845",
+    "name": "Темпе",
+    "category": "Рослинні альтернативи",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🫘"
+  },
+  {
+    "id": "8f8a143d-84cb-4003-8eb1-bdf1d4eacaa1",
+    "name": "Аджика",
+    "category": "Соуси та заправки",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌶️"
+  },
+  {
+    "id": "2af67a84-0cb0-493a-aa7c-9319c35e8674",
+    "name": "Заправка ранч",
+    "category": "Соуси та заправки",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥗"
+  },
+  {
+    "id": "4421572f-9339-4055-b28d-b6040791b72b",
+    "name": "Лимонний сік",
+    "category": "Соуси та заправки",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍋"
+  },
+  {
+    "id": "07f25cbc-ed1f-4663-a055-b7ee14c84ca8",
+    "name": "Оцет винний",
+    "category": "Соуси та заправки",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍇"
+  },
+  {
+    "id": "39a06fcc-9ee4-4290-87cd-56ae9b6ef210",
+    "name": "Оцет яблучний",
+    "category": "Соуси та заправки",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍎"
+  },
+  {
+    "id": "4089304d-77dd-4f74-8b45-e55eaa8f436a",
+    "name": "Соус болоньєзе",
+    "category": "Соуси та заправки",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍝"
+  },
+  {
+    "id": "35c0532a-22e1-4058-bf1a-985fbd6e2871",
+    "name": "Соус рибний",
+    "category": "Соуси та заправки",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🐟"
+  },
+  {
+    "id": "3a84fd7d-6192-4097-9b0d-0982e9ef0358",
+    "name": "Соус табаско",
+    "category": "Соуси та заправки",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌶️"
+  },
+  {
+    "id": "aefc6f01-a13c-4ef2-a528-6f3d5526b0ce",
+    "name": "Соус ткемалі",
+    "category": "Соуси та заправки",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🟣"
+  },
+  {
+    "id": "c39913e0-ec38-4ca9-9a0b-5c1b007c230d",
+    "name": "Соус хойсин",
+    "category": "Соуси та заправки",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍶"
+  },
+  {
+    "id": "f9fe54bb-d15d-47af-8b7b-1ce5249330de",
+    "name": "Соус шрірача",
+    "category": "Соуси та заправки",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌶️"
+  },
+  {
+    "id": "1cd2a0f6-41d9-473c-bff2-64a75ac13e72",
+    "name": "Імбир мелений",
+    "category": "Спеції",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🫚"
+  },
+  {
+    "id": "8f337d2f-995a-4a0a-b250-bff6dfd63493",
+    "name": "Бадьян",
+    "category": "Спеції",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "⭐"
+  },
+  {
+    "id": "c937e00e-5041-459d-b38d-75262f75cde2",
+    "name": "Гвоздика",
+    "category": "Спеції",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌸"
+  },
+  {
+    "id": "25c919dc-4209-4b4c-b931-156ea5f5b098",
+    "name": "Карі",
+    "category": "Спеції",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍛"
+  },
+  {
+    "id": "aa4472ca-e0c0-417e-8b1b-35bf1047c7df",
+    "name": "Коріандр зерна",
+    "category": "Спеції",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌱"
+  },
+  {
+    "id": "d9196fb0-a268-4e2a-9b97-5a05081f0417",
+    "name": "Куркума",
+    "category": "Спеції",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🟡"
+  },
+  {
+    "id": "018dc89f-7062-4acd-9c02-aa64eca80f2d",
+    "name": "Мускатний горіх",
+    "category": "Спеції",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌰"
+  },
+  {
+    "id": "a41cc1af-3ab7-4fd7-8cf3-6d1565b4b2f0",
+    "name": "Перець білий",
+    "category": "Спеції",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "⚪"
+  },
+  {
+    "id": "ffe82e75-af76-497f-a73c-92a0cf1bc9be",
+    "name": "Перець чорний",
+    "category": "Спеції",
+    "caloriesPer100g": 251.0,
+    "proteinPer100g": 10.4,
+    "fatPer100g": 3.3,
+    "carbsPer100g": 64.0,
+    "emoji": "🍽️"
+  },
+  {
+    "id": "3abbade6-e170-4c61-bc5f-aac1a2206827",
+    "name": "Пластівці чилі",
+    "category": "Спеції",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌶️"
+  },
+  {
+    "id": "74dfbfb1-c7f3-4fad-92a9-756ed43f9b8c",
+    "name": "Приправа для плову",
+    "category": "Спеції",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍚"
+  },
+  {
+    "id": "68d35f96-86ee-4aef-8156-6de586cda16f",
+    "name": "Сумак",
+    "category": "Спеції",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🔴"
+  },
+  {
+    "id": "08c4ad10-2b74-4100-b878-f3aa4af8fe40",
+    "name": "Сушений кріп",
+    "category": "Спеції",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌿"
+  },
+  {
+    "id": "61201367-b2e3-4ff2-9de8-e6e0a53767e0",
+    "name": "Сушений чебрець",
+    "category": "Спеції",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🌿"
+  },
+  {
+    "id": "5737e303-03f0-4a98-8118-9e1ac551480f",
+    "name": "Сіль морська",
+    "category": "Спеції",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🧂"
+  },
+  {
+    "id": "0b0d0ddb-d33c-4615-8a65-1254f7382942",
+    "name": "Цукор",
+    "category": "Спеції",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🧂"
+  },
+  {
+    "id": "fd7a2ce8-f2fa-490d-a0c7-71afcfc733a6",
+    "name": "Інжир сушений",
+    "category": "Сухофрукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🟣"
+  },
+  {
+    "id": "c7d32ac7-060d-4ed0-ab42-01f066e80536",
+    "name": "Сушена вишня",
+    "category": "Сухофрукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍒"
+  },
+  {
+    "id": "d7f996fa-94f6-4464-b86e-07447bfe8e41",
+    "name": "Сушений ананас",
+    "category": "Сухофрукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍍"
+  },
+  {
+    "id": "b47926b2-a843-4b0b-9ff5-c4da85b1e9a9",
+    "name": "Сушені яблука",
+    "category": "Сухофрукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍎"
+  },
+  {
+    "id": "362ba85d-6c6c-4cdf-8727-537dd3beecc7",
+    "name": "Чорнослив",
+    "category": "Сухофрукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🟣"
+  },
+  {
+    "id": "a9319f7d-24e0-4437-902d-0c3779d13246",
+    "name": "Авокадо",
+    "category": "Фрукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥑"
+  },
+  {
+    "id": "2ddbff7d-4de0-4f8c-a2c6-1a5b82e42ecd",
+    "name": "Ананас",
+    "category": "Фрукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍍"
+  },
+  {
+    "id": "c2508509-2962-4f22-bcf8-75a63cab8e9e",
+    "name": "Гранат",
+    "category": "Фрукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "❤️"
+  },
+  {
+    "id": "91c0bc5c-f393-4a5e-a43d-92623a5bed32",
+    "name": "Гуава",
+    "category": "Фрукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍈"
+  },
+  {
+    "id": "08043872-e1df-4ef5-a57e-d1e1ab41a761",
+    "name": "Зелене яблуко",
+    "category": "Фрукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍏"
+  },
+  {
+    "id": "8f03c840-7648-45e7-a2dd-642b80bb98d5",
+    "name": "Кокос",
+    "category": "Фрукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥥"
+  },
+  {
+    "id": "57755d31-95ee-4edc-8974-a255262f4d84",
+    "name": "Лимон",
+    "category": "Фрукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍋"
+  },
+  {
+    "id": "0a437329-e7a9-4a56-8b8e-2a8acbae4242",
+    "name": "Мандарин",
+    "category": "Фрукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍊"
+  },
+  {
+    "id": "5b556709-3821-4b9e-a86e-681e4de4873e",
+    "name": "Папая",
+    "category": "Фрукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥭"
+  },
+  {
+    "id": "57b3f306-ea4d-4db8-b083-c953e73a1362",
+    "name": "Слива",
+    "category": "Фрукти",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🟣"
+  },
+  {
+    "id": "512da883-f962-4d6d-939e-e6846a649227",
+    "name": "Яблуко",
+    "category": "Фрукти",
+    "caloriesPer100g": 52.0,
+    "proteinPer100g": 0.3,
+    "fatPer100g": 0.2,
+    "carbsPer100g": 13.8,
+    "emoji": "🍎"
+  },
+  {
+    "id": "818065a0-7169-48cb-b2c6-860bfc007a13",
+    "name": "Бейгл",
+    "category": "Хліб та випічка",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥯"
+  },
+  {
+    "id": "f1621a88-1d77-4a19-9e9b-9d76f5813e91",
+    "name": "Булочка для бургера",
+    "category": "Хліб та випічка",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍔"
+  },
+  {
+    "id": "13416f4c-1fa0-4c7a-8dea-1e433a4dd8f3",
+    "name": "Круасан",
+    "category": "Хліб та випічка",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥐"
+  },
+  {
+    "id": "efc2f057-a6d5-4ebc-a4a9-f28d0daf81ae",
+    "name": "Піта",
+    "category": "Хліб та випічка",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🫓"
+  },
+  {
+    "id": "d1496fd7-89db-47ff-b90d-474175646950",
+    "name": "Фокача",
+    "category": "Хліб та випічка",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍞"
+  },
+  {
+    "id": "7a35e80c-c804-408a-8212-093569e27dfc",
+    "name": "Хліб тостовий",
+    "category": "Хліб та випічка",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍞"
+  },
+  {
+    "id": "d35ad7c4-45d9-492e-9f4c-31f25021cc18",
+    "name": "Чіабата",
+    "category": "Хліб та випічка",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥖"
+  },
+  {
+    "id": "7fa10795-4985-4a25-9831-1e96dfb2eee5",
+    "name": "Виноград зелений",
+    "category": "Ягоди",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍇"
+  },
+  {
+    "id": "a8643298-e741-407e-a594-0ba0b2540328",
+    "name": "Горобина",
+    "category": "Ягоди",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🔴"
+  },
+  {
+    "id": "47abf6d8-b3db-4838-94ff-67b2f446ffcd",
+    "name": "Калина",
+    "category": "Ягоди",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🔴"
+  },
+  {
+    "id": "e5417475-391f-4fc8-b1cc-e3578e49de83",
+    "name": "Малина",
+    "category": "Ягоди",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "❤️"
+  },
+  {
+    "id": "dbf4dad5-334c-480b-838a-c63aa53448ef",
+    "name": "Полуниця",
+    "category": "Ягоди",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🍓"
+  },
+  {
+    "id": "565ca113-41f0-41fd-8efb-4b4578479e67",
+    "name": "Смородина чорна",
+    "category": "Ягоди",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "⚫"
+  },
+  {
+    "id": "51b607bc-b480-473f-8239-902940094c93",
+    "name": "Чорниця",
+    "category": "Ягоди",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🫐"
+  },
+  {
+    "id": "e6dc6062-e9e4-41f3-8b2e-03b8cbc15369",
+    "name": "🫐 ягода",
+    "category": "Ягоди",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": null
+  },
+  {
+    "id": "5d5e034a-496e-421c-81dd-65b9606b4618",
+    "name": "Яйце качине",
+    "category": "Яйця",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥚"
+  },
+  {
+    "id": "dcba9fa8-892b-4369-81b3-290e29446301",
+    "name": "Яйце індиче",
+    "category": "Яйця",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥚"
+  },
+  {
+    "id": "f95af971-c0ac-45d2-9c74-16214e9aaadf",
+    "name": "Яєчний порошок",
+    "category": "Яйця",
+    "caloriesPer100g": null,
+    "proteinPer100g": null,
+    "fatPer100g": null,
+    "carbsPer100g": null,
+    "emoji": "🥚"
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "completed": [
+    1,
+    3,
+    4,
+    7,
+    8,
+    9,
+    11,
+    12,
+    19
+  ],
+  "partial": {
+    "2": "Moderator catalogue quality scanner added; data correction and synonym review remain.",
+    "5": "Recipe editor focuses errors and preserves data; other flows need review.",
+    "6": "Editor/moderation/support routes lazy loaded, async image decoding; existing upload already resizes to 2048 and compresses WebP. Thumbnails remain optional."
+  },
+  "pending": {
+    "10": "Consolidated shopping list and fridge transfer",
+    "13": "Meal planner and shopping aggregation",
+    "14": "Explicit allergen/diet tags and filters",
+    "15": "Unified notifications and preferences",
+    "16": "Recipe version history and authorized restore",
+    "17": "Expiring and suspended delegated grants",
+    "18": "Moderation assignment, internal notes, in-progress status",
+    "20": "Editorial review of official recipes"
+  },
+  "validation": [
+    "Production backend and frontend builds passed",
+    "93 automatic tests passed (80 backend, 13 frontend)",
+    "Collections browser smoke passed: synonyms/typos, bulk membership, CRUD, reload, direct recipe link, mobile bounds",
+    "Draft/cooking/notes browser smoke passed: server persistence across contexts, conflict resolution and legacy local recovery",
+    "23 migrations applied; backups before both migrations; existing data counts unchanged; FK check passed",
+    "Live app restarted at launcher PID 3676; health OK, frontend 200, private collections 401 unauthenticated"
+  ],
+  "notes": [
+    "Existing real users, recipes, ingredients and favorites preserved. Only new empty schema tables added.",
+    "All remaining work stays authorized; no confirmation needed.",
+    "Current code path C:/Users/Monya/CookBook-AI.",
+    "New frontend search.ts, SavedCollections.tsx and server-backed RecipeNotes.tsx.",
+    "New backend collections.controller.ts and recipe-notes.controller.ts.",
+    "Saved collection membership cascades on un-save; deleting a collection preserves favorites.",
+    "Private notes use revisions to prevent stale overwrites; local notes require explicit recovery and save."
+  ]
+}

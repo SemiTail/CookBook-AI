@@ -1,9 +1,13 @@
-export type User = { id: string; name: string; email: string; role: "USER" | "MODERATOR" };
+export type User = { handle?:string; id: string; name: string; email: string; role: "USER" | "MODERATOR" };
 export type Session = { accessToken: string; user: User };
-export type Ingredient = { id: string; name: string; category: string; emoji?: string | null; caloriesPer100g?: number | null; proteinPer100g?: number | null; fatPer100g?: number | null; carbsPer100g?: number | null };
+export type NutritionRange = { kcal:{min:number;max:number};protein:{min:number;max:number};fat:{min:number;max:number};carbs:{min:number;max:number};kind:string;source:string;sourceUrl:string;note:string;sampleCount:number;sourceIds:string[] };
+export type Ingredient = { gramsPerUnit?:number|null; densityGramsPerMl?:number|null; categoryTags?:string[]; culinaryRegions?:string[]; culinaryCountries?:string[]; nutritionRange?:NutritionRange|null; nutritionStatus?:string; nutritionSource?:string|null; nutritionSourceUrl?:string|null; nutritionSourceFood?:string|null; nutritionNote?:string|null; id: string; name: string; category: string; emoji?: string | null; caloriesPer100g?: number | null; proteinPer100g?: number | null; fatPer100g?: number | null; carbsPer100g?: number | null };
 export type RecipeIngredient = { ingredientId: string; quantity: number | null; unit: string | null; optional: boolean; ingredient: Ingredient };
-export type Recipe = {
+export type Recipe = {repostCount?:number; hiddenAt?:string|null;permissions?:{editRecipes:boolean;hideRecipes:boolean;manageComments:boolean;editProfile:boolean}; averageRating?:number|null; ratingCount?:number; nutritionAuto?:boolean;
   id: string; title: string; emoji: string; imageUrl: string | null; authorId: string | null; isPublished: boolean; isShared: boolean; description: string | null; instructions: string;
+  originalAuthorship?:{user:{deletedAt?:string|null;id:string;name:string;profile:{avatarUrl:string|null}|null}|null}|null;
+  author?: {deletedAt?:string|null;id:string;name:string;profile:{avatarUrl:string|null}|null}|null;
+  mealType: string; publishedAt: string | null; createdAt: string;
   preparationMinutes: number; difficulty: "EASY" | "MEDIUM" | "HARD"; servings: number;
   calories: number | null; protein: number | null; fat: number | null; carbs: number | null;
   ingredients: RecipeIngredient[]; matchPercent?: number; missingIngredients?: Ingredient[];
