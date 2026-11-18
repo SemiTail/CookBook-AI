@@ -2,7 +2,7 @@
  * CookBook AI — local SQLite test data, Prisma 7.
  * Includes ingredient catalog and sample recipes. Run `npx.cmd prisma db seed` from backend.
  * Put cookbook_ingredients.json next to this seed.ts file.
- * This is for local development only: it creates two demo accounts.
+ * Run with --catalog-only to load published recipes without creating demo accounts.
  */
 import "dotenv/config";
 import { randomBytes } from "node:crypto";
@@ -12,7 +12,8 @@ import { PrismaBetterSqlite3 } from "@prisma/adapter-better-sqlite3";
 import argon2 from "argon2";
 import { PrismaClient } from "../generated/prisma/client";
 
-if (process.env.NODE_ENV === "production") {
+const catalogOnly = process.argv.includes("--catalog-only");
+if (process.env.NODE_ENV === "production" && !catalogOnly) {
   throw new Error("Demo seed must not run with NODE_ENV=production");
 }
 const databaseUrl = process.env.DATABASE_URL;
@@ -213,8 +214,8 @@ async function ensureUser(name: string, email: string, role: "USER" | "MODERATOR
 }
 
 async function main() {
-  const user = await ensureUser("Тестовий користувач", "demo@cookbook.test", "USER");
-  const moderator = await ensureUser("Модератор", "moderator@cookbook.test", "MODERATOR");
+  const user = catalogOnly ? null : await ensureUser("Тестовий користувач", "demo@cookbook.test", "USER");
+  const moderator = catalogOnly ? null : await ensureUser("Модератор", "moderator@cookbook.test", "MODERATOR");
 
   // Import all catalog ingredients and the legacy demo ingredients.
   // Existing IDs and recipe/fridge links are preserved. No tables are cleared.
@@ -301,26 +302,28 @@ async function main() {
       create: {
         id: recipe.id,
         ...data,
-        author: { connect: { id: moderator.id } },
+        ...(moderator && { author: { connect: { id: moderator.id } } }),
         ingredients: { create: recipeIngredientRows },
       },
     });
   }
 
-  for (const name of ["Яйце", "Помідор", "Гречка", "Картопля", "Цибуля", "Морква"]) {
-    const ingredientId = idByName.get(name);
-    if (!ingredientId) throw new Error(`Missing fridge ingredient: ${name}`);
-    await prisma.fridgeItem.upsert({
-      where: { userId_ingredientId: { userId: user.id, ingredientId } },
+  if (user) {
+    for (const name of ["Яйце", "Помідор", "Гречка", "Картопля", "Цибуля", "Морква"]) {
+      const ingredientId = idByName.get(name);
+      if (!ingredientId) throw new Error(`Missing fridge ingredient: ${name}`);
+      await prisma.fridgeItem.upsert({
+        where: { userId_ingredientId: { userId: user.id, ingredientId } },
+        update: {},
+        create: { userId: user.id, ingredientId, quantity: 200, unit: "г" },
+      });
+    }
+    await prisma.favorite.upsert({
+      where: { userId_recipeId: { userId: user.id, recipeId: "demo-omelet" } },
       update: {},
-      create: { userId: user.id, ingredientId, quantity: 200, unit: "г" },
+      create: { userId: user.id, recipeId: "demo-omelet" },
     });
   }
-  await prisma.favorite.upsert({
-    where: { userId_recipeId: { userId: user.id, recipeId: "demo-omelet" } },
-    update: {},
-    create: { userId: user.id, recipeId: "demo-omelet" },
-  });
   console.log("CookBook AI seed finished:");
   console.log(`  users: ${await prisma.user.count()}`);
   console.log(`  categories: ${await prisma.category.count()}`);

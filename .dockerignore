@@ -1,0 +1,15 @@
+**
+!Dockerfile
+!backend/
+!backend/**
+!frontend/
+!frontend/**
+!scripts/
+!scripts/start-railway.sh
+**/node_modules
+**/dist
+backend/generated
+**/.env*
+**/*.db
+**/*.db-*
+**/*.sqlite*
