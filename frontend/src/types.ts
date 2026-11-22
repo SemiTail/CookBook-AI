@@ -10,6 +10,6 @@ export type Recipe = {repostCount?:number; hiddenAt?:string|null;permissions?:{e
   mealType: string; publishedAt: string | null; createdAt: string;
   preparationMinutes: number; difficulty: "EASY" | "MEDIUM" | "HARD"; servings: number;
   calories: number | null; protein: number | null; fat: number | null; carbs: number | null;
-  ingredients: RecipeIngredient[]; matchPercent?: number; missingIngredients?: Ingredient[];
+  ingredients: RecipeIngredient[]; matchPercent?: number; missingIngredients?: Pick<Ingredient, "id" | "name">[];
 };
 export type FridgeItem = { id: string; ingredientId: string; ingredient: Ingredient; quantity: number | null; unit: string | null };

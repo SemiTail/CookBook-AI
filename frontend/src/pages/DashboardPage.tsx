@@ -19,6 +19,7 @@ export function DashboardPage({ onUnauthorized }: { onUnauthorized: () => void }
   const [search, setSearch] = useState(params.get("search")??"");
   const [minutes, setMinutes] = useState(0);
   const [difficultyFilter, setDifficultyFilter] = useState("");
+  const [completeOnly, setCompleteOnly] = useState(false);
   const [sort, setSort] = useState("title");
   const [savedRecipes,setSavedRecipes]=useState<Recipe[]>([]);
   const [followed,setFollowed]=useState<{id:string;name:string}[]>([]);
@@ -59,7 +60,9 @@ export function DashboardPage({ onUnauthorized }: { onUnauthorized: () => void }
   }, [handleError]);
 
   useEffect(()=>{if(user?.role!=="MODERATOR")return;let active=true;api<Recipe[]>("/recipes/moderation").then(r=>{if(active)setModeration(r);}).catch(handleError);return()=>{active=false;};},[user?.role,handleError]);
+  const filteringCompleteRecipes = tab === "ready" && completeOnly;
   const displayed = (tab === "moderation" ? moderation : tab === "mine" ? myRecipes : tab === "official" ? recipes : tab === "community" ? community : tab === "saved" ? savedRecipes : tab === "following" ? feed : suggestions)
+    .filter(recipe => !filteringCompleteRecipes || recipe.missingIngredients?.length === 0)
     .filter(r=>matchesReposts(reposts[r.id]??0,repostFilter)).filter(r => matchesSearch(r.title+" "+(r.description??""),search) && (!minutes || r.preparationMinutes <= minutes) && (!difficultyFilter || r.difficulty === difficultyFilter) && (!meal || r.mealType===meal))
     .sort((a,b) => sort === "reposts" ? (reposts[b.id]??0)-(reposts[a.id]??0) : sort === "newest" ? new Date(b.publishedAt??b.createdAt).getTime()-new Date(a.publishedAt??a.createdAt).getTime() : sort==="oldest" ? new Date(a.publishedAt??a.createdAt).getTime()-new Date(b.publishedAt??b.createdAt).getTime() : sort==="rating" ? (ratings.find(x=>x.id===b.id)?.average??-1)-(ratings.find(x=>x.id===a.id)?.average??-1) : sort === "time" ? a.preparationMinutes-b.preparationMinutes : sort === "calories" ? (a.calories??Infinity)-(b.calories??Infinity) : a.title.localeCompare(b.title,"uk"));
   const recordSearch=useSearchHistory(search,tab,displayed,undefined,!loading);
@@ -75,10 +78,36 @@ export function DashboardPage({ onUnauthorized }: { onUnauthorized: () => void }
         <div className="recipe-tabs" role="tablist" aria-label="Види рецептів">{[["mine","Свої"],["official","Офіційні"],["ready","Що можна приготувати"],["community","Браузер рецептів"],["saved","Збережені"],["following","Відстеження"],...(user?.role==="MODERATOR"?[["moderation","Модерація"]]:[])].map(([key,label]) => <button key={key} role="tab" aria-selected={tab === key} className={tab === key ? "button" : "button button-outline"} onClick={() => setTab(key)}>{label}</button>)}</div>
         {tab==="following"&&<div className="following-users"><h3>Ви відстежуєте</h3>{followed.map(u=><Link key={u.id} className="button button-outline" to={"/users/"+u.id}>{u.name}</Link>)}{!followed.length&&<p>Відкрийте профіль автора та натисніть «Відстежувати користувача».</p>}</div>}
         <label className="catalog-search">Пошук рецептів<input type="search" onBlur={recordSearch} placeholder="Знайдіть свою наступну улюблену страву…" value={search} onChange={e=>setSearch(e.target.value)} /></label>
-        <div className="catalog-layout"><aside className="catalog-filters"><h3>Фільтри</h3><label>Час приготування<select value={minutes} onChange={e=>setMinutes(Number(e.target.value))}><option value={0}>Будь-який час</option><option value={15}>До 15 хв</option><option value={30}>До 30 хв</option><option value={60}>До 60 хв</option></select></label><label>Складність<select value={difficultyFilter} onChange={e=>setDifficultyFilter(e.target.value)}><option value="">Будь-яка</option><option value="EASY">Просто</option><option value="MEDIUM">Середньо</option><option value="HARD">Складно</option></select></label><label>Прийом їжі<select aria-label="Прийом їжі" value={meal} onChange={e=>setMeal(e.target.value)}><option value="">Усі</option><option value="BREAKFAST">Сніданок</option><option value="LUNCH">Обід</option><option value="DINNER">Вечеря</option><option value="SNACK">Перекус</option><option value="DESSERT">Десерт</option><option value="ANY">Не вказано</option></select></label><button className="button button-outline" onClick={()=>{setMeal("");setSearch("");setMinutes(0);setDifficultyFilter("");}}>Очистити фільтри</button></aside><div>
+        <div className="catalog-layout"><aside className="catalog-filters"><h3>Фільтри</h3><label>Час приготування<select value={minutes} onChange={e=>setMinutes(Number(e.target.value))}><option value={0}>Будь-який час</option><option value={15}>До 15 хв</option><option value={30}>До 30 хв</option><option value={60}>До 60 хв</option></select></label><label>Складність<select value={difficultyFilter} onChange={e=>setDifficultyFilter(e.target.value)}><option value="">Будь-яка</option><option value="EASY">Просто</option><option value="MEDIUM">Середньо</option><option value="HARD">Складно</option></select></label><label>Прийом їжі<select aria-label="Прийом їжі" value={meal} onChange={e=>setMeal(e.target.value)}><option value="">Усі</option><option value="BREAKFAST">Сніданок</option><option value="LUNCH">Обід</option><option value="DINNER">Вечеря</option><option value="SNACK">Перекус</option><option value="DESSERT">Десерт</option><option value="ANY">Не вказано</option></select></label>
+          {tab === "ready" && (
+            <label>
+              Наявність продуктів
+              <select
+                value={completeOnly ? "complete" : "all"}
+                onChange={event => setCompleteOnly(event.target.value === "complete")}
+              >
+                <option value="all">Усі рекомендації</option>
+                <option value="complete">Є всі обов’язкові</option>
+              </select>
+            </label>
+          )}
+          <button className="button button-outline" onClick={() => {
+            setMeal("");
+            setSearch("");
+            setMinutes(0);
+            setDifficultyFilter("");
+            setCompleteOnly(false);
+          }}>Очистити фільтри</button>
+        </aside><div>
         <div className="catalog-tools"><span>Знайдено рецептів: <strong>{displayed.length}</strong></span><RepostFilter value={repostFilter} onChange={setRepostFilter}/><label>Сортування<select aria-label="Сортування" value={sort} onChange={e=>setSort(e.target.value)}><option value="newest">Нові публікації</option><option value="oldest">Старі публікації</option><option value="rating">За оцінкою</option><option value="reposts">За пересиланнями</option><option value="title">За назвою</option><option value="time">Спочатку швидкі</option><option value="calories">За калорійністю</option></select></label><button className="button button-outline" aria-label="Перемкнути вигляд каталогу" onClick={()=>setView(view==="grid"?"list":"grid")}>{view==="grid"?"☷":"▦"}</button></div>
         <div role="tabpanel"><div className={"cards catalog-"+view}>{displayed.map(recipe => <RecipeCard key={recipe.id} recipe={recipe} rating={ratings.find(x=>x.id===recipe.id)?.average} />)}</div>
-        {!displayed.length && <p className="empty">У цьому розділі поки немає рецептів.</p>}</div></div></div>
+        {!displayed.length && (
+          <p className="empty">
+            {filteringCompleteRecipes
+              ? "За цими фільтрами немає рецептів з усіма обов’язковими інгредієнтами."
+              : "У цьому розділі поки немає рецептів."}
+          </p>
+        )}</div></div></div>
       </section>
     </div><AssistantChat mode={chatMode} onMode={setChatMode} fridgeCount={fridge.length} /></div>}
   </>;
