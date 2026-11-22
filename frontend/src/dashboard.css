@@ -73,3 +73,11 @@
 [data-theme="dark"] .ingredient-controls input,[data-theme="dark"] .ingredient-controls select { background:#111e17; color:#e4eee6; border-color:#4b6253; }
 [data-theme="dark"] .category-tag { background:#324c38; color:#d6e8d1; }
 @media(max-width:550px) { .ingredient-controls { grid-template-columns:1fr; } }
+
+.fridge-stock-editor { margin-bottom: 30px; }
+.fridge-stock-editor summary { cursor: pointer; font-weight: 600; }
+.fridge-stock-editor > label, .fridge-stock-form label { display: grid; gap: 6px; }
+.fridge-stock-editor > label, .fridge-stock-form { margin-top: 12px; }
+.fridge-stock-form { display: flex; flex-wrap: wrap; align-items: end; gap: 12px; }
+.fridge-stock-form label { flex: 1 1 150px; min-width: 0; }
+.fridge-stock-form [role="status"] { flex-basis: 100%; margin: 0; }
