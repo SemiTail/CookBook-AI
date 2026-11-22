@@ -132,6 +132,29 @@ test('HTTP integration against an isolated migrated SQLite database', { timeout:
     assert.deepEqual((await request('/fridge', { token: second.accessToken })).data, []);
     assert.equal((await request(`/fridge/${item.id}`, { method: 'DELETE', token: second.accessToken })).status, 404);
   });
+  await t.test('owner can edit and clear stock amounts, with validation and ownership checks', async () => {
+    const path = `/fridge/${item.id}`;
+    const body = { quantity: 0, unit: ' г ' };
+    assert.equal((await request(path, { method: 'PATCH', body })).status, 401);
+    assert.equal((await request(path, { method: 'PATCH', token: second.accessToken, body })).status, 404);
+    for (const invalid of [{ quantity: -1, unit: 'г' }, { quantity: 1 }, { unit: null }]) {
+      assert.equal((await request(path, { method: 'PATCH', token: session.accessToken, body: invalid })).status, 400);
+    }
+    const update = await request(path, { method: 'PATCH', token: session.accessToken, body });
+    assert.equal(update.status, 200);
+    assert.equal(update.data.quantity, 0);
+    assert.equal(update.data.unit, 'г');
+    const clear = await request(path, {
+      method: 'PATCH', token: session.accessToken, body: { quantity: null, unit: '' },
+    });
+    assert.equal(clear.status, 200);
+    assert.equal(clear.data.quantity, null);
+    assert.equal(clear.data.unit, null);
+    const list = await request('/fridge', { token: session.accessToken });
+    assert.equal(list.data.length, 1);
+    assert.equal(list.data[0].quantity, null);
+    assert.equal(list.data[0].unit, null);
+  });
   await t.test('owner can delete their fridge item', async () => {
     assert.equal((await request(`/fridge/${item.id}`, { method: 'DELETE', token: session.accessToken })).status, 200);
     assert.deepEqual((await request('/fridge', { token: session.accessToken })).data, []);

@@ -9,6 +9,7 @@ import { api, ApiError } from "../api";
 import type { FridgeItem, Ingredient, Recipe, User } from "../types";
 import { AssistantChat, type ChatMode } from "../AssistantChat";
 import { FridgePanel } from "../FridgePanel";
+import { FridgeStockEditor } from "../FridgeStockEditor";
 
 export function DashboardPage({ onUnauthorized }: { onUnauthorized: () => void }) {
   const reposts=useReposts();const [repostFilter,setRepostFilter]=useState('all');
@@ -70,6 +71,11 @@ export function DashboardPage({ onUnauthorized }: { onUnauthorized: () => void }
     {error && <div className="error" role="alert">{error} <button onClick={() => window.location.reload()}>Повторити</button></div>}
     {loading ? <p>Завантажуємо дані…</p> : <div className={`dashboard-layout ${chatMode === "open" ? "is-chat-open" : ""}`}><div className="dashboard-content">
       <FridgePanel fridge={fridge} ingredients={ingredients} onChanged={refresh} onError={handleError} />
+      <FridgeStockEditor
+        items={fridge}
+        onSaved={updated => setFridge(items => items.map(item => item.id === updated.id ? updated : item))}
+        onError={handleError}
+      />
       <section className="recipes-section">
         <div className="section-header"><h2>Каталог рецептів</h2><Link className="button" to="/recipes/new">+ Створити рецепт</Link></div>
         <div className="recipe-tabs" role="tablist" aria-label="Види рецептів">{[["mine","Свої"],["official","Офіційні"],["ready","Що можна приготувати"],["community","Браузер рецептів"],["saved","Збережені"],["following","Відстеження"],...(user?.role==="MODERATOR"?[["moderation","Модерація"]]:[])].map(([key,label]) => <button key={key} role="tab" aria-selected={tab === key} className={tab === key ? "button" : "button button-outline"} onClick={() => setTab(key)}>{label}</button>)}</div>

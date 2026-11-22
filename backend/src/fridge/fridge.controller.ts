@@ -1,7 +1,7 @@
-import { BadRequestException, Body, Controller, Delete, Get, NotFoundException, Param, Post, Req, UseGuards } from "@nestjs/common";
+import { BadRequestException, Body, Controller, Delete, Get, NotFoundException, Param, Patch, Post, Req, UseGuards } from "@nestjs/common";
 import { JwtAuthGuard, type AuthenticatedRequest } from "../auth/jwt-auth.guard";
 import { PrismaService } from "../prisma/prisma.service";
-import { AddFridgeItemDto } from "./dto/add-fridge-item.dto";
+import { AddFridgeItemDto, UpdateFridgeStockDto } from "./dto/add-fridge-item.dto";
 import { BulkFridgeDto, RemoveFridgeItemsDto } from "./dto/bulk-fridge.dto";
 
 @Controller("fridge")
@@ -39,6 +39,17 @@ export class FridgeController {
       update: {}, create: { userId: request.user.id, ingredientId },
     })));
     return this.list(request);
+  }
+
+  @Patch(":id")
+  async updateStock(@Req() request: AuthenticatedRequest, @Param("id") id: string, @Body() dto: UpdateFridgeStockDto) {
+    const [item] = await this.prisma.fridgeItem.updateManyAndReturn({
+      where: { id, userId: request.user.id },
+      data: { quantity: dto.quantity, unit: dto.unit },
+      include: { ingredient: true },
+    });
+    if (!item) throw new NotFoundException("Продукт у холодильнику не знайдено");
+    return item;
   }
 
   @Delete("selected")

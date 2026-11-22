@@ -1,4 +1,4 @@
-import type { Session } from "./types";
+import type { FridgeItem, Session } from "./types";
 
 const BASE = (import.meta.env.VITE_API_URL || "/api/v1").replace(/\/$/, "");
 const STORAGE_KEY = "cookbook-demo-session";
@@ -58,4 +58,11 @@ export async function api<T>(path: string, init: RequestInit = {}): Promise<T> {
     throw new ApiError(Array.isArray(err.message) ? err.message.join("; ") : err.message ?? (response.status >= 500 ? "Сервер тимчасово недоступний. Спробуйте пізніше." : `HTTP ${response.status}`), response.status);
   }
   return data as T;
+}
+
+export function updateFridgeStock(id: string, stock: Pick<FridgeItem, "quantity" | "unit">) {
+  return api<FridgeItem>(`/fridge/${encodeURIComponent(id)}`, {
+    method: "PATCH",
+    body: JSON.stringify(stock),
+  });
 }
